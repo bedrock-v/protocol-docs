@@ -1,0 +1,34 @@
+{
+  "name": "MolangItemDescriptor",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Descriptor Type",
+      "order": 0,
+      "type": "ItemDescriptorType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Tag Expression",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Molang Version",
+      "order": 2,
+      "type": "MolangVersion",
+      "optional": false,
+      "underlyingType": "int16",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

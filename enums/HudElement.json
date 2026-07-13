@@ -1,0 +1,22 @@
+{
+  "name": "HudElement",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "int32",
+  "values": [
+    "PaperDoll",
+    "Armor",
+    "ToolTips",
+    "TouchControls",
+    "Crosshair",
+    "HotBar",
+    "Health",
+    "ProgressBar",
+    "Hunger",
+    "AirBubbles",
+    "HorseHealth",
+    "StatusEffects",
+    "ItemText"
+  ]
+}

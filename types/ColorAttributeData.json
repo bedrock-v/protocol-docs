@@ -1,0 +1,21 @@
+{
+  "name": "ColorAttributeData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "value",
+      "order": 0,
+      "type": "Color255RGBA",
+      "optional": false
+    },
+    {
+      "name": "operation",
+      "order": 1,
+      "type": "ColorAttributeOperation",
+      "optional": true,
+      "underlyingType": "int32"
+    }
+  ]
+}

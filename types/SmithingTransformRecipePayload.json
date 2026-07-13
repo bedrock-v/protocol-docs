@@ -1,0 +1,50 @@
+{
+  "name": "SmithingTransformRecipePayload",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Recipe Id",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Template Ingredient",
+      "order": 1,
+      "type": "RecipeIngredient",
+      "optional": false
+    },
+    {
+      "name": "Base Ingredient",
+      "order": 2,
+      "type": "RecipeIngredient",
+      "optional": false
+    },
+    {
+      "name": "Addition Ingredient",
+      "order": 3,
+      "type": "RecipeIngredient",
+      "optional": false
+    },
+    {
+      "name": "Result",
+      "order": 4,
+      "type": "NetworkItemInstanceDescriptorData",
+      "optional": false
+    },
+    {
+      "name": "Tag",
+      "order": 5,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Net Id",
+      "order": 6,
+      "type": "RecipeNetId",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "CameraInstruction::SetInstruction::EntityOffsetOption",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "entity_offset_x",
+      "order": 0,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "entity_offset_y",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "entity_offset_z",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "UpdatePlayerGameTypePacket",
+  "kind": "packet",
+  "id": 151,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Player Game Type",
+      "order": 0,
+      "type": "GameType",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Target player",
+      "order": 1,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Tick",
+      "order": 2,
+      "type": "PlayerInputTick",
+      "optional": false
+    }
+  ]
+}

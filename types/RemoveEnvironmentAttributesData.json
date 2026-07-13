@@ -1,0 +1,26 @@
+{
+  "name": "RemoveEnvironmentAttributesData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Attribute Layer Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Attribute Layer Dimension",
+      "order": 1,
+      "type": "DimensionType",
+      "optional": false
+    },
+    {
+      "name": "Attributes",
+      "order": 2,
+      "type": "string[]",
+      "optional": false
+    }
+  ]
+}

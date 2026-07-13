@@ -1,0 +1,22 @@
+{
+  "name": "ToastRequestPacket",
+  "kind": "packet",
+  "id": 186,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Title",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Content",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

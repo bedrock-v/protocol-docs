@@ -1,0 +1,40 @@
+{
+  "name": "CodeBuilderSourcePacket",
+  "kind": "packet",
+  "id": 178,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Operation",
+      "order": 0,
+      "type": "CodeBuilderStorageQueryOptions_Operation",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Category",
+      "order": 1,
+      "type": "CodeBuilderStorageQueryOptions_Category",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "CodeStatus",
+      "order": 2,
+      "type": "CodeBuilderExecutionState_CodeStatus",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

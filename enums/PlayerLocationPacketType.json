@@ -1,0 +1,11 @@
+{
+  "name": "PlayerLocationPacketType",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "int32",
+  "values": [
+    "PLAYER_LOCATION_COORDINATES",
+    "PLAYER_LOCATION_HIDE"
+  ]
+}

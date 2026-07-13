@@ -1,0 +1,39 @@
+{
+  "name": "LegacyTelemetryEventPacket",
+  "kind": "packet",
+  "id": 65,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Target Actor ID",
+      "order": 0,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Event Type",
+      "order": 1,
+      "type": "LegacyTelemetryEventPacketPayload__Type",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Use Player ID",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Event Data",
+      "order": 3,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

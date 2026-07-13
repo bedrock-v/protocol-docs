@@ -1,0 +1,50 @@
+{
+  "name": "UpdateSubChunkNetworkBlockInfo",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Pos",
+      "order": 0,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Runtime Id",
+      "order": 1,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Update Flags",
+      "order": 2,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Sync Message - Entity Unique ID",
+      "order": 3,
+      "type": "uint64",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Sync Message - Message",
+      "order": 4,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

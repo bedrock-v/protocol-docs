@@ -1,0 +1,44 @@
+{
+  "name": "BiomeReplacementData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "replacement biome",
+      "order": 0,
+      "type": "uint16",
+      "optional": false
+    },
+    {
+      "name": "dimension",
+      "order": 1,
+      "type": "uint16",
+      "optional": false
+    },
+    {
+      "name": "target biomes",
+      "order": 2,
+      "type": "uint16[]",
+      "optional": false
+    },
+    {
+      "name": "amount",
+      "order": 3,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "noise frequency scale",
+      "order": 4,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "replacement index",
+      "order": 5,
+      "type": "uint32",
+      "optional": false
+    }
+  ]
+}

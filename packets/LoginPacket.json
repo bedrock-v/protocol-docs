@@ -1,0 +1,25 @@
+{
+  "name": "LoginPacket",
+  "kind": "packet",
+  "id": 1,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Client Network Version",
+      "order": 0,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Big Endian"
+      ]
+    },
+    {
+      "name": "Connection Request",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "BiomeDefinitionChunkGenData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "climate",
+      "order": 0,
+      "type": "BiomeClimateData",
+      "optional": false
+    },
+    {
+      "name": "consolidated features",
+      "order": 1,
+      "type": "BiomeConsolidatedFeaturesData",
+      "optional": false
+    },
+    {
+      "name": "mountain params",
+      "order": 2,
+      "type": "BiomeMountainParamsData",
+      "optional": false
+    },
+    {
+      "name": "surface material adjustments",
+      "order": 3,
+      "type": "BiomeSurfaceMaterialAdjustmentData",
+      "optional": false
+    },
+    {
+      "name": "overworld gen rules",
+      "order": 4,
+      "type": "BiomeOverworldGenRulesData",
+      "optional": false
+    },
+    {
+      "name": "multinoise gen rules",
+      "order": 5,
+      "type": "BiomeMultinoiseGenRulesData",
+      "optional": false
+    },
+    {
+      "name": "legacy world gen rules",
+      "order": 6,
+      "type": "BiomeLegacyWorldGenRulesData",
+      "optional": false
+    },
+    {
+      "name": "replacement biomes",
+      "order": 7,
+      "type": "BiomeReplacementsData",
+      "optional": false
+    },
+    {
+      "name": "Village Type",
+      "order": 8,
+      "type": "VillageType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "surface builder data",
+      "order": 9,
+      "type": "BiomeSurfaceBuilderData",
+      "optional": false
+    },
+    {
+      "name": "subsurface builder data",
+      "order": 10,
+      "type": "BiomeSurfaceBuilderData",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Clientbound Data Store Payload",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Updates",
+      "order": 0,
+      "type": "unknown[]",
+      "optional": false
+    }
+  ]
+}

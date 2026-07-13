@@ -1,0 +1,38 @@
+{
+  "name": "SlashCommand",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Success Count",
+      "order": 0,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Error Count",
+      "order": 1,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Command Name",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Error List",
+      "order": 3,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

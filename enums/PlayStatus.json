@@ -1,0 +1,19 @@
+{
+  "name": "PlayStatus",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "int32",
+  "values": [
+    "LoginSuccess",
+    "LoginFailed_ClientOld",
+    "LoginFailed_ServerOld",
+    "PlayerSpawn",
+    "LoginFailed_InvalidTenant",
+    "LoginFailed_EditionMismatchEduToVanilla",
+    "LoginFailed_EditionMismatchVanillaToEdu",
+    "LoginFailed_ServerFullSubClient",
+    "LoginFailed_EditorMismatchEditorToVanilla",
+    "LoginFailed_EditorMismatchVanillaToEditor"
+  ]
+}

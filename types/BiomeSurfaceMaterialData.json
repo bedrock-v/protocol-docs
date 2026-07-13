@@ -1,0 +1,44 @@
+{
+  "name": "BiomeSurfaceMaterialData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "top block",
+      "order": 0,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "mid block",
+      "order": 1,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "sea floor block",
+      "order": 2,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "foundation block",
+      "order": 3,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "sea block",
+      "order": 4,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "sea floor depth",
+      "order": 5,
+      "type": "int32",
+      "optional": false
+    }
+  ]
+}

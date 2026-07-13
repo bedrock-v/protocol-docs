@@ -1,0 +1,35 @@
+{
+  "name": "BossKilled",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Boss Actor ID",
+      "order": 0,
+      "type": "int64",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Party Size",
+      "order": 1,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Boss Type",
+      "order": 2,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

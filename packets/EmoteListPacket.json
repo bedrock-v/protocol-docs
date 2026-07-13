@@ -1,0 +1,22 @@
+{
+  "name": "EmoteListPacket",
+  "kind": "packet",
+  "id": 152,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Runtime id",
+      "order": 0,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Emote piece ids",
+      "order": 1,
+      "type": "mce__UUID[]",
+      "optional": false
+    }
+  ]
+}

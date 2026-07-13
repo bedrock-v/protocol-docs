@@ -1,0 +1,25 @@
+{
+  "name": "ScoreboardIdentityPacketInfo",
+  "kind": "packet",
+  "id": null,
+  "description": null,
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Scoreboard Id",
+      "order": 0,
+      "type": "ScoreboardId",
+      "optional": false
+    },
+    {
+      "name": "Player Unique Id",
+      "order": 1,
+      "type": "int64",
+      "optional": true,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

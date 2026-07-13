@@ -1,0 +1,17 @@
+# MotionPredictionHintsPacket
+
+`packet` - id **157**
+
+- protocol: 2168
+- minecraft: 1.26.40
+
+This is from the server when spatial optimizations are enabled and the server does not send a spatial update.
+
+```mermaid
+flowchart LR
+  ROOT(["MotionPredictionHintsPacket"])
+  ROOT -->|"mRuntimeId"| ActorRuntimeID["ActorRuntimeID"]
+  ROOT -->|"mMotion"| Vec3["Vec3"]
+  ROOT -->|"mOnGround"| boolean["boolean"]
+```
+

@@ -1,0 +1,44 @@
+{
+  "name": "WorldClockData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Id",
+      "order": 0,
+      "type": "uint64",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Name",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Time",
+      "order": 2,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "IsPaused",
+      "order": 3,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "TimeMarkers",
+      "order": 4,
+      "type": "TimeMarkerData[]",
+      "optional": false
+    }
+  ]
+}

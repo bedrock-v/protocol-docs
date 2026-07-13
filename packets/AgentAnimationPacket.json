@@ -1,0 +1,26 @@
+{
+  "name": "AgentAnimationPacket",
+  "kind": "packet",
+  "id": 304,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Agent Animation",
+      "order": 0,
+      "type": "Agent_Animation",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Runtime Id",
+      "order": 1,
+      "type": "ActorRuntimeID",
+      "optional": false
+    }
+  ]
+}

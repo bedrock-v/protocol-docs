@@ -1,0 +1,16 @@
+{
+  "name": "InventoryLeftTabPocketIndex",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "int32",
+  "values": [
+    "None",
+    "Survival",
+    "RecipeNature",
+    "RecipeItems",
+    "RecipeEquipment",
+    "RecipeConstruction",
+    "RecipeSearch"
+  ]
+}

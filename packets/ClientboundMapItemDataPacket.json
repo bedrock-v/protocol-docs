@@ -1,0 +1,100 @@
+{
+  "name": "ClientboundMapItemDataPacket",
+  "kind": "packet",
+  "id": 67,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Map ID",
+      "order": 0,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Dimension",
+      "order": 1,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Is Locked",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Map Origin",
+      "order": 3,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Creation Map IDs",
+      "order": 4,
+      "type": "ActorUniqueID[]",
+      "optional": true
+    },
+    {
+      "name": "Scale",
+      "order": 5,
+      "type": "int8",
+      "optional": true
+    },
+    {
+      "name": "Tracked Actor IDs",
+      "order": 6,
+      "type": "MapItemTrackedActor_UniqueId[]",
+      "optional": true
+    },
+    {
+      "name": "Decorations",
+      "order": 7,
+      "type": "MapDecoration[]",
+      "optional": true
+    },
+    {
+      "name": "Width",
+      "order": 8,
+      "type": "int32",
+      "optional": true,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Height",
+      "order": 9,
+      "type": "int32",
+      "optional": true,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Start X",
+      "order": 10,
+      "type": "int32",
+      "optional": true,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Start Y",
+      "order": 11,
+      "type": "int32",
+      "optional": true,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Pixels",
+      "order": 12,
+      "type": "uint32[]",
+      "optional": true
+    }
+  ]
+}

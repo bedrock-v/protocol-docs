@@ -1,0 +1,16 @@
+{
+  "name": "MoveActorAbsolutePacket",
+  "kind": "packet",
+  "id": 18,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Move Data",
+      "order": 0,
+      "type": "MoveActorAbsoluteData",
+      "optional": false
+    }
+  ]
+}

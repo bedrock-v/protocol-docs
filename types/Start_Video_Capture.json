@@ -1,0 +1,20 @@
+{
+  "name": "Start Video Capture",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "FrameRate",
+      "order": 0,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "FilePrefix",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "AnimatedImageData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "SkinImage",
+      "order": 0,
+      "type": "SkinImage",
+      "optional": false
+    },
+    {
+      "name": "AnimatedTextureType",
+      "order": 1,
+      "type": "persona__AnimatedTextureType",
+      "optional": false,
+      "underlyingType": "uint32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Frames",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "AnimationExpression",
+      "order": 3,
+      "type": "persona__AnimationExpression",
+      "optional": false,
+      "underlyingType": "uint32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

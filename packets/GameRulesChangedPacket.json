@@ -1,0 +1,16 @@
+{
+  "name": "GameRulesChangedPacket",
+  "kind": "packet",
+  "id": 72,
+  "description": "Informs client about any changes to the game rules.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Rule Data",
+      "order": 0,
+      "type": "GameRulesChangedPacketData",
+      "optional": false
+    }
+  ]
+}

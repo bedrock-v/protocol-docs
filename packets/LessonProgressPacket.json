@@ -1,0 +1,34 @@
+{
+  "name": "LessonProgressPacket",
+  "kind": "packet",
+  "id": 183,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Lesson Action",
+      "order": 0,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Score",
+      "order": 1,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Activity Id",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

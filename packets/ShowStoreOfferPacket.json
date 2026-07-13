@@ -1,0 +1,26 @@
+{
+  "name": "ShowStoreOfferPacket",
+  "kind": "packet",
+  "id": 91,
+  "description": "The server can redirect the user to a 3rd party server page, to a marketplace offer description page, or to a dressing room page containing desired offer.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Offer Id",
+      "order": 0,
+      "type": "mce__UUID",
+      "optional": false
+    },
+    {
+      "name": "Redirect Type",
+      "order": 1,
+      "type": "ShowStoreOfferRedirectType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

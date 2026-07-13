@@ -1,0 +1,56 @@
+{
+  "name": "gatheringsConfig",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "experienceId",
+      "order": 0,
+      "type": "mce__UUID",
+      "optional": false
+    },
+    {
+      "name": "experienceName",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "worldId",
+      "order": 2,
+      "type": "mce__UUID",
+      "optional": false
+    },
+    {
+      "name": "worldName",
+      "order": 3,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "creatorId",
+      "order": 4,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "targetId",
+      "order": 5,
+      "type": "mce__UUID",
+      "optional": false
+    },
+    {
+      "name": "scenarioId",
+      "order": 6,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "serverId",
+      "order": 7,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "DebugMarkerData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Text",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Position",
+      "order": 1,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Color",
+      "order": 2,
+      "type": "Color",
+      "optional": false
+    },
+    {
+      "name": "duration",
+      "order": 3,
+      "type": "uint64",
+      "optional": false
+    }
+  ]
+}

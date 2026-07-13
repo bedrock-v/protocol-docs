@@ -1,0 +1,44 @@
+{
+  "name": "BiomeMountainParamsData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "steep block",
+      "order": 0,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "north slopes",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "south slopes",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "west slopes",
+      "order": 3,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "east slopes",
+      "order": 4,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "top slide enabled",
+      "order": 5,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

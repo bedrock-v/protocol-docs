@@ -1,0 +1,62 @@
+{
+  "name": "PackInfoData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Pack Id Version",
+      "order": 0,
+      "type": "PackIdVersion",
+      "optional": false
+    },
+    {
+      "name": "Pack Size",
+      "order": 1,
+      "type": "uint64",
+      "optional": false
+    },
+    {
+      "name": "Content Key",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Subpack Name",
+      "order": 3,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Content Identity",
+      "order": 4,
+      "type": "ContentIdentity",
+      "optional": false
+    },
+    {
+      "name": "Has Scripts",
+      "order": 5,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Is Addon Pack",
+      "order": 6,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Is Ray Tracing Capable",
+      "order": 7,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "CDN URL",
+      "order": 8,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

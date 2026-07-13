@@ -1,0 +1,20 @@
+{
+  "name": "CameraAimAssistCategoryDefinition",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "name",
+      "order": 0,
+      "type": "CameraAimAssistCategory_Identifier",
+      "optional": false
+    },
+    {
+      "name": "priorities",
+      "order": 1,
+      "type": "CameraAimAssistCategoryPriorities",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "SerializedNoiseBlockSpecifier",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "noise",
+      "order": 0,
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "threshold",
+      "order": 1,
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "range",
+      "order": 2,
+      "type": "FloatRange",
+      "optional": true
+    },
+    {
+      "name": "block",
+      "order": 3,
+      "type": "uint32",
+      "optional": true
+    }
+  ]
+}

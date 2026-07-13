@@ -1,0 +1,62 @@
+{
+  "name": "CameraInstruction",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Set",
+      "order": 0,
+      "type": "CameraInstruction__SetInstruction",
+      "optional": false
+    },
+    {
+      "name": "Clear",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Fade",
+      "order": 2,
+      "type": "CameraInstruction__FadeInstruction",
+      "optional": false
+    },
+    {
+      "name": "Target",
+      "order": 3,
+      "type": "CameraInstruction__TargetInstruction",
+      "optional": false
+    },
+    {
+      "name": "RemoveTarget",
+      "order": 4,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "FieldOfView",
+      "order": 5,
+      "type": "CameraInstruction__FovInstruction",
+      "optional": false
+    },
+    {
+      "name": "Spline",
+      "order": 6,
+      "type": "CameraInstruction__SplineInstruction",
+      "optional": false
+    },
+    {
+      "name": "AttachToEntity",
+      "order": 7,
+      "type": "CameraInstruction__AttachToEntityInstruction",
+      "optional": false
+    },
+    {
+      "name": "DetachFromEntity",
+      "order": 8,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

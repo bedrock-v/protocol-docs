@@ -1,0 +1,43 @@
+{
+  "name": "AddPaintingPacket",
+  "kind": "packet",
+  "id": 22,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Target Actor ID",
+      "order": 0,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Target Runtime ID",
+      "order": 1,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Position",
+      "order": 2,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Direction",
+      "order": 3,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Motif",
+      "order": 4,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

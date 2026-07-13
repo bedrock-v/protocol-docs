@@ -1,0 +1,26 @@
+{
+  "name": "CommandOutputMessage",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Message ID",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Successful?",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Parameters",
+      "order": 2,
+      "type": "string[]",
+      "optional": true
+    }
+  ]
+}

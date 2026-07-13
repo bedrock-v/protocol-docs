@@ -1,0 +1,25 @@
+{
+  "name": "SpawnExperienceOrbPacket",
+  "kind": "packet",
+  "id": 66,
+  "description": "Note: This can be seen as \"ContainerWantSetSlotPacket\" when sent from client to server. Currently, the client handles side-effects relating to it's own inventory, regardless of the success of the operation.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Position",
+      "order": 0,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "XP Value",
+      "order": 1,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

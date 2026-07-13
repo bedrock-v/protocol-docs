@@ -1,0 +1,16 @@
+{
+  "name": "RemoveObjectivePacket",
+  "kind": "packet",
+  "id": 106,
+  "description": "This is just the name of the objective.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Objective Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "name": "AddPlayerPacket",
+  "kind": "packet",
+  "id": 12,
+  "description": "A new player joins the game; the server sends this packet to the other players.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "UUID",
+      "order": 0,
+      "type": "mce__UUID",
+      "optional": false
+    },
+    {
+      "name": "Player Name",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Target Runtime ID",
+      "order": 2,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Platform Chat Id",
+      "order": 3,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Position",
+      "order": 4,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Velocity",
+      "order": 5,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Rotation",
+      "order": 6,
+      "type": "Vec2",
+      "optional": false
+    },
+    {
+      "name": "Y-Head Rotation",
+      "order": 7,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Carried Item",
+      "order": 8,
+      "type": "NetworkItemStackDescriptor",
+      "optional": false
+    },
+    {
+      "name": "Player Game Type",
+      "order": 9,
+      "type": "GameType",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Entity Data",
+      "order": 10,
+      "type": "SynchedActorDataList",
+      "optional": false
+    },
+    {
+      "name": "Synched Properties",
+      "order": 11,
+      "type": "PropertySyncData",
+      "optional": false
+    },
+    {
+      "name": "Abilities Data",
+      "order": 12,
+      "type": "SerializedAbilitiesData",
+      "optional": false
+    },
+    {
+      "name": "Actor Links",
+      "order": 13,
+      "type": "ActorLink[]",
+      "optional": false
+    },
+    {
+      "name": "Device Id",
+      "order": 14,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Build Platform",
+      "order": 15,
+      "type": "BuildPlatform",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

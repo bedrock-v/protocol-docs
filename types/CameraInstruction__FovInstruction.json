@@ -1,0 +1,33 @@
+{
+  "name": "CameraInstruction::FovInstruction",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Field of View",
+      "order": 0,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "FOV Ease Time",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "FOV Ease Type",
+      "order": 2,
+      "type": "easing_function",
+      "optional": false,
+      "underlyingType": "uint32"
+    },
+    {
+      "name": "Field of View Clear",
+      "order": 3,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

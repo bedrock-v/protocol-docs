@@ -1,0 +1,23 @@
+{
+  "name": "PlayerListRemoveEntry",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Action",
+      "order": 0,
+      "type": "uint8",
+      "optional": false,
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "UUID",
+      "order": 1,
+      "type": "mce__UUID",
+      "optional": false
+    }
+  ]
+}

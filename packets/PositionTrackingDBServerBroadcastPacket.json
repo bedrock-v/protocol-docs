@@ -1,0 +1,32 @@
+{
+  "name": "PositionTrackingDBServerBroadcastPacket",
+  "kind": "packet",
+  "id": 153,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Action",
+      "order": 0,
+      "type": "PositionTrackingDBServerBroadcastPacketPayload__Action",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Id",
+      "order": 1,
+      "type": "PositionTrackingId",
+      "optional": false
+    },
+    {
+      "name": "Position tracking data",
+      "order": 2,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

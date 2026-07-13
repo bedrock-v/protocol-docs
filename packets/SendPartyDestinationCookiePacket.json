@@ -1,0 +1,29 @@
+{
+  "name": "SendPartyDestinationCookiePacket",
+  "kind": "packet",
+  "id": 349,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "cookie",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "intent",
+      "order": 1,
+      "type": "PartyDestinationCookieIntent",
+      "optional": false,
+      "underlyingType": "int8"
+    },
+    {
+      "name": "destination_name",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

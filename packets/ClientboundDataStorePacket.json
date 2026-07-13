@@ -1,0 +1,9 @@
+{
+  "name": "ClientboundDataStorePacket",
+  "kind": "packet",
+  "id": 330,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": []
+}

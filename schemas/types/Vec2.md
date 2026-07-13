@@ -1,0 +1,14 @@
+# Vec2
+
+`struct`
+
+- protocol: 2168
+- minecraft: 1.26.40
+
+```mermaid
+flowchart LR
+  ROOT(["Vec2"])
+  ROOT -->|"X"| float["float"]
+  ROOT -->|"Y"| float["float"]
+```
+

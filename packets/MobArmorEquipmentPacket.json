@@ -1,0 +1,46 @@
+{
+  "name": "MobArmorEquipmentPacket",
+  "kind": "packet",
+  "id": 32,
+  "description": "This is related to MobEquipmentPackets, but armor specifically and passes ALL equipment changes at once instead of one slot at a time.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "order": 0,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Head",
+      "order": 1,
+      "type": "NetworkItemStackDescriptor",
+      "optional": false
+    },
+    {
+      "name": "Torso",
+      "order": 2,
+      "type": "NetworkItemStackDescriptor",
+      "optional": false
+    },
+    {
+      "name": "Legs",
+      "order": 3,
+      "type": "NetworkItemStackDescriptor",
+      "optional": false
+    },
+    {
+      "name": "Feet",
+      "order": 4,
+      "type": "NetworkItemStackDescriptor",
+      "optional": false
+    },
+    {
+      "name": "Body",
+      "order": 5,
+      "type": "NetworkItemStackDescriptor",
+      "optional": false
+    }
+  ]
+}

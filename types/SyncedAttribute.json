@@ -1,0 +1,32 @@
+{
+  "name": "SyncedAttribute",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Attribute Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Min Value",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Current Value",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Max Value",
+      "order": 3,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

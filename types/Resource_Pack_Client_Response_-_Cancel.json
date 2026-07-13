@@ -1,0 +1,15 @@
+{
+  "name": "Resource Pack Client Response - Cancel",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Response Type",
+      "order": 0,
+      "type": "ResourcePackResponse",
+      "optional": false,
+      "underlyingType": "int8"
+    }
+  ]
+}

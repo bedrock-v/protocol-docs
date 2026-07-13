@@ -1,0 +1,30 @@
+{
+  "name": "ItemStackRequestCraftResultsDeprecatedAction",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Action type",
+      "order": 0,
+      "type": "ItemStackRequestActionType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Craft Results",
+      "order": 1,
+      "type": "ItemStackRequestNetworkItemInstanceDescriptor[]",
+      "optional": false
+    },
+    {
+      "name": "Num Crafts",
+      "order": 2,
+      "type": "uint8",
+      "optional": false
+    }
+  ]
+}

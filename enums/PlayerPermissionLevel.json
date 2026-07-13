@@ -1,0 +1,13 @@
+{
+  "name": "PlayerPermissionLevel",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "int8",
+  "values": [
+    "Visitor",
+    "Member",
+    "Operator",
+    "Custom"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "FloatAttributeData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "value",
+      "order": 0,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "operation",
+      "order": 1,
+      "type": "FloatAttributeOperation",
+      "optional": true,
+      "underlyingType": "int32"
+    },
+    {
+      "name": "constraintMin",
+      "order": 2,
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "constraintMax",
+      "order": 3,
+      "type": "float",
+      "optional": true
+    }
+  ]
+}

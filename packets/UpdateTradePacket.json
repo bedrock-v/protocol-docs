@@ -1,0 +1,76 @@
+{
+  "name": "UpdateTradePacket",
+  "kind": "packet",
+  "id": 80,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Container Id",
+      "order": 0,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Type",
+      "order": 1,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Size",
+      "order": 2,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Trader Tier",
+      "order": 3,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Entity Unique Id",
+      "order": 4,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Last Trading Player",
+      "order": 5,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Display Name",
+      "order": 6,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Use New Trade Screen",
+      "order": 7,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Using Economy Trade",
+      "order": 8,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Data",
+      "order": 9,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

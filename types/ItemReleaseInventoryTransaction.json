@@ -1,0 +1,46 @@
+{
+  "name": "ItemReleaseInventoryTransaction",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Actions",
+      "order": 0,
+      "type": "InventoryTransaction",
+      "optional": false
+    },
+    {
+      "name": "Action Type",
+      "order": 1,
+      "type": "ItemReleaseActionType",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Slot",
+      "order": 2,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Item",
+      "order": 3,
+      "type": "NetworkItemStackDescriptor",
+      "optional": false
+    },
+    {
+      "name": "From Position",
+      "order": 4,
+      "type": "Vec3",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "SyncActorPropertyPacket",
+  "kind": "packet",
+  "id": 165,
+  "description": "Intended to one day replace SynchedActorData.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Property Data",
+      "order": 0,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

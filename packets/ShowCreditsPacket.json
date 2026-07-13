@@ -1,0 +1,25 @@
+{
+  "name": "ShowCreditsPacket",
+  "kind": "packet",
+  "id": 75,
+  "description": "That packet is sent to the client.  When the credits have concluded, a packet is sent back to the server to let it know to reinstate the player watching the credits.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Player Runtime ID",
+      "order": 0,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Credits State",
+      "order": 1,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

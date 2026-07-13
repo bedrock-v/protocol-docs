@@ -1,0 +1,25 @@
+{
+  "name": "PlayerStartItemCooldownPacket",
+  "kind": "packet",
+  "id": 176,
+  "description": "Packet sent by the player to start the cooldown on an item.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Item Category",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Duration Ticks",
+      "order": 1,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

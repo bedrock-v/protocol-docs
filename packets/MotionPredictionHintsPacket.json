@@ -1,0 +1,28 @@
+{
+  "name": "MotionPredictionHintsPacket",
+  "kind": "packet",
+  "id": 157,
+  "description": "This is from the server when spatial optimizations are enabled and the server does not send a spatial update.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "mRuntimeId",
+      "order": 0,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "mMotion",
+      "order": 1,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "mOnGround",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

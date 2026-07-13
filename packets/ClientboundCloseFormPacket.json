@@ -1,0 +1,9 @@
+{
+  "name": "ClientboundCloseFormPacket",
+  "kind": "packet",
+  "id": 310,
+  "description": "This will only have an affect if the client currently has a server form on the UI stack.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": []
+}

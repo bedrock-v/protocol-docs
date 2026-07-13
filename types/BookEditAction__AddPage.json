@@ -1,0 +1,29 @@
+{
+  "name": "BookEditAction::AddPage",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Page Index",
+      "order": 0,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Page Text",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Photo Name",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

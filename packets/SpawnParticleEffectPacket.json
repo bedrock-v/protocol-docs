@@ -1,0 +1,40 @@
+{
+  "name": "SpawnParticleEffectPacket",
+  "kind": "packet",
+  "id": 118,
+  "description": "This is not used for much anymore, only the Particle command (spawn particle by name at a location) and for ScriptServerSpawnParticleAttachedToActor and ScriptServerSpawnParticleInWorldEvent.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Dimension Id",
+      "order": 0,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Actor Id",
+      "order": 1,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Position",
+      "order": 2,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Effect Name",
+      "order": 3,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Molang Variables",
+      "order": 4,
+      "type": "MolangVariableMap",
+      "optional": false
+    }
+  ]
+}

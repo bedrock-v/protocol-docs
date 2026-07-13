@@ -1,0 +1,81 @@
+{
+  "name": "PrimitiveShapeDataPayload",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "NetworkId",
+      "order": 0,
+      "type": "uint64",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Shape Type",
+      "order": 1,
+      "type": "ScriptModuleMinecraft__ScriptPrimitiveShapeType",
+      "optional": true,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Location",
+      "order": 2,
+      "type": "Vec3",
+      "optional": true
+    },
+    {
+      "name": "Scale",
+      "order": 3,
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Rotation",
+      "order": 4,
+      "type": "Vec3",
+      "optional": true
+    },
+    {
+      "name": "Total Time Left",
+      "order": 5,
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Maximum Render Distance",
+      "order": 6,
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Color",
+      "order": 7,
+      "type": "Color",
+      "optional": true
+    },
+    {
+      "name": "Dimension ID",
+      "order": 8,
+      "type": "DimensionType",
+      "optional": false
+    },
+    {
+      "name": "Attached To Entity ID",
+      "order": 9,
+      "type": "ActorUniqueID",
+      "optional": true
+    },
+    {
+      "name": "Extra Shape Data",
+      "order": 10,
+      "type": "unknown",
+      "optional": true
+    }
+  ]
+}

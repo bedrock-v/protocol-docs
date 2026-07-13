@@ -1,0 +1,28 @@
+{
+  "name": "SubChunkRequestPacket",
+  "kind": "packet",
+  "id": 175,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Dimension Type",
+      "order": 0,
+      "type": "DimensionType",
+      "optional": false
+    },
+    {
+      "name": "SubChunk Position Offset List",
+      "order": 1,
+      "type": "SubChunkPosOffset[]",
+      "optional": false
+    },
+    {
+      "name": "Center Pos",
+      "order": 2,
+      "type": "SubChunkPos",
+      "optional": false
+    }
+  ]
+}

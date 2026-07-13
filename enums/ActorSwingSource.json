@@ -1,0 +1,18 @@
+{
+  "name": "ActorSwingSource",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "uint8",
+  "values": [
+    "None",
+    "Build",
+    "Mine",
+    "Interact",
+    "Attack",
+    "UseItem",
+    "ThrowItem",
+    "DropItem",
+    "Event"
+  ]
+}

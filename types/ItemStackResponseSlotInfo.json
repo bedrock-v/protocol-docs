@@ -1,0 +1,47 @@
+{
+  "name": "ItemStackResponseSlotInfo",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Requested Slot",
+      "order": 0,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Slot",
+      "order": 1,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Amount",
+      "order": 2,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Item Stack Net Id",
+      "order": 3,
+      "type": "ItemStackNetId",
+      "optional": true
+    },
+    {
+      "name": "Custom Name",
+      "order": 4,
+      "type": "Bedrock__Safety__RedactableString",
+      "optional": false
+    },
+    {
+      "name": "Durability Correction",
+      "order": 5,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

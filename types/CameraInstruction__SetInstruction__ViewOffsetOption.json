@@ -1,0 +1,20 @@
+{
+  "name": "CameraInstruction::SetInstruction::ViewOffsetOption",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "x",
+      "order": 0,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "y",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

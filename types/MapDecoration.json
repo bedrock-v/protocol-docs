@@ -1,0 +1,48 @@
+{
+  "name": "MapDecoration",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Image Type",
+      "order": 0,
+      "type": "MapDecoration__Type",
+      "optional": false,
+      "underlyingType": "int8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Rotation",
+      "order": 1,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "X",
+      "order": 2,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Y",
+      "order": 3,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Label",
+      "order": 4,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Color",
+      "order": 5,
+      "type": "Color",
+      "optional": false
+    }
+  ]
+}

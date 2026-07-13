@@ -1,0 +1,49 @@
+{
+  "name": "EmotePacket",
+  "kind": "packet",
+  "id": 138,
+  "description": "Sent in both directions; by client to request that an emote is played and then from the server to the clients to indicate which player needs to now emote.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Actor Runtime Id",
+      "order": 0,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Emote Id",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Emote Length Ticks",
+      "order": 2,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Xuid",
+      "order": 3,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "PlatformId",
+      "order": 4,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Flags",
+      "order": 5,
+      "type": "uint8",
+      "optional": false
+    }
+  ]
+}

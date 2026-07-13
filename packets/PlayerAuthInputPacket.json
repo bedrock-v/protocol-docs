@@ -1,0 +1,143 @@
+{
+  "name": "PlayerAuthInputPacket",
+  "kind": "packet",
+  "id": 144,
+  "description": "These are for Server Authoritative Movement to sync all player input with the server.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Player Rotation",
+      "order": 0,
+      "type": "Vec2",
+      "optional": false
+    },
+    {
+      "name": "Position",
+      "order": 1,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Move Vector",
+      "order": 2,
+      "type": "Vec2",
+      "optional": false
+    },
+    {
+      "name": "Player Head Rotation",
+      "order": 3,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Input Data",
+      "order": 4,
+      "type": "PlayerAuthInputData[]",
+      "optional": false,
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Input Mode",
+      "order": 5,
+      "type": "InputMode",
+      "optional": false,
+      "underlyingType": "uint32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Play Mode",
+      "order": 6,
+      "type": "ClientPlayMode",
+      "optional": false,
+      "underlyingType": "uint32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "New Interaction Model",
+      "order": 7,
+      "type": "NewInteractionModel",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Interact Rotation",
+      "order": 8,
+      "type": "Vec2",
+      "optional": false
+    },
+    {
+      "name": "Client Tick",
+      "order": 9,
+      "type": "PlayerInputTick",
+      "optional": false
+    },
+    {
+      "name": "Pos Delta",
+      "order": 10,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Item Use Transaction",
+      "order": 11,
+      "type": "PackedItemUseLegacyInventoryTransaction",
+      "optional": true
+    },
+    {
+      "name": "Item Stack Request",
+      "order": 12,
+      "type": "ItemStackRequest",
+      "optional": true
+    },
+    {
+      "name": "Player Block Actions",
+      "order": 13,
+      "type": "PlayerBlockActionData[]",
+      "optional": true
+    },
+    {
+      "name": "Vehicle Rotation",
+      "order": 14,
+      "type": "Vec2",
+      "optional": true
+    },
+    {
+      "name": "Client Predicted Vehicle",
+      "order": 15,
+      "type": "ActorUniqueID",
+      "optional": true
+    },
+    {
+      "name": "Analog Move Vector",
+      "order": 16,
+      "type": "Vec2",
+      "optional": false
+    },
+    {
+      "name": "Camera Orientation",
+      "order": 17,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Raw Move Vector",
+      "order": 18,
+      "type": "Vec2",
+      "optional": false
+    }
+  ]
+}

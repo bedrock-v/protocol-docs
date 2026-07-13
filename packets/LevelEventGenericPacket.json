@@ -1,0 +1,25 @@
+{
+  "name": "LevelEventGenericPacket",
+  "kind": "packet",
+  "id": 124,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Event Id",
+      "order": 0,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "__[[CTD]]__",
+      "order": 1,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

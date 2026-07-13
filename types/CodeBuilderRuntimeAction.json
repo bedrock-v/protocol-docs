@@ -1,0 +1,14 @@
+{
+  "name": "CodeBuilderRuntimeAction",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "CodeBuilder Runtime Action",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

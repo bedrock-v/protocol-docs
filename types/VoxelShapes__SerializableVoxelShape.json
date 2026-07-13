@@ -1,0 +1,32 @@
+{
+  "name": "VoxelShapes::SerializableVoxelShape",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Cells",
+      "order": 0,
+      "type": "VoxelShapes__SerializableCells",
+      "optional": false
+    },
+    {
+      "name": "X Coordinates",
+      "order": 1,
+      "type": "float[]",
+      "optional": false
+    },
+    {
+      "name": "Y Coordinates",
+      "order": 2,
+      "type": "float[]",
+      "optional": false
+    },
+    {
+      "name": "Z Coordinates",
+      "order": 3,
+      "type": "float[]",
+      "optional": false
+    }
+  ]
+}

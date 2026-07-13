@@ -1,0 +1,38 @@
+{
+  "name": "AdventureSettings",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "no PvM",
+      "order": 0,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "no MvP",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Immutable World",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Show Name Tags",
+      "order": 3,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Auto Jump",
+      "order": 4,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

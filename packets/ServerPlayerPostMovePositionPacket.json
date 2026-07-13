@@ -1,0 +1,16 @@
+{
+  "name": "ServerPlayerPostMovePositionPacket",
+  "kind": "packet",
+  "id": 16,
+  "description": "Is currently only used for debug draw. Packets will not be sent if debug draw is not available.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Pos",
+      "order": 0,
+      "type": "Vec3",
+      "optional": false
+    }
+  ]
+}

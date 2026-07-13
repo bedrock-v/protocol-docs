@@ -1,0 +1,16 @@
+{
+  "name": "CameraPresetsPacket",
+  "kind": "packet",
+  "id": 198,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Camera Presets",
+      "order": 0,
+      "type": "CameraPresets",
+      "optional": false
+    }
+  ]
+}

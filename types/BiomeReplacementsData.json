@@ -1,0 +1,14 @@
+{
+  "name": "BiomeReplacementsData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "biome replacements",
+      "order": 0,
+      "type": "BiomeReplacementData[]",
+      "optional": false
+    }
+  ]
+}

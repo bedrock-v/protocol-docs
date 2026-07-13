@@ -1,0 +1,38 @@
+{
+  "name": "BiomeConsolidatedFeatureData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "scatter",
+      "order": 0,
+      "type": "BiomeScatterParamData",
+      "optional": false
+    },
+    {
+      "name": "feature",
+      "order": 1,
+      "type": "uint16",
+      "optional": false
+    },
+    {
+      "name": "identifier",
+      "order": 2,
+      "type": "uint16",
+      "optional": false
+    },
+    {
+      "name": "pass",
+      "order": 3,
+      "type": "uint16",
+      "optional": false
+    },
+    {
+      "name": "can use internal feature",
+      "order": 4,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

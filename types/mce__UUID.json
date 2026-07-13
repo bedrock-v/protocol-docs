@@ -1,0 +1,20 @@
+{
+  "name": "mce::UUID",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Most Significant Bits",
+      "order": 0,
+      "type": "uint64",
+      "optional": false
+    },
+    {
+      "name": "Least Significant Bits",
+      "order": 1,
+      "type": "uint64",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "AttributeLayerData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "NoiseName",
+      "order": 1,
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "Dimension",
+      "order": 2,
+      "type": "DimensionType",
+      "optional": false
+    },
+    {
+      "name": "Settings",
+      "order": 3,
+      "type": "AttributeLayerSettings",
+      "optional": false
+    },
+    {
+      "name": "Attributes",
+      "order": 4,
+      "type": "EnvironmentAttributeData[]",
+      "optional": false
+    }
+  ]
+}

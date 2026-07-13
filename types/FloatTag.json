@@ -1,0 +1,14 @@
+{
+  "name": "FloatTag",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "data",
+      "order": 0,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

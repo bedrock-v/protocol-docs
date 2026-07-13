@@ -1,0 +1,19 @@
+{
+  "name": "RequestNetworkSettingsPacket",
+  "kind": "packet",
+  "id": 193,
+  "description": "This is the initial packet sent from the client to initiate a connection.  NOTE: this packet should not contain anything other than the client version, don't add new data here.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "ClientNetworkVersion",
+      "order": 0,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Big Endian"
+      ]
+    }
+  ]
+}

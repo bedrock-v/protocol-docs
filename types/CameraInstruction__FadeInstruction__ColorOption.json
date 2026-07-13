@@ -1,0 +1,26 @@
+{
+  "name": "CameraInstruction::FadeInstruction::ColorOption",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Red",
+      "order": 0,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Green",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Blue",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Achievement",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Achievement ID",
+      "order": 0,
+      "type": "MinecraftEventing__AchievementIds",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "EnvironmentAttributeData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "AttributeName",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "FromAttribute",
+      "order": 1,
+      "type": "unknown",
+      "optional": true
+    },
+    {
+      "name": "Attribute",
+      "order": 2,
+      "type": "unknown",
+      "optional": false
+    },
+    {
+      "name": "ToAttribute",
+      "order": 3,
+      "type": "unknown",
+      "optional": true
+    },
+    {
+      "name": "CurrentTransitionTicks",
+      "order": 4,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "TotalTransitionTicks",
+      "order": 5,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "Easing",
+      "order": 6,
+      "type": "easing_function",
+      "optional": false,
+      "underlyingType": "uint32"
+    },
+    {
+      "name": "LocalTransitionTicks",
+      "order": 7,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "NoiseTransition",
+      "order": 8,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

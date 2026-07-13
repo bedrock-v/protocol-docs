@@ -1,0 +1,15 @@
+{
+  "name": "AttributeModifierOperation",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "int32",
+  "values": [
+    "OPERATION_ADDITION",
+    "OPERATION_MULTIPLY_BASE",
+    "OPERATION_MULTIPLY_TOTAL",
+    "OPERATION_CAP",
+    "TOTAL_OPERATIONS",
+    "OPERATION_INVALID"
+  ]
+}

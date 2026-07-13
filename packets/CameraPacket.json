@@ -1,0 +1,22 @@
+{
+  "name": "CameraPacket",
+  "kind": "packet",
+  "id": 73,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Camera ID",
+      "order": 0,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Target Player ID",
+      "order": 1,
+      "type": "ActorUniqueID",
+      "optional": false
+    }
+  ]
+}

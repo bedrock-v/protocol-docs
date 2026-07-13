@@ -1,0 +1,26 @@
+{
+  "name": "PackedItemUseLegacyInventoryTransaction",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Legacy Request ID",
+      "order": 0,
+      "type": "ItemStackLegacyRequestId",
+      "optional": false
+    },
+    {
+      "name": "Legacy Set Item Slots",
+      "order": 1,
+      "type": "LegacySetSlot[]",
+      "optional": true
+    },
+    {
+      "name": "Item Use Transaction",
+      "order": 2,
+      "type": "ItemUseInventoryTransaction",
+      "optional": false
+    }
+  ]
+}

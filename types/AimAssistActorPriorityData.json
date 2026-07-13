@@ -1,0 +1,32 @@
+{
+  "name": "AimAssistActorPriorityData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Preset Index",
+      "order": 0,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "Category Index",
+      "order": 1,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "Actor Index",
+      "order": 2,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "Priority Value",
+      "order": 3,
+      "type": "int32",
+      "optional": false
+    }
+  ]
+}

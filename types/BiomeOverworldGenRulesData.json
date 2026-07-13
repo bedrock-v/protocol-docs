@@ -1,0 +1,50 @@
+{
+  "name": "BiomeOverworldGenRulesData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "hills transformations",
+      "order": 0,
+      "type": "BiomeWeightedData[]",
+      "optional": false
+    },
+    {
+      "name": "mutate transformations",
+      "order": 1,
+      "type": "BiomeWeightedData[]",
+      "optional": false
+    },
+    {
+      "name": "river transformations",
+      "order": 2,
+      "type": "BiomeWeightedData[]",
+      "optional": false
+    },
+    {
+      "name": "shore transformations",
+      "order": 3,
+      "type": "BiomeWeightedData[]",
+      "optional": false
+    },
+    {
+      "name": "pre hills edge",
+      "order": 4,
+      "type": "BiomeConditionalTransformationData[]",
+      "optional": false
+    },
+    {
+      "name": "post shore edge",
+      "order": 5,
+      "type": "BiomeConditionalTransformationData[]",
+      "optional": false
+    },
+    {
+      "name": "climate",
+      "order": 6,
+      "type": "BiomeWeightedTemperatureData[]",
+      "optional": false
+    }
+  ]
+}

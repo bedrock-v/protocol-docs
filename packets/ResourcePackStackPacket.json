@@ -1,0 +1,40 @@
+{
+  "name": "ResourcePackStackPacket",
+  "kind": "packet",
+  "id": 7,
+  "description": "Sent to client in response to ResourcePackClientResponsePacket with info on current resource pack stack.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Texture Pack Required",
+      "order": 0,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Texture Pack List",
+      "order": 1,
+      "type": "PackInstanceId[]",
+      "optional": false
+    },
+    {
+      "name": "Base Game Version",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Experiments",
+      "order": 3,
+      "type": "Experiments",
+      "optional": false
+    },
+    {
+      "name": "Include Editor Packs",
+      "order": 4,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

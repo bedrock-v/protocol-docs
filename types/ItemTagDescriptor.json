@@ -1,0 +1,24 @@
+{
+  "name": "ItemTagDescriptor",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Descriptor Type",
+      "order": 0,
+      "type": "ItemDescriptorType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Item Tag",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

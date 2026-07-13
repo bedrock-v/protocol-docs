@@ -1,0 +1,38 @@
+{
+  "name": "BiomeCappedSurfaceData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "floor blocks",
+      "order": 0,
+      "type": "uint32[]",
+      "optional": false
+    },
+    {
+      "name": "ceiling blocks",
+      "order": 1,
+      "type": "uint32[]",
+      "optional": false
+    },
+    {
+      "name": "sea block",
+      "order": 2,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "foundation block",
+      "order": 3,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "beach block",
+      "order": 4,
+      "type": "uint32",
+      "optional": false
+    }
+  ]
+}

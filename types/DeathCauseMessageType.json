@@ -1,0 +1,20 @@
+{
+  "name": "DeathCauseMessageType",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Death Cause Attack Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Death Cause Message List",
+      "order": 1,
+      "type": "string[]",
+      "optional": false
+    }
+  ]
+}

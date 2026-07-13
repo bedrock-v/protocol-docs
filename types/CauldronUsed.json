@@ -1,0 +1,35 @@
+{
+  "name": "CauldronUsed",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Contents Color",
+      "order": 0,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Contents Type",
+      "order": 1,
+      "type": "int16",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Fill Level",
+      "order": 2,
+      "type": "int16",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

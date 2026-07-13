@@ -1,0 +1,32 @@
+{
+  "name": "ItemEnchantOption",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Cost",
+      "order": 0,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Enchants",
+      "order": 1,
+      "type": "ItemEnchants",
+      "optional": false
+    },
+    {
+      "name": "Enchant Name",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Enchant Net Id",
+      "order": 3,
+      "type": "RecipeNetId",
+      "optional": false
+    }
+  ]
+}

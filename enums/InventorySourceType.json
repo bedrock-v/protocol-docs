@@ -1,0 +1,14 @@
+{
+  "name": "InventorySourceType",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "uint32",
+  "values": [
+    "Container Inventory",
+    "Global Inventory",
+    "World Interaction",
+    "Creative Inventory",
+    "Non Implemented Feature TODO"
+  ]
+}

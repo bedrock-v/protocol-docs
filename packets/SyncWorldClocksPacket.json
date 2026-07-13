@@ -1,0 +1,16 @@
+{
+  "name": "SyncWorldClocksPacket",
+  "kind": "packet",
+  "id": 344,
+  "description": "\n\tSent from the server when a client joins to initialize all world clocks for the client and periodically to all clients to keep them in sync.\n\tIt is also sent to all clients when a world clock's paused state changes or when time markers are added or removed.\n\t",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Data",
+      "order": 0,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

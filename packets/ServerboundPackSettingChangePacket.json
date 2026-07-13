@@ -1,0 +1,28 @@
+{
+  "name": "ServerboundPackSettingChangePacket",
+  "kind": "packet",
+  "id": 329,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "PackId",
+      "order": 0,
+      "type": "mce__UUID",
+      "optional": false
+    },
+    {
+      "name": "PackSettingName",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "PackSettingValue",
+      "order": 2,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

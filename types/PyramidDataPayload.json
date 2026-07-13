@@ -1,0 +1,26 @@
+{
+  "name": "PyramidDataPayload",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Width",
+      "order": 0,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Depth",
+      "order": 1,
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Height",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

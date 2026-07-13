@@ -1,0 +1,44 @@
+{
+  "name": "TextDataPayload",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Text",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "UseRotation",
+      "order": 1,
+      "type": "boolean",
+      "optional": true
+    },
+    {
+      "name": "BackgroundColor",
+      "order": 2,
+      "type": "Color",
+      "optional": true
+    },
+    {
+      "name": "DepthTest",
+      "order": 3,
+      "type": "boolean",
+      "optional": true
+    },
+    {
+      "name": "ShowBackface",
+      "order": 4,
+      "type": "boolean",
+      "optional": true
+    },
+    {
+      "name": "ShowTextBackface",
+      "order": 5,
+      "type": "boolean",
+      "optional": true
+    }
+  ]
+}

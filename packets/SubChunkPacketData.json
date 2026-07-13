@@ -1,0 +1,43 @@
+{
+  "name": "SubChunkPacketData",
+  "kind": "packet",
+  "id": null,
+  "description": null,
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "SubChunk Pos Offset",
+      "order": 0,
+      "type": "SubChunkPosOffset",
+      "optional": false
+    },
+    {
+      "name": "SubChunk Request Result",
+      "order": 1,
+      "type": "uint8",
+      "optional": false,
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Serialized Sub Chunk",
+      "order": 2,
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "Height Map Data",
+      "order": 3,
+      "type": "SubChunkHeightmapData",
+      "optional": false
+    },
+    {
+      "name": "Blob Id",
+      "order": 4,
+      "type": "uint64",
+      "optional": true
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "UpdateBlockPacket",
+  "kind": "packet",
+  "id": 21,
+  "description": "This happens often. Luckily, the packets are small.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Block Position",
+      "order": 0,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Block Runtime ID",
+      "order": 1,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Flags",
+      "order": 2,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Layer",
+      "order": 3,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

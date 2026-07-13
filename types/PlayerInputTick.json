@@ -1,0 +1,17 @@
+{
+  "name": "PlayerInputTick",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Input tick",
+      "order": 0,
+      "type": "uint64",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "SimpleEventPacket",
+  "kind": "packet",
+  "id": 64,
+  "description": "This is fired from the client to the server and a SetCommandsEnabledPacket is sent back when enabling commands.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Type",
+      "order": 0,
+      "type": "Subtype",
+      "optional": false,
+      "underlyingType": "uint16",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

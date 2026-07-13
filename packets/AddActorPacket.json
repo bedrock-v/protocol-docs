@@ -1,0 +1,82 @@
+{
+  "name": "AddActorPacket",
+  "kind": "packet",
+  "id": 13,
+  "description": "Newly created entities on server use AddActorPacket to notify clients that they exist.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Target Actor ID",
+      "order": 0,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Target Runtime ID",
+      "order": 1,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Actor Type",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Position",
+      "order": 3,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Velocity",
+      "order": 4,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Rotation",
+      "order": 5,
+      "type": "Vec2",
+      "optional": false
+    },
+    {
+      "name": "Y Head Rotation",
+      "order": 6,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Y Body Rotation",
+      "order": 7,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Attributes List",
+      "order": 8,
+      "type": "SyncedAttribute[]",
+      "optional": false
+    },
+    {
+      "name": "Actor Data",
+      "order": 9,
+      "type": "SynchedActorDataList",
+      "optional": false
+    },
+    {
+      "name": "Synched Properties",
+      "order": 10,
+      "type": "PropertySyncData",
+      "optional": false
+    },
+    {
+      "name": "Actor Links",
+      "order": 11,
+      "type": "ActorLink[]",
+      "optional": false
+    }
+  ]
+}

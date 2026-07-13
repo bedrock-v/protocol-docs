@@ -1,0 +1,25 @@
+{
+  "name": "EnchantmentInstance",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Enchant Type",
+      "order": 0,
+      "type": "Enchant__Type",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Enchant Level",
+      "order": 1,
+      "type": "uint8",
+      "optional": false
+    }
+  ]
+}

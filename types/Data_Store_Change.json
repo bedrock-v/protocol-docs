@@ -1,0 +1,32 @@
+{
+  "name": "Data Store Change",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Data Store Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Property",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Update Count",
+      "order": 2,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "The New Property Value",
+      "order": 3,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

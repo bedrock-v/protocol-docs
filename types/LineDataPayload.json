@@ -1,0 +1,14 @@
+{
+  "name": "LineDataPayload",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Line End Location",
+      "order": 0,
+      "type": "Vec3",
+      "optional": false
+    }
+  ]
+}

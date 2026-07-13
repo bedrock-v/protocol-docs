@@ -1,0 +1,71 @@
+{
+  "name": "MobEffectPacket",
+  "kind": "packet",
+  "id": 28,
+  "description": "At the start of the game the server sends any mob effects with _sendAdditionalLevelData() if the joining player saved out with them,\nand then anytime a mob effect is added, removed, or updated this packet is sent.<br>\nIt is important for player movement simulation to ensure that the following effects are sent for the player or any client predicted vehicle they are in control of:<br>\n- levitation<br>\n- slow_falling<br>\n- jump<br>\n- movement_speed<br>\n- movement_slowdown<br>\n- weaving",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "order": 0,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Event ID",
+      "order": 1,
+      "type": "MobEffectPacketPayload__Event",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Effect ID",
+      "order": 2,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Effect Amplifier",
+      "order": 3,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Show Particles",
+      "order": 4,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Effect Duration Ticks",
+      "order": 5,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Tick",
+      "order": 6,
+      "type": "PlayerInputTick",
+      "optional": false
+    },
+    {
+      "name": "Ambient",
+      "order": 7,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

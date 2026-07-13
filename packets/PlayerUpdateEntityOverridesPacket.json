@@ -1,0 +1,31 @@
+{
+  "name": "PlayerUpdateEntityOverridesPacket",
+  "kind": "packet",
+  "id": 325,
+  "description": "Updates client entity property override data. Sets/removes an override for the indicated property for a specific entity on a client or clears all overrides for that entity.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Target ID",
+      "order": 0,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Property Index",
+      "order": 1,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Update",
+      "order": 2,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

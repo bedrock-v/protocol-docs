@@ -1,0 +1,21 @@
+{
+  "name": "Resource Pack Client Response - Downloading",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Response Type",
+      "order": 0,
+      "type": "ResourcePackResponse",
+      "optional": false,
+      "underlyingType": "int8"
+    },
+    {
+      "name": "Downloading Packs",
+      "order": 1,
+      "type": "string[]",
+      "optional": false
+    }
+  ]
+}

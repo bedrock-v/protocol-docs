@@ -1,0 +1,14 @@
+{
+  "name": "UpdateAttributeLayersData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Attribute Layers",
+      "order": 0,
+      "type": "AttributeLayerData[]",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "ArrowDataPayload",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Arrow End Location",
+      "order": 0,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Arrow Head Length",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Arrow Head Radius",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Num Segments",
+      "order": 3,
+      "type": "uint8",
+      "optional": false
+    }
+  ]
+}

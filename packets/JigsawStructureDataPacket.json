@@ -1,0 +1,16 @@
+{
+  "name": "JigsawStructureDataPacket",
+  "kind": "packet",
+  "id": 313,
+  "description": "Sends the serialized jigsaw rule JSON to the client as it's needed on both the client and server.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Jigsaw Structure Data Tag",
+      "order": 0,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

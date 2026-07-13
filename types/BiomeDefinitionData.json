@@ -1,0 +1,68 @@
+{
+  "name": "BiomeDefinitionData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "id",
+      "order": 0,
+      "type": "uint16",
+      "optional": false
+    },
+    {
+      "name": "temperature",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "downfall",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "foliage snow",
+      "order": 3,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "depth",
+      "order": 4,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "scale",
+      "order": 5,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "map water color ARGB",
+      "order": 6,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "rain",
+      "order": 7,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "tags",
+      "order": 8,
+      "type": "BiomeTagsData",
+      "optional": false
+    },
+    {
+      "name": "chunk gen data",
+      "order": 9,
+      "type": "BiomeDefinitionChunkGenData",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "BiomeSurfaceBuilderData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "surface materials",
+      "order": 0,
+      "type": "BiomeSurfaceMaterialData",
+      "optional": false
+    },
+    {
+      "name": "has default overworld surface",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "has swamp surface",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "has frozen ocean surface",
+      "order": 3,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "has the end surface",
+      "order": 4,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "mesa surface",
+      "order": 5,
+      "type": "BiomeMesaSurfaceData",
+      "optional": false
+    },
+    {
+      "name": "capped surface",
+      "order": 6,
+      "type": "BiomeCappedSurfaceData",
+      "optional": false
+    },
+    {
+      "name": "noise gradient surface",
+      "order": 7,
+      "type": "BiomeNoiseGradientSurfaceData",
+      "optional": false
+    }
+  ]
+}

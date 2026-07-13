@@ -1,0 +1,11 @@
+{
+  "name": "HudVisibility",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "int32",
+  "values": [
+    "Hide",
+    "Reset"
+  ]
+}

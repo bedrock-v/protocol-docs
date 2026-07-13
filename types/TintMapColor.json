@@ -1,0 +1,14 @@
+{
+  "name": "TintMapColor",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Colors",
+      "order": 0,
+      "type": "Color[]",
+      "optional": false
+    }
+  ]
+}

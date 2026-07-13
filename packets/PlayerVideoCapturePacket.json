@@ -1,0 +1,22 @@
+{
+  "name": "PlayerVideoCapturePacket",
+  "kind": "packet",
+  "id": 324,
+  "description": "Internal",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Start Video Capture",
+      "order": 0,
+      "type": "unknown",
+      "optional": true
+    },
+    {
+      "name": "Stop Video Capture",
+      "order": 1,
+      "type": "unknown",
+      "optional": true
+    }
+  ]
+}

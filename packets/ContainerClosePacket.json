@@ -1,0 +1,34 @@
+{
+  "name": "ContainerClosePacket",
+  "kind": "packet",
+  "id": 47,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Container Id",
+      "order": 0,
+      "type": "uint8",
+      "optional": false,
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Container Type",
+      "order": 1,
+      "type": "uint8",
+      "optional": false,
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Server Initiated Close",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

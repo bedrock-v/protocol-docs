@@ -1,0 +1,23 @@
+{
+  "name": "ServerboundDataDrivenScreenClosedPacket",
+  "kind": "packet",
+  "id": 343,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "FormId",
+      "order": 0,
+      "type": "uint32",
+      "optional": true
+    },
+    {
+      "name": "CloseReason",
+      "order": 1,
+      "type": "DataDrivenScreenClosedReason",
+      "optional": false,
+      "underlyingType": "uint8"
+    }
+  ]
+}

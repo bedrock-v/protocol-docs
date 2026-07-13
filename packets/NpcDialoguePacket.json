@@ -1,0 +1,51 @@
+{
+  "name": "NpcDialoguePacket",
+  "kind": "packet",
+  "id": 169,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Npc Id Raw Id",
+      "order": 0,
+      "type": "uint64",
+      "optional": false
+    },
+    {
+      "name": "Npc Dialogue Action Type",
+      "order": 1,
+      "type": "NpcDialogueActionType",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Dialogue",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Scene Name",
+      "order": 3,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Npc Name",
+      "order": 4,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Action JSON",
+      "order": 5,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

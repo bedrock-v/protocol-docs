@@ -1,0 +1,26 @@
+{
+  "name": "TrimMaterial",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Material Id",
+      "order": 0,
+      "type": "hashed_string",
+      "optional": false
+    },
+    {
+      "name": "Color",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Item Name",
+      "order": 2,
+      "type": "hashed_string",
+      "optional": false
+    }
+  ]
+}

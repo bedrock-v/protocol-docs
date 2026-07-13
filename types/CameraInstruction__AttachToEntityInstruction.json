@@ -1,0 +1,14 @@
+{
+  "name": "CameraInstruction::AttachToEntityInstruction",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Entity Actor ID",
+      "order": 0,
+      "type": "int64",
+      "optional": false
+    }
+  ]
+}

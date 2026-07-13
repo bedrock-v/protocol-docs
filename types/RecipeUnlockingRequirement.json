@@ -1,0 +1,25 @@
+{
+  "name": "RecipeUnlockingRequirement",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Unlocking Context",
+      "order": 0,
+      "type": "RecipeUnlockingContext",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Unlocking Ingredients",
+      "order": 1,
+      "type": "RecipeIngredient[]",
+      "optional": true
+    }
+  ]
+}

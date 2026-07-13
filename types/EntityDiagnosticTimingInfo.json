@@ -1,0 +1,32 @@
+{
+  "name": "EntityDiagnosticTimingInfo",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Display Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Entity",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Time in NS",
+      "order": 2,
+      "type": "uint64",
+      "optional": false
+    },
+    {
+      "name": "Percent of Total",
+      "order": 3,
+      "type": "uint8",
+      "optional": false
+    }
+  ]
+}

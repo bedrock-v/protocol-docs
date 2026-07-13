@@ -1,0 +1,9 @@
+{
+  "name": "RefreshEntitlementsPacket",
+  "kind": "packet",
+  "id": 305,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": []
+}

@@ -1,0 +1,26 @@
+{
+  "name": "UnlockedRecipesPacket",
+  "kind": "packet",
+  "id": 199,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Packet Type",
+      "order": 0,
+      "type": "UnlockedRecipesPacketPayload__PacketType",
+      "optional": false,
+      "underlyingType": "uint32",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Unlocked Recipes List",
+      "order": 1,
+      "type": "string[]",
+      "optional": false
+    }
+  ]
+}

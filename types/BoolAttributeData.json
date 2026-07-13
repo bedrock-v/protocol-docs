@@ -1,0 +1,21 @@
+{
+  "name": "BoolAttributeData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "value",
+      "order": 0,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "operation",
+      "order": 1,
+      "type": "BoolAttributeOperation",
+      "optional": true,
+      "underlyingType": "int32"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "WhiskerScopeDataSummary",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Label",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Indentation",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "TotalHighCostNS",
+      "order": 2,
+      "type": "uint64",
+      "optional": false
+    },
+    {
+      "name": "TotalMidCostNS",
+      "order": 3,
+      "type": "uint64",
+      "optional": false
+    },
+    {
+      "name": "TotalLowCostNS",
+      "order": 4,
+      "type": "uint64",
+      "optional": false
+    }
+  ]
+}

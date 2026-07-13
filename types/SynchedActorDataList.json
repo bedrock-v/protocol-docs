@@ -1,0 +1,14 @@
+{
+  "name": "SynchedActorDataList",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Data",
+      "order": 0,
+      "type": "DataItemEntry[]",
+      "optional": false
+    }
+  ]
+}

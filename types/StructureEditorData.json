@@ -1,0 +1,60 @@
+{
+  "name": "StructureEditorData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Structure Name",
+      "order": 0,
+      "type": "Bedrock__Safety__RedactableString",
+      "optional": false
+    },
+    {
+      "name": "Data Field",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Should include players?",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Should show bounding box?",
+      "order": 3,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Structure Block Type",
+      "order": 4,
+      "type": "StructureBlockType",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Structure Settings",
+      "order": 5,
+      "type": "StructureSettings",
+      "optional": false
+    },
+    {
+      "name": "Redstone Save Mode",
+      "order": 6,
+      "type": "StructureRedstoneSaveMode",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

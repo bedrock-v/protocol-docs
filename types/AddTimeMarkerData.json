@@ -1,0 +1,23 @@
+{
+  "name": "AddTimeMarkerData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "ClockId",
+      "order": 0,
+      "type": "uint64",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "TimeMarkers",
+      "order": 1,
+      "type": "TimeMarkerData[]",
+      "optional": false
+    }
+  ]
+}

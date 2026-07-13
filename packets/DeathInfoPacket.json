@@ -1,0 +1,16 @@
+{
+  "name": "DeathInfoPacket",
+  "kind": "packet",
+  "id": 189,
+  "description": "mDeathCauseMessage: is untranslated cause of death string vector returned from ActorDamageSource",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Death Cause Message",
+      "order": 0,
+      "type": "DeathCauseMessageType",
+      "optional": false
+    }
+  ]
+}

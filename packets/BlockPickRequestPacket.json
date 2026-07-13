@@ -1,0 +1,28 @@
+{
+  "name": "BlockPickRequestPacket",
+  "kind": "packet",
+  "id": 34,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Position",
+      "order": 0,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "With Data?",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Max Slots",
+      "order": 2,
+      "type": "uint8",
+      "optional": false
+    }
+  ]
+}

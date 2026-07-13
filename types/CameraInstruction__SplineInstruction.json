@@ -1,0 +1,50 @@
+{
+  "name": "CameraInstruction::SplineInstruction",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "totalTime",
+      "order": 0,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "type",
+      "order": 1,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "curve",
+      "order": 2,
+      "type": "Vec3[]",
+      "optional": false
+    },
+    {
+      "name": "progressKeyFrames",
+      "order": 3,
+      "type": "CameraInstruction__SplineInstruction__SplineProgressOption[]",
+      "optional": false
+    },
+    {
+      "name": "rotationOption",
+      "order": 4,
+      "type": "CameraInstruction__SplineInstruction__SplineRotationOption[]",
+      "optional": false
+    },
+    {
+      "name": "splineIdentifier",
+      "order": 5,
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "loadFromJson",
+      "order": 6,
+      "type": "boolean",
+      "optional": true
+    }
+  ]
+}

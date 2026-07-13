@@ -1,0 +1,14 @@
+{
+  "name": "AttributeOperands",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "int32",
+  "values": [
+    "OPERAND_MIN",
+    "OPERAND_MAX",
+    "OPERAND_CURRENT",
+    "TOTAL_OPERANDS",
+    "OPERAND_INVALID"
+  ]
+}

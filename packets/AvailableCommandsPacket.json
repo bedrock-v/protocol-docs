@@ -1,0 +1,58 @@
+{
+  "name": "AvailableCommandsPacket",
+  "kind": "packet",
+  "id": 76,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Enum Values",
+      "order": 0,
+      "type": "string[]",
+      "optional": false
+    },
+    {
+      "name": "Chained Subcommand Values",
+      "order": 1,
+      "type": "string[]",
+      "optional": false
+    },
+    {
+      "name": "Post Fixes",
+      "order": 2,
+      "type": "string[]",
+      "optional": false
+    },
+    {
+      "name": "Enum Data",
+      "order": 3,
+      "type": "AvailableCommandsPacketEnumData[]",
+      "optional": false
+    },
+    {
+      "name": "Chained Subcommand Data",
+      "order": 4,
+      "type": "AvailableCommandsPacketChainedSubcommandData[]",
+      "optional": false
+    },
+    {
+      "name": "Commands",
+      "order": 5,
+      "type": "AvailableCommandsPacketCommandData[]",
+      "optional": false
+    },
+    {
+      "name": "Soft Enums",
+      "order": 6,
+      "type": "AvailableCommandsPacketSoftEnumData[]",
+      "optional": false
+    },
+    {
+      "name": "Constraints",
+      "order": 7,
+      "type": "AvailableCommandsPacketConstrainedValueData[]",
+      "optional": false
+    }
+  ]
+}

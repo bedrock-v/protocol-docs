@@ -1,0 +1,56 @@
+{
+  "name": "ServerWaypoint::Payload",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "UpdateFlag",
+      "order": 0,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "IsVisible",
+      "order": 1,
+      "type": "boolean",
+      "optional": true
+    },
+    {
+      "name": "WorldPosition",
+      "order": 2,
+      "type": "WorldPosition",
+      "optional": true
+    },
+    {
+      "name": "TexturePath",
+      "order": 3,
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "IconSize",
+      "order": 4,
+      "type": "Vec2",
+      "optional": true
+    },
+    {
+      "name": "Color",
+      "order": 5,
+      "type": "Color",
+      "optional": true
+    },
+    {
+      "name": "ClientPositionAuthority",
+      "order": 6,
+      "type": "boolean",
+      "optional": true
+    },
+    {
+      "name": "ActorUniqueID",
+      "order": 7,
+      "type": "ActorUniqueID",
+      "optional": true
+    }
+  ]
+}

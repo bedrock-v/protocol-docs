@@ -1,0 +1,52 @@
+{
+  "name": "ResourcePackDataInfoPacket",
+  "kind": "packet",
+  "id": 82,
+  "description": "Sent from the serverFileChunkUploader during the initialization of the file uploader. This packet is sent to the primary client.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Resource Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Chunk Size",
+      "order": 1,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "Number of Chunks",
+      "order": 2,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "File Size",
+      "order": 3,
+      "type": "uint64",
+      "optional": false
+    },
+    {
+      "name": "File Hash",
+      "order": 4,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Is Premium Pack",
+      "order": 5,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Pack Type",
+      "order": 6,
+      "type": "uint8",
+      "optional": false
+    }
+  ]
+}

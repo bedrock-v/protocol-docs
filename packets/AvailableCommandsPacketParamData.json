@@ -1,0 +1,34 @@
+{
+  "name": "AvailableCommandsPacketParamData",
+  "kind": "packet",
+  "id": null,
+  "description": null,
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Parse Symbol",
+      "order": 1,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "Is Optional?",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Options",
+      "order": 3,
+      "type": "uint8",
+      "optional": false
+    }
+  ]
+}

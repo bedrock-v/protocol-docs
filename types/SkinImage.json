@@ -1,0 +1,26 @@
+{
+  "name": "SkinImage",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Width",
+      "order": 0,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "Height",
+      "order": 1,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "ImageBytes",
+      "order": 2,
+      "type": "uint8[]",
+      "optional": false
+    }
+  ]
+}

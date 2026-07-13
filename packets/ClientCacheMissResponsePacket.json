@@ -1,0 +1,16 @@
+{
+  "name": "ClientCacheMissResponsePacket",
+  "kind": "packet",
+  "id": 136,
+  "description": "Any missing blob should just be thrown into one of these packet ASAP and sent. This is actually how chunk data gets to the client the first time.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Missing Blobs",
+      "order": 0,
+      "type": "MissingBlobData[]",
+      "optional": false
+    }
+  ]
+}

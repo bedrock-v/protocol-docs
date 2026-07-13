@@ -1,0 +1,14 @@
+{
+  "name": "BiomeConsolidatedFeaturesData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "features",
+      "order": 0,
+      "type": "BiomeConsolidatedFeatureData[]",
+      "optional": false
+    }
+  ]
+}

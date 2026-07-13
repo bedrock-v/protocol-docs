@@ -1,0 +1,41 @@
+{
+  "name": "ActorEventPacket",
+  "kind": "packet",
+  "id": 27,
+  "description": "Ranges from a crossbow being ready to fire to taming animals..., some of which may be obsolete (frex, ADD_PLAYER_LEVELS)",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "order": 0,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Event ID",
+      "order": 1,
+      "type": "ActorEvent",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Data",
+      "order": 2,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Fire At Position",
+      "order": 3,
+      "type": "Vec3",
+      "optional": true
+    }
+  ]
+}

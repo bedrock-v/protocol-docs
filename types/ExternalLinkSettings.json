@@ -1,0 +1,20 @@
+{
+  "name": "ExternalLinkSettings",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "URL",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Display Name",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

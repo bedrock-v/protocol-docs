@@ -1,0 +1,82 @@
+{
+  "name": "CraftingDataPacket",
+  "kind": "packet",
+  "id": 52,
+  "description": "Sent from the server on level startup to send all recipes to the client.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Shaped Recipes",
+      "order": 0,
+      "type": "ShapedRecipePayload[]",
+      "optional": false
+    },
+    {
+      "name": "Shapeless Recipes",
+      "order": 1,
+      "type": "ShapelessRecipePayload[]",
+      "optional": false
+    },
+    {
+      "name": "Multi Recipes",
+      "order": 2,
+      "type": "MultiRecipePayload[]",
+      "optional": false
+    },
+    {
+      "name": "User Data Shapeless Recipes",
+      "order": 3,
+      "type": "ShapelessRecipePayload[]",
+      "optional": false
+    },
+    {
+      "name": "Shapeless Chemistry Recipes",
+      "order": 4,
+      "type": "ShapelessRecipePayload[]",
+      "optional": false
+    },
+    {
+      "name": "Shaped Chemistry Recipes",
+      "order": 5,
+      "type": "ShapedRecipePayload[]",
+      "optional": false
+    },
+    {
+      "name": "Smithing Transform Recipes",
+      "order": 6,
+      "type": "SmithingTransformRecipePayload[]",
+      "optional": false
+    },
+    {
+      "name": "Smithing Trim Recipes",
+      "order": 7,
+      "type": "SmithingTrimRecipePayload[]",
+      "optional": false
+    },
+    {
+      "name": "Potion Mixes",
+      "order": 8,
+      "type": "PotionMixDataEntry[]",
+      "optional": false
+    },
+    {
+      "name": "Container Mixes",
+      "order": 9,
+      "type": "ContainerMixDataEntry[]",
+      "optional": false
+    },
+    {
+      "name": "Material Reducers",
+      "order": 10,
+      "type": "MaterialReducerDataEntry[]",
+      "optional": false
+    },
+    {
+      "name": "Clear Recipes",
+      "order": 11,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

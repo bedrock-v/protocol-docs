@@ -1,0 +1,107 @@
+{
+  "name": "ItemUseInventoryTransaction",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Actions",
+      "order": 0,
+      "type": "InventoryTransaction",
+      "optional": false
+    },
+    {
+      "name": "Action Type",
+      "order": 1,
+      "type": "ItemUseActionType",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Trigger Type",
+      "order": 2,
+      "type": "ItemUseTriggerType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Position",
+      "order": 3,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Face",
+      "order": 4,
+      "type": "uint8",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Slot",
+      "order": 5,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Item",
+      "order": 6,
+      "type": "NetworkItemStackDescriptor",
+      "optional": false
+    },
+    {
+      "name": "From Position",
+      "order": 7,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Click Position",
+      "order": 8,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Target Block Id",
+      "order": 9,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Client Interact Prediction",
+      "order": 10,
+      "type": "ItemUsePredictedResult",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Client Cooldown State",
+      "order": 11,
+      "type": "ItemUseClientCooldownState",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

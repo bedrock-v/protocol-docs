@@ -1,0 +1,32 @@
+{
+  "name": "UpdateSoftEnumPacket",
+  "kind": "packet",
+  "id": 114,
+  "description": "This allows someone to sync between server and client tags and enums on mobs or on the level.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Enum Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Values",
+      "order": 1,
+      "type": "string[]",
+      "optional": false
+    },
+    {
+      "name": "Update Type",
+      "order": 2,
+      "type": "SoftEnumUpdateType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

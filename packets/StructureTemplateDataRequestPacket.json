@@ -1,0 +1,38 @@
+{
+  "name": "StructureTemplateDataRequestPacket",
+  "kind": "packet",
+  "id": 132,
+  "description": "This is used to kick off the process of loading and returning a structure in a Tag from the server back to the client. Currently this functionality is completely disabled and does nothing.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Structure Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Structure Position",
+      "order": 1,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Structure Settings",
+      "order": 2,
+      "type": "StructureSettings",
+      "optional": false
+    },
+    {
+      "name": "Requested Operation",
+      "order": 3,
+      "type": "StructureTemplateRequestOperation",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

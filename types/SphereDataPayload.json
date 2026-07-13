@@ -1,0 +1,14 @@
+{
+  "name": "SphereDataPayload",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Num Segments",
+      "order": 0,
+      "type": "uint8",
+      "optional": false
+    }
+  ]
+}

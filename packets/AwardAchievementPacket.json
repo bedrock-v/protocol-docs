@@ -1,0 +1,16 @@
+{
+  "name": "AwardAchievementPacket",
+  "kind": "packet",
+  "id": 309,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "AchievementID",
+      "order": 0,
+      "type": "int32",
+      "optional": false
+    }
+  ]
+}

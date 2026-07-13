@@ -1,0 +1,16 @@
+{
+  "name": "AutomationClientConnectPacket",
+  "kind": "packet",
+  "id": 95,
+  "description": "Only used though command to connect to server URLs. This is primarily used by EDU for connecting to their companion apps and other external applications through web sockets. Some mods/3rd party packs use it as well.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Web Socket Data",
+      "order": 0,
+      "type": "WebSocketPacketData",
+      "optional": false
+    }
+  ]
+}

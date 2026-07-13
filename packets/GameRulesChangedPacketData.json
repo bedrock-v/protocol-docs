@@ -1,0 +1,16 @@
+{
+  "name": "GameRulesChangedPacketData",
+  "kind": "packet",
+  "id": null,
+  "description": null,
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Rules List",
+      "order": 0,
+      "type": "GameRule[]",
+      "optional": false
+    }
+  ]
+}

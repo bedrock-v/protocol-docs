@@ -1,0 +1,22 @@
+{
+  "name": "CommandOutputPacket",
+  "kind": "packet",
+  "id": 79,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Origin Data",
+      "order": 0,
+      "type": "CommandOriginData",
+      "optional": false
+    },
+    {
+      "name": "Output",
+      "order": 1,
+      "type": "CommandOutput",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "AnimatePacket",
+  "kind": "packet",
+  "id": 44,
+  "description": "Combination of server bound and client bound packets to trigger animations.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Action",
+      "order": 0,
+      "type": "AnimatePacketPayload_Action",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Target Actor Runtime ID",
+      "order": 1,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Data",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Swing Source",
+      "order": 3,
+      "type": "ActorSwingSource",
+      "optional": true,
+      "underlyingType": "uint8"
+    }
+  ]
+}

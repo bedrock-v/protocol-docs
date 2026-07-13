@@ -1,0 +1,34 @@
+{
+  "name": "SetActorDataPacket",
+  "kind": "packet",
+  "id": 39,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "order": 0,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Actor Data",
+      "order": 1,
+      "type": "SynchedActorDataList",
+      "optional": false
+    },
+    {
+      "name": "Synched Properties",
+      "order": 2,
+      "type": "PropertySyncData",
+      "optional": false
+    },
+    {
+      "name": "Tick",
+      "order": 3,
+      "type": "PlayerInputTick",
+      "optional": false
+    }
+  ]
+}

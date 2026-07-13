@@ -1,0 +1,68 @@
+{
+  "name": "EducationLevelSettings",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Code Builder Default URI",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Code Builder Title",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Can resize Code Builder",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Disable legacy title bar",
+      "order": 3,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Post Process Filter",
+      "order": 4,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Screenshot Border Resource Path",
+      "order": 5,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Agent Capabilities",
+      "order": 6,
+      "type": "AgentCapabilities",
+      "optional": false
+    },
+    {
+      "name": "Local Settings",
+      "order": 7,
+      "type": "EducationLocalLevelSettings",
+      "optional": false
+    },
+    {
+      "name": "(Deprecated) Always False",
+      "order": 8,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "External Link Settings",
+      "order": 9,
+      "type": "ExternalLinkSettings",
+      "optional": false
+    }
+  ]
+}

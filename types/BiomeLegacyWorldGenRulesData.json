@@ -1,0 +1,14 @@
+{
+  "name": "BiomeLegacyWorldGenRulesData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "legacy pre hills edge",
+      "order": 0,
+      "type": "BiomeConditionalTransformationData[]",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "SettingsCommandPacket",
+  "kind": "packet",
+  "id": 140,
+  "description": "Used when the player changes the world settings like doDayNightCycle or WeatherCycle via the world settings menu",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Command",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Suppress Output?",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

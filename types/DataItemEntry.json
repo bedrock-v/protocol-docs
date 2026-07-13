@@ -1,0 +1,23 @@
+{
+  "name": "DataItemEntry",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "ID",
+      "order": 0,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Payload",
+      "order": 1,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

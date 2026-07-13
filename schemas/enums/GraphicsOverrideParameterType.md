@@ -1,0 +1,53 @@
+# GraphicsOverrideParameterType
+
+`enum` - wire `uint8`
+
+- protocol: 2168
+- minecraft: 1.26.40
+
+```mermaid
+flowchart TB
+  ROOT(["GraphicsOverrideParameterType"])
+  ROOT --> SkyZenithColor["SkyZenithColor"]
+  ROOT --> SkyHorizonColor["SkyHorizonColor"]
+  ROOT --> HorizonBlendMin["HorizonBlendMin"]
+  ROOT --> HorizonBlendMax["HorizonBlendMax"]
+  ROOT --> HorizonBlendStart["HorizonBlendStart"]
+  ROOT --> HorizonBlendMieStart["HorizonBlendMieStart"]
+  ROOT --> RayleighStrength["RayleighStrength"]
+  ROOT --> SunMieStrength["SunMieStrength"]
+  ROOT --> MoonMieStrength["MoonMieStrength"]
+  ROOT --> SunGlareShape["SunGlareShape"]
+  ROOT --> Chlorophyll["Chlorophyll"]
+  ROOT --> CDOM["CDOM"]
+  ROOT --> SuspendedSediment["SuspendedSediment"]
+  ROOT --> WavesDepth["WavesDepth"]
+  ROOT --> WavesFrequency["WavesFrequency"]
+  ROOT --> WavesFrequencyScaling["WavesFrequencyScaling"]
+  ROOT --> WavesSpeed["WavesSpeed"]
+  ROOT --> WavesSpeedScaling["WavesSpeedScaling"]
+  ROOT --> WavesShape["WavesShape"]
+  ROOT --> WavesOctaves["WavesOctaves"]
+  ROOT --> WavesMix["WavesMix"]
+  ROOT --> WavesPull["WavesPull"]
+  ROOT --> WavesDirectionIncrement["WavesDirectionIncrement"]
+  ROOT --> MidtonesContrast["MidtonesContrast"]
+  ROOT --> HighlightsContrast["HighlightsContrast"]
+  ROOT --> ShadowsContrast["ShadowsContrast"]
+  ROOT --> HighlightsGain["HighlightsGain"]
+  ROOT --> HighlightsGamma["HighlightsGamma"]
+  ROOT --> HighlightsOffset["HighlightsOffset"]
+  ROOT --> HighlightsSaturation["HighlightsSaturation"]
+  ROOT --> MidtonesGain["MidtonesGain"]
+  ROOT --> MidtonesGamma["MidtonesGamma"]
+  ROOT --> MidtonesOffset["MidtonesOffset"]
+  ROOT --> MidtonesSaturation["MidtonesSaturation"]
+  ROOT --> ShadowsGain["ShadowsGain"]
+  ROOT --> ShadowsGamma["ShadowsGamma"]
+  ROOT --> ShadowsOffset["ShadowsOffset"]
+  ROOT --> ShadowsSaturation["ShadowsSaturation"]
+  ROOT --> HighlightsMin["HighlightsMin"]
+  ROOT --> ShadowsMax["ShadowsMax"]
+  ROOT --> more["... 12 more"]
+```
+

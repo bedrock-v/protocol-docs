@@ -1,0 +1,28 @@
+{
+  "name": "InventoryTransactionPacket",
+  "kind": "packet",
+  "id": 30,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Legacy Request ID",
+      "order": 0,
+      "type": "ItemStackLegacyRequestId",
+      "optional": false
+    },
+    {
+      "name": "Legacy Set Item Slots",
+      "order": 1,
+      "type": "LegacySetSlot[]",
+      "optional": true
+    },
+    {
+      "name": "Transaction",
+      "order": 2,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

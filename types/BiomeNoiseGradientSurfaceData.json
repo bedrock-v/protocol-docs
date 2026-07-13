@@ -1,0 +1,26 @@
+{
+  "name": "BiomeNoiseGradientSurfaceData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "non-replaceable blocks",
+      "order": 0,
+      "type": "uint32[]",
+      "optional": false
+    },
+    {
+      "name": "gradient blocks",
+      "order": 1,
+      "type": "SerializedNoiseBlockSpecifier[]",
+      "optional": false
+    },
+    {
+      "name": "noise",
+      "order": 2,
+      "type": "NoiseDescriptor",
+      "optional": false
+    }
+  ]
+}

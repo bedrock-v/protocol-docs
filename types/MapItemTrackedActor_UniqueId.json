@@ -1,0 +1,30 @@
+{
+  "name": "MapItemTrackedActor UniqueId",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Type",
+      "order": 0,
+      "type": "MapItemTrackedActor_Type",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Entity ID",
+      "order": 1,
+      "type": "ActorUniqueID",
+      "optional": true
+    },
+    {
+      "name": "Block Position",
+      "order": 2,
+      "type": "BlockPos",
+      "optional": true
+    }
+  ]
+}

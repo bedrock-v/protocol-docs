@@ -1,0 +1,18 @@
+# SerializedAbilitiesDataSerializedLayer
+
+`struct`
+
+- protocol: 2168
+- minecraft: 1.26.40
+
+```mermaid
+flowchart LR
+  ROOT(["SerializedAbilitiesDataSerializedLayer"])
+  ROOT -->|"SerializedLayer"| uint16["uint16"]
+  ROOT -->|"AbilitiesSet"| uint32["uint32"]
+  ROOT -->|"AbilityValues"| uint32["uint32"]
+  ROOT -->|"FlySpeed"| float["float"]
+  ROOT -->|"VerticalFlySpeed"| float["float"]
+  ROOT -->|"WalkSpeed"| float["float"]
+```
+

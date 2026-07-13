@@ -1,0 +1,16 @@
+{
+  "name": "PlayerArmorDamagePacket",
+  "kind": "packet",
+  "id": 149,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Armor Slot and Damage Pairs",
+      "order": 0,
+      "type": "ArmorSlotAndDamagePair[]",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "WebSocketPacketData",
+  "kind": "packet",
+  "id": null,
+  "description": null,
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Websocket Server URI",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

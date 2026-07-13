@@ -1,0 +1,16 @@
+{
+  "name": "PurchaseReceiptPacket",
+  "kind": "packet",
+  "id": 92,
+  "description": "Sent from the client after we make a purchase in the store OR if we login and our entitlements are verified.\nIt sends a vector of purchase receipts(string).There is a handler and a multiple senders.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "PurchaseReceipts",
+      "order": 0,
+      "type": "string[]",
+      "optional": false
+    }
+  ]
+}

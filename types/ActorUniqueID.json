@@ -1,0 +1,17 @@
+{
+  "name": "ActorUniqueID",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Actor Unique ID",
+      "order": 0,
+      "type": "int64",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

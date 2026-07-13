@@ -1,0 +1,22 @@
+{
+  "name": "(anonymous namespace)::MapInfoRequestPacketAnon::ClientPixelsProxy",
+  "kind": "packet",
+  "id": null,
+  "description": null,
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "pixel",
+      "order": 0,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "index",
+      "order": 1,
+      "type": "uint16",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "EllipsoidDataPayload",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Radii",
+      "order": 0,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Segments Per Axis",
+      "order": 1,
+      "type": "uint8",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# CameraInstruction::SplineInstruction::SplineProgressOption
+
+`struct`
+
+- protocol: 2168
+- minecraft: 1.26.40
+
+```mermaid
+flowchart LR
+  ROOT(["CameraInstruction::SplineInstruction::SplineProgressOption"])
+  ROOT -->|"Key frame value"| float["float"]
+  ROOT -->|"Key frame time"| float["float"]
+  ROOT -->|"Key frame easing func"| easing_function["easing_function"]
+```
+

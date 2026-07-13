@@ -1,0 +1,24 @@
+{
+  "name": "MessageOnly",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Message Type",
+      "order": 0,
+      "type": "uint8",
+      "optional": false,
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Message",
+      "order": 1,
+      "type": "string",
+      "optional": true
+    }
+  ]
+}

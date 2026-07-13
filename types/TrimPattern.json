@@ -1,0 +1,20 @@
+{
+  "name": "TrimPattern",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Item Name",
+      "order": 0,
+      "type": "hashed_string",
+      "optional": false
+    },
+    {
+      "name": "Pattern Id",
+      "order": 1,
+      "type": "hashed_string",
+      "optional": false
+    }
+  ]
+}

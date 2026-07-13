@@ -1,0 +1,32 @@
+{
+  "name": "ItemUsed",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Item Id",
+      "order": 0,
+      "type": "int16",
+      "optional": false
+    },
+    {
+      "name": "Item Aux",
+      "order": 1,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "Use Method",
+      "order": 2,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "Count",
+      "order": 3,
+      "type": "int32",
+      "optional": false
+    }
+  ]
+}

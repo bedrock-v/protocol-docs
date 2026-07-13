@@ -1,0 +1,28 @@
+{
+  "name": "LecternUpdatePacket",
+  "kind": "packet",
+  "id": 125,
+  "description": "It is a request from the client to either turn the page in the lectern or drop the book.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "New page to show",
+      "order": 0,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Total Pages",
+      "order": 1,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Position of Lectern to update",
+      "order": 2,
+      "type": "BlockPos",
+      "optional": false
+    }
+  ]
+}

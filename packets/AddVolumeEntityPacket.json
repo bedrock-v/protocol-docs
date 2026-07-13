@@ -1,0 +1,58 @@
+{
+  "name": "AddVolumeEntityPacket",
+  "kind": "packet",
+  "id": 166,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Entity Network Id",
+      "order": 0,
+      "type": "EntityNetId",
+      "optional": false
+    },
+    {
+      "name": "Components",
+      "order": 1,
+      "type": "unknown",
+      "optional": false
+    },
+    {
+      "name": "JSON Identifier",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Instance Name",
+      "order": 3,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Min Bounds",
+      "order": 4,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Max Bounds",
+      "order": 5,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Dimension Type",
+      "order": 6,
+      "type": "DimensionType",
+      "optional": false
+    },
+    {
+      "name": "Engine Version",
+      "order": 7,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

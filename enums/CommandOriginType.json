@@ -1,0 +1,25 @@
+{
+  "name": "CommandOriginType",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "uint8",
+  "values": [
+    "Player",
+    "CommandBlock",
+    "MinecartCommandBlock",
+    "DevConsole",
+    "Test",
+    "AutomationPlayer",
+    "ClientAutomation",
+    "DedicatedServer",
+    "Entity",
+    "Virtual",
+    "GameArgument",
+    "EntityServer",
+    "Precompiled",
+    "GameDirectorEntityServer",
+    "Scripting",
+    "ExecuteContext"
+  ]
+}

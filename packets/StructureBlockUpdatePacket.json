@@ -1,0 +1,34 @@
+{
+  "name": "StructureBlockUpdatePacket",
+  "kind": "packet",
+  "id": 90,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Block Position",
+      "order": 0,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Structure Data",
+      "order": 1,
+      "type": "StructureEditorData",
+      "optional": false
+    },
+    {
+      "name": "Trigger?",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "IsWaterlogged",
+      "order": 3,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

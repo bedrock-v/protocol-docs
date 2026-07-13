@@ -1,0 +1,32 @@
+{
+  "name": "CameraAimAssistPresetExclusionDefinition",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "blocks",
+      "order": 0,
+      "type": "Block_Reference[]",
+      "optional": true
+    },
+    {
+      "name": "entities",
+      "order": 1,
+      "type": "Entity_Reference[]",
+      "optional": true
+    },
+    {
+      "name": "block_tags",
+      "order": 2,
+      "type": "string[]",
+      "optional": true
+    },
+    {
+      "name": "entity_type_families",
+      "order": 3,
+      "type": "string[]",
+      "optional": true
+    }
+  ]
+}

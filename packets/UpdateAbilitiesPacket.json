@@ -1,0 +1,16 @@
+{
+  "name": "UpdateAbilitiesPacket",
+  "kind": "packet",
+  "id": 187,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Data",
+      "order": 0,
+      "type": "SerializedAbilitiesData",
+      "optional": false
+    }
+  ]
+}

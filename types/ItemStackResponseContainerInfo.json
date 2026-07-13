@@ -1,0 +1,20 @@
+{
+  "name": "ItemStackResponseContainerInfo",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Full Container Name",
+      "order": 0,
+      "type": "FullContainerName",
+      "optional": false
+    },
+    {
+      "name": "Slots",
+      "order": 1,
+      "type": "ItemStackResponseSlotInfo[]",
+      "optional": false
+    }
+  ]
+}

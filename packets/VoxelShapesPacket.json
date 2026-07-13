@@ -1,0 +1,28 @@
+{
+  "name": "VoxelShapesPacket",
+  "kind": "packet",
+  "id": 337,
+  "description": "Sends the serializable voxel shapes data to the client as it's needed on both the client and server. This packet should always be sent before StartGamePacket.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Shapes",
+      "order": 0,
+      "type": "VoxelShapes__SerializableVoxelShape[]",
+      "optional": false
+    },
+    {
+      "name": "Name Map",
+      "order": 1,
+      "type": "object",
+      "optional": false
+    },
+    {
+      "name": "Custom Shape Count",
+      "order": 2,
+      "type": "uint16",
+      "optional": false
+    }
+  ]
+}

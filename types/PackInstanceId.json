@@ -1,0 +1,26 @@
+{
+  "name": "PackInstanceId",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Pack ID",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Version",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Sub Pack Name",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "LabTablePacket",
+  "kind": "packet",
+  "id": 109,
+  "description": "The packet can be fired from the client through the UI or from the server during updates.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Type",
+      "order": 0,
+      "type": "LabTablePacketPayload__Type",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Position",
+      "order": 1,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Reaction",
+      "order": 2,
+      "type": "LabTableReactionType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

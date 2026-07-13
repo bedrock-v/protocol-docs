@@ -1,0 +1,42 @@
+{
+  "name": "MovementEffectPacket",
+  "kind": "packet",
+  "id": 318,
+  "description": "\n\tThese MovementEffects can be client-predicted.\n\tEx: Fireworks Rockets used while gliding send this packet to the client so they know the exact duration of the GLIDE_BOOST MovementEffect.\n\t",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "order": 0,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Effect ID",
+      "order": 1,
+      "type": "MovementEffectType",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Effect Duration",
+      "order": 2,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Tick",
+      "order": 3,
+      "type": "PlayerInputTick",
+      "optional": false
+    }
+  ]
+}

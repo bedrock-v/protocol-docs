@@ -1,0 +1,32 @@
+{
+  "name": "VoxelShapes::SerializableCells",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "X Size",
+      "order": 0,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Y Size",
+      "order": 1,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Z Size",
+      "order": 2,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Storage",
+      "order": 3,
+      "type": "uint8[]",
+      "optional": false
+    }
+  ]
+}

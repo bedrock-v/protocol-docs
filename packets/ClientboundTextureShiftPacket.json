@@ -1,0 +1,68 @@
+{
+  "name": "ClientboundTextureShiftPacket",
+  "kind": "packet",
+  "id": 336,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Action ID",
+      "order": 0,
+      "type": "ClientboundTextureShiftPacketPayload__Action",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Collection Name",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "From Step",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "To Step",
+      "order": 3,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "All Steps",
+      "order": 4,
+      "type": "string[]",
+      "optional": false
+    },
+    {
+      "name": "Current Length In Ticks",
+      "order": 5,
+      "type": "uint64",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Total Length In Ticks",
+      "order": 6,
+      "type": "uint64",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Enabled",
+      "order": 7,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

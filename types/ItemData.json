@@ -1,0 +1,43 @@
+{
+  "name": "ItemData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Item Name",
+      "order": 0,
+      "type": "hashed_string",
+      "optional": false
+    },
+    {
+      "name": "Item Id",
+      "order": 1,
+      "type": "int16",
+      "optional": false
+    },
+    {
+      "name": "Is Component Based",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Item Version",
+      "order": 3,
+      "type": "ItemVersion",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Item Component Data",
+      "order": 4,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

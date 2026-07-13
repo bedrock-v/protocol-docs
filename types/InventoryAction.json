@@ -1,0 +1,35 @@
+{
+  "name": "InventoryAction",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Source",
+      "order": 0,
+      "type": "InventorySource",
+      "optional": false
+    },
+    {
+      "name": "Slot",
+      "order": 1,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "From Item",
+      "order": 2,
+      "type": "NetworkItemStackDescriptor",
+      "optional": false
+    },
+    {
+      "name": "To Item",
+      "order": 3,
+      "type": "NetworkItemStackDescriptor",
+      "optional": false
+    }
+  ]
+}

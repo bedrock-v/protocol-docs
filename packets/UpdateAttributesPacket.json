@@ -1,0 +1,28 @@
+{
+  "name": "UpdateAttributesPacket",
+  "kind": "packet",
+  "id": 29,
+  "description": "Occasionally updating player attributes (buffs/debuffs, health, etc)",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "order": 0,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Attribute List",
+      "order": 1,
+      "type": "AttributeData[]",
+      "optional": false
+    },
+    {
+      "name": "Tick",
+      "order": 2,
+      "type": "PlayerInputTick",
+      "optional": false
+    }
+  ]
+}

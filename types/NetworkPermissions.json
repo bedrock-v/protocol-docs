@@ -1,0 +1,14 @@
+{
+  "name": "NetworkPermissions",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Server Auth Sound Enabled",
+      "order": 0,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

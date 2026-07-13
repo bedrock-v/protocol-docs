@@ -1,0 +1,14 @@
+{
+  "name": "ServerSoundHandle",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Server Sound Handle",
+      "order": 0,
+      "type": "uint64",
+      "optional": false
+    }
+  ]
+}

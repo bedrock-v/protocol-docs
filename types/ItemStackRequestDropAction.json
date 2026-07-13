@@ -1,0 +1,36 @@
+{
+  "name": "ItemStackRequestDropAction",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Action type",
+      "order": 0,
+      "type": "ItemStackRequestActionType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Amount",
+      "order": 1,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Source",
+      "order": 2,
+      "type": "ItemStackRequestSlotInfo",
+      "optional": false
+    },
+    {
+      "name": "Randomly",
+      "order": 3,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

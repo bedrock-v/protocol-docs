@@ -1,0 +1,62 @@
+{
+  "name": "BiomeElementData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "noise freq scale",
+      "order": 0,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "noise lower bound",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "noise upper bound",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "height min type",
+      "order": 3,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "height min",
+      "order": 4,
+      "type": "uint16",
+      "optional": false
+    },
+    {
+      "name": "height max type",
+      "order": 5,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "height max",
+      "order": 6,
+      "type": "uint16",
+      "optional": false
+    },
+    {
+      "name": "adjusted materials",
+      "order": 7,
+      "type": "BiomeSurfaceMaterialData",
+      "optional": false
+    }
+  ]
+}

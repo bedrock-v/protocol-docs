@@ -1,0 +1,56 @@
+{
+  "name": "AttributeData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Min Value",
+      "order": 0,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Max Value",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Current Value",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Default Min Value",
+      "order": 3,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Default Max Value",
+      "order": 4,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Default Value",
+      "order": 5,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Name",
+      "order": 6,
+      "type": "hashed_string",
+      "optional": false
+    },
+    {
+      "name": "Modifiers",
+      "order": 7,
+      "type": "AttributeModifier[]",
+      "optional": false
+    }
+  ]
+}

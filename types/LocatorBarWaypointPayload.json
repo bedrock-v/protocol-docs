@@ -1,0 +1,31 @@
+{
+  "name": "LocatorBarWaypointPayload",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "GroupHandle",
+      "order": 0,
+      "type": "WaypointGroup__WaypointHandle",
+      "optional": false
+    },
+    {
+      "name": "ServerWaypointPayload",
+      "order": 1,
+      "type": "ServerWaypoint__Payload",
+      "optional": false
+    },
+    {
+      "name": "ActionFlag",
+      "order": 2,
+      "type": "ServerWaypointGroup__Action",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

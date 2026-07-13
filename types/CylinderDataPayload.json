@@ -1,0 +1,32 @@
+{
+  "name": "CylinderDataPayload",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Radius X",
+      "order": 0,
+      "type": "Vec2",
+      "optional": false
+    },
+    {
+      "name": "Radius Z",
+      "order": 1,
+      "type": "Vec2",
+      "optional": false
+    },
+    {
+      "name": "Height",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Num Segments",
+      "order": 3,
+      "type": "uint8",
+      "optional": false
+    }
+  ]
+}

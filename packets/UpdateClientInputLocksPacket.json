@@ -1,0 +1,19 @@
+{
+  "name": "UpdateClientInputLocksPacket",
+  "kind": "packet",
+  "id": 196,
+  "description": "Used to update the players input permissions. Sends the full permission set and the server position of the player at the time the permission was modified.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Input Lock ComponentData",
+      "order": 0,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "ServerTelemetryData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Server Id",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Scenario Id",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "World Id",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Owner Id",
+      "order": 3,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

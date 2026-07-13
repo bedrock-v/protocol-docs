@@ -1,0 +1,13 @@
+# TintMapColor
+
+`struct`
+
+- protocol: 2168
+- minecraft: 1.26.40
+
+```mermaid
+flowchart LR
+  ROOT(["TintMapColor"])
+  ROOT -->|"Colors"| Color["Color[]"]
+```
+

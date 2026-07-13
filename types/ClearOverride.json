@@ -1,0 +1,15 @@
+{
+  "name": "ClearOverride",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Type",
+      "order": 0,
+      "type": "UpdateType",
+      "optional": false,
+      "underlyingType": "uint8"
+    }
+  ]
+}

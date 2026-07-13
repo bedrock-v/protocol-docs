@@ -1,0 +1,28 @@
+{
+  "name": "StopSoundPacket",
+  "kind": "packet",
+  "id": 87,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Sound Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Stop All Sounds?",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Stop Music (Legacy)",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

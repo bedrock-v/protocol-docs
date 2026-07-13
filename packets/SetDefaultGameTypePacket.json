@@ -1,0 +1,20 @@
+{
+  "name": "SetDefaultGameTypePacket",
+  "kind": "packet",
+  "id": 105,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Default Game Type",
+      "order": 0,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

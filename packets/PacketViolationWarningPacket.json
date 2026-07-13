@@ -1,0 +1,47 @@
+{
+  "name": "PacketViolationWarningPacket",
+  "kind": "packet",
+  "id": 156,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Violation Type",
+      "order": 0,
+      "type": "PacketViolationType",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Violation Severity",
+      "order": 1,
+      "type": "PacketViolationSeverity",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Violation PacketId",
+      "order": 2,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Violation Context",
+      "order": 3,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

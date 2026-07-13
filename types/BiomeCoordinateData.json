@@ -1,0 +1,61 @@
+{
+  "name": "BiomeCoordinateData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "min value type",
+      "order": 0,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "min value",
+      "order": 1,
+      "type": "uint16",
+      "optional": false
+    },
+    {
+      "name": "max value type",
+      "order": 2,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "max value",
+      "order": 3,
+      "type": "uint16",
+      "optional": false
+    },
+    {
+      "name": "grid offset",
+      "order": 4,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "grid step size",
+      "order": 5,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "distribution",
+      "order": 6,
+      "type": "RandomDistributionType",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

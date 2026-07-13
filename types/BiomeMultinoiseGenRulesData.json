@@ -1,0 +1,38 @@
+{
+  "name": "BiomeMultinoiseGenRulesData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "temperature",
+      "order": 0,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "humidity",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "altitude",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "weirdness",
+      "order": 3,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "weight",
+      "order": 4,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

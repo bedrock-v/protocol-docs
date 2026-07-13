@@ -1,0 +1,19 @@
+{
+  "name": "ChunkRadiusUpdatedPacket",
+  "kind": "packet",
+  "id": 70,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Chunk Radius",
+      "order": 0,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

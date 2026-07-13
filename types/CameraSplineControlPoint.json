@@ -1,0 +1,14 @@
+{
+  "name": "CameraSplineControlPoint",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "position",
+      "order": 0,
+      "type": "Vec3",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "AddItemActorPacket",
+  "kind": "packet",
+  "id": 15,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Target Actor ID",
+      "order": 0,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Target Runtime ID",
+      "order": 1,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Item",
+      "order": 2,
+      "type": "NetworkItemStackDescriptor",
+      "optional": false
+    },
+    {
+      "name": "Position",
+      "order": 3,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Velocity",
+      "order": 4,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Entity Data",
+      "order": 5,
+      "type": "SynchedActorDataList",
+      "optional": false
+    },
+    {
+      "name": "Is From Fishing",
+      "order": 6,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

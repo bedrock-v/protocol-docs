@@ -1,0 +1,29 @@
+{
+  "name": "CreativeItemEntryPayload",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Creative Net Id",
+      "order": 0,
+      "type": "CreativeItemNetId",
+      "optional": false
+    },
+    {
+      "name": "Item Instance",
+      "order": 1,
+      "type": "NetworkItemInstanceDescriptor",
+      "optional": false
+    },
+    {
+      "name": "Group Index",
+      "order": 2,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

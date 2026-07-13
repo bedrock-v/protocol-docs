@@ -1,0 +1,35 @@
+{
+  "name": "ModalFormResponsePacket",
+  "kind": "packet",
+  "id": 101,
+  "description": "see ModalFormRequestPacket",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Form ID",
+      "order": 0,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "JSON Response",
+      "order": 1,
+      "type": "Json__Value",
+      "optional": false
+    },
+    {
+      "name": "Form Cancel Reason",
+      "order": 2,
+      "type": "ModalFormCancelReason",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

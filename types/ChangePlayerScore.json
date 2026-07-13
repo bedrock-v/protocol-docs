@@ -1,0 +1,39 @@
+{
+  "name": "ChangePlayerScore",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Action",
+      "order": 0,
+      "type": "ScorePacketEntryAction",
+      "optional": false,
+      "underlyingType": "uint8"
+    },
+    {
+      "name": "Scoreboard Id",
+      "order": 1,
+      "type": "ScoreboardId",
+      "optional": false
+    },
+    {
+      "name": "Objective Name",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Score Value",
+      "order": 3,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "Player Unique Id",
+      "order": 4,
+      "type": "PlayerScoreboardId",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "MovePlayerPacket",
+  "kind": "packet",
+  "id": 19,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Player Runtime ID",
+      "order": 0,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Position",
+      "order": 1,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Rotation",
+      "order": 2,
+      "type": "Vec2",
+      "optional": false
+    },
+    {
+      "name": "Y-Head Rotation",
+      "order": 3,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Position Mode",
+      "order": 4,
+      "type": "uint8",
+      "optional": false,
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "On Ground",
+      "order": 5,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Riding Runtime ID",
+      "order": 6,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Teleport Data",
+      "order": 7,
+      "type": "MovePlayerTeleportData",
+      "optional": true
+    },
+    {
+      "name": "Tick",
+      "order": 8,
+      "type": "PlayerInputTick",
+      "optional": false
+    }
+  ]
+}

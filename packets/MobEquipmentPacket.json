@@ -1,0 +1,49 @@
+{
+  "name": "MobEquipmentPacket",
+  "kind": "packet",
+  "id": 31,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "order": 0,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Item",
+      "order": 1,
+      "type": "NetworkItemStackDescriptor",
+      "optional": false
+    },
+    {
+      "name": "Slot",
+      "order": 2,
+      "type": "uint8",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Selected Slot",
+      "order": 3,
+      "type": "uint8",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Container ID",
+      "order": 4,
+      "type": "uint8",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

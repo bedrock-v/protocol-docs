@@ -1,0 +1,23 @@
+{
+  "name": "MaterialReducerDataEntry",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "From Item Key",
+      "order": 0,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Item Ids and Counts",
+      "order": 1,
+      "type": "MaterialReducerEntryOutput[]",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "ItemStackRequest",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Client Request Id",
+      "order": 0,
+      "type": "ItemStackRequestId",
+      "optional": false
+    },
+    {
+      "name": "Actions",
+      "order": 1,
+      "type": "unknown[]",
+      "optional": false
+    },
+    {
+      "name": "Strings To Filter",
+      "order": 2,
+      "type": "string[]",
+      "optional": false
+    },
+    {
+      "name": "StringsToFilterOrigin",
+      "order": 3,
+      "type": "TextProcessingEventOrigin",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

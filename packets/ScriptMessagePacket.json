@@ -1,0 +1,22 @@
+{
+  "name": "ScriptMessagePacket",
+  "kind": "packet",
+  "id": 177,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Message Id",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Message Value",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

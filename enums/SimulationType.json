@@ -1,0 +1,13 @@
+{
+  "name": "SimulationType",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "uint8",
+  "values": [
+    "Game",
+    "Editor",
+    "Test",
+    "INVALID"
+  ]
+}

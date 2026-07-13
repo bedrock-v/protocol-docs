@@ -1,0 +1,24 @@
+{
+  "name": "MemoryCategoryCounter",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Category",
+      "order": 0,
+      "type": "Memory__MemoryCategory",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Current Bytes",
+      "order": 1,
+      "type": "uint64",
+      "optional": false
+    }
+  ]
+}

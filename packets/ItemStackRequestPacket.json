@@ -1,0 +1,16 @@
+{
+  "name": "ItemStackRequestPacket",
+  "kind": "packet",
+  "id": 147,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Requests",
+      "order": 0,
+      "type": "ItemStackRequest[]",
+      "optional": false
+    }
+  ]
+}

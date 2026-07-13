@@ -1,0 +1,61 @@
+{
+  "name": "LevelSoundEventPacket",
+  "kind": "packet",
+  "id": 123,
+  "description": "\n\tMost sounds get launched on server and replicated to clients, but a handful of player initiated sounds are launched on their client and replicated through the network.\n\t(In most of the codebase 'Event' means telemetry events; this is not the case here, this is how sounds get replicated across the network in vanilla.)\n\tWith support for custom entities. Entity Id is a string and Event Id is an integer.\n\t",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Sound Event",
+      "order": 0,
+      "type": "SoundEventIdentifier",
+      "optional": false
+    },
+    {
+      "name": "Position",
+      "order": 1,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Data",
+      "order": 2,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Actor Identifier",
+      "order": 3,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Is Baby",
+      "order": 4,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Is Global",
+      "order": 5,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Actor Unique Id",
+      "order": 6,
+      "type": "int64",
+      "optional": false
+    },
+    {
+      "name": "Fire At Position",
+      "order": 7,
+      "type": "Vec3",
+      "optional": false
+    }
+  ]
+}

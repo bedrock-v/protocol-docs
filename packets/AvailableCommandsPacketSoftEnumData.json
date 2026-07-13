@@ -1,0 +1,22 @@
+{
+  "name": "AvailableCommandsPacketSoftEnumData",
+  "kind": "packet",
+  "id": null,
+  "description": null,
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Enum Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Enum Options",
+      "order": 1,
+      "type": "string[]",
+      "optional": false
+    }
+  ]
+}

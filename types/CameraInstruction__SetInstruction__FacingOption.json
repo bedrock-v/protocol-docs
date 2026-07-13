@@ -1,0 +1,14 @@
+{
+  "name": "CameraInstruction::SetInstruction::FacingOption",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "pos",
+      "order": 0,
+      "type": "Vec3",
+      "optional": false
+    }
+  ]
+}

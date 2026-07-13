@@ -1,0 +1,167 @@
+{
+  "name": "StartGamePacket",
+  "kind": "packet",
+  "id": 11,
+  "description": "The player movement mode is also specified here, see ServerAuthMovementMode enum documentation for details on the modes.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Entity ID",
+      "order": 0,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Runtime ID",
+      "order": 1,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Game Type",
+      "order": 2,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Position",
+      "order": 3,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Rotation",
+      "order": 4,
+      "type": "Vec2",
+      "optional": false
+    },
+    {
+      "name": "Settings",
+      "order": 5,
+      "type": "LevelSettings",
+      "optional": false
+    },
+    {
+      "name": "Level ID",
+      "order": 6,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Level Name",
+      "order": 7,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Template Content Identity",
+      "order": 8,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Is Trial",
+      "order": 9,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Movement Settings",
+      "order": 10,
+      "type": "SyncedPlayerMovementSettings",
+      "optional": false
+    },
+    {
+      "name": "Level Current Time",
+      "order": 11,
+      "type": "uint64",
+      "optional": false
+    },
+    {
+      "name": "Enchantment Seed",
+      "order": 12,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Block Properties",
+      "order": 13,
+      "type": "ServerBlockProperty[]",
+      "optional": false
+    },
+    {
+      "name": "Multiplayer Correlation Id",
+      "order": 14,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Enable Item Stack Net Manager",
+      "order": 15,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Server Version",
+      "order": 16,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Player Property Data",
+      "order": 17,
+      "type": "unknown",
+      "optional": false
+    },
+    {
+      "name": "Server Block Type Registry Checksum",
+      "order": 18,
+      "type": "uint64",
+      "optional": false
+    },
+    {
+      "name": "World Template ID",
+      "order": 19,
+      "type": "mce__UUID",
+      "optional": false
+    },
+    {
+      "name": "Server Enabled ClientSide Generation",
+      "order": 20,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "BlockNetworkIds Are Hashes",
+      "order": 21,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "NetworkPermissions",
+      "order": 22,
+      "type": "NetworkPermissions",
+      "optional": false
+    },
+    {
+      "name": "Server Configuration Join Info",
+      "order": 23,
+      "type": "server_config",
+      "optional": true
+    },
+    {
+      "name": "Server Telemetry Data",
+      "order": 24,
+      "type": "ServerTelemetryData",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "SyncedPlayerMovementSettings",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Rewind History Size",
+      "order": 0,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Server Authoritative Block Breaking",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

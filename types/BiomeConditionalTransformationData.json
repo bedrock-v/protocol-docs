@@ -1,0 +1,26 @@
+{
+  "name": "BiomeConditionalTransformationData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "transforms into",
+      "order": 0,
+      "type": "BiomeWeightedData[]",
+      "optional": false
+    },
+    {
+      "name": "condition json",
+      "order": 1,
+      "type": "uint16",
+      "optional": false
+    },
+    {
+      "name": "min passing neighbors",
+      "order": 2,
+      "type": "uint32",
+      "optional": false
+    }
+  ]
+}

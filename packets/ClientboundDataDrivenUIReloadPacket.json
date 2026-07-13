@@ -1,0 +1,9 @@
+{
+  "name": "ClientboundDataDrivenUIReloadPacket",
+  "kind": "packet",
+  "id": 335,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": []
+}

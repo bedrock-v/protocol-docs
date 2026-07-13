@@ -1,0 +1,25 @@
+{
+  "name": "LegacySetSlot",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Container Enum",
+      "order": 0,
+      "type": "ContainerEnumName",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Slots",
+      "order": 1,
+      "type": "uint8[]",
+      "optional": false
+    }
+  ]
+}

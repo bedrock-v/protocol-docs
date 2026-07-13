@@ -1,0 +1,44 @@
+{
+  "name": "AttributeModifier",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Id",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Name",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Amount",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Operation",
+      "order": 3,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "Operand",
+      "order": 4,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "Is Serializable?",
+      "order": 5,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

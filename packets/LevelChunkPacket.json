@@ -1,0 +1,58 @@
+{
+  "name": "LevelChunkPacket",
+  "kind": "packet",
+  "id": 58,
+  "description": "Used to start a chunk transaction.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Chunk Position",
+      "order": 0,
+      "type": "ChunkPos",
+      "optional": false
+    },
+    {
+      "name": "Dimension Id",
+      "order": 1,
+      "type": "DimensionType",
+      "optional": false
+    },
+    {
+      "name": "Sub-chunks Count",
+      "order": 2,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Client Request SubChunk Limit",
+      "order": 3,
+      "type": "int32",
+      "optional": true,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Cache Enabled",
+      "order": 4,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Cache Metadata",
+      "order": 5,
+      "type": "LevelChunkPacketPayload_SubChunkMetadata[]",
+      "optional": false
+    },
+    {
+      "name": "Serialized Chunk Data",
+      "order": 6,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "name": "StructureSettings",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Structure Palette Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Should ignore entities?",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Should ignore blocks?",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Should Allow Non Ticking Player and Ticking Area Chunks",
+      "order": 3,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Structure Size",
+      "order": 4,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Structure Offset",
+      "order": 5,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Last Edit Player",
+      "order": 6,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Rotation",
+      "order": 7,
+      "type": "Rotation",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Mirror",
+      "order": 8,
+      "type": "Mirror",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Animation Mode",
+      "order": 9,
+      "type": "AnimationMode",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Animation Seconds",
+      "order": 10,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Integrity Value",
+      "order": 11,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Integrity Seed",
+      "order": 12,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "Rotation Pivot",
+      "order": 13,
+      "type": "Vec3",
+      "optional": false
+    }
+  ]
+}

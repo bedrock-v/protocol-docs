@@ -1,0 +1,32 @@
+{
+  "name": "AttributeLayerSettings",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Priority",
+      "order": 0,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "Weight",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Enabled",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "TransitionsPaused",
+      "order": 3,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

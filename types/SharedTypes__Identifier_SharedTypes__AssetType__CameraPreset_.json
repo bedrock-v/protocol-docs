@@ -1,0 +1,7 @@
+{
+  "name": "SharedTypes::Identifier<SharedTypes::AssetType::CameraPreset>",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "alias",
+  "type": "string"
+}

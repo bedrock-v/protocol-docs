@@ -1,0 +1,20 @@
+{
+  "name": "UpdateSubChunkBlocksChangedInfo",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Blocks Changed - Standards",
+      "order": 0,
+      "type": "UpdateSubChunkNetworkBlockInfo[]",
+      "optional": false
+    },
+    {
+      "name": "Blocks Changed - Extras",
+      "order": 1,
+      "type": "UpdateSubChunkNetworkBlockInfo[]",
+      "optional": false
+    }
+  ]
+}

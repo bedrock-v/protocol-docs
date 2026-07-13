@@ -1,0 +1,48 @@
+{
+  "name": "ActorLink",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Target A",
+      "order": 0,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Target B",
+      "order": 1,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Type",
+      "order": 2,
+      "type": "ActorLinkType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Immediate",
+      "order": 3,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Passenger Initiated",
+      "order": 4,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Vehicle Angular Velocity",
+      "order": 5,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

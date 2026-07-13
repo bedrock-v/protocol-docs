@@ -1,0 +1,25 @@
+{
+  "name": "BookEditPacket",
+  "kind": "packet",
+  "id": 97,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Book Slot",
+      "order": 0,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Operation",
+      "order": 1,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

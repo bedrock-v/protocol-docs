@@ -1,0 +1,24 @@
+{
+  "name": "DataItemFloatPayload",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Type",
+      "order": 0,
+      "type": "DataItemType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Value",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

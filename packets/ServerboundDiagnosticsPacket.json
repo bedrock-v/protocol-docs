@@ -1,0 +1,94 @@
+{
+  "name": "ServerboundDiagnosticsPacket",
+  "kind": "packet",
+  "id": 315,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "AvgFps",
+      "order": 0,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "AvgServerSimTickTimeMS",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "AvgClientSimTickTimeMS",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "AvgBeginFrameTimeMS",
+      "order": 3,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "AvgInputTimeMS",
+      "order": 4,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "AvgRenderTimeMS",
+      "order": 5,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "AvgEndFrameTimeMS",
+      "order": 6,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "AvgRemainderTimePercent",
+      "order": 7,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "AvgUnaccountedTimePercent",
+      "order": 8,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Memory Category Values",
+      "order": 9,
+      "type": "MemoryCategoryCounter[]",
+      "optional": false
+    },
+    {
+      "name": "Entity Diagnostics",
+      "order": 10,
+      "type": "EntityDiagnosticTimingInfo[]",
+      "optional": false
+    },
+    {
+      "name": "System Diagnostics",
+      "order": 11,
+      "type": "SystemDiagnosticTimingInfo[]",
+      "optional": false
+    },
+    {
+      "name": "System Categories",
+      "order": 12,
+      "type": "SystemCategory[]",
+      "optional": false
+    },
+    {
+      "name": "Whisker Scopes",
+      "order": 13,
+      "type": "WhiskerScopeDataSummary[]",
+      "optional": false
+    }
+  ]
+}

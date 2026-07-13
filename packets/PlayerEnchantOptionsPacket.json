@@ -1,0 +1,16 @@
+{
+  "name": "PlayerEnchantOptionsPacket",
+  "kind": "packet",
+  "id": 146,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Options",
+      "order": 0,
+      "type": "ItemEnchantOption[]",
+      "optional": false
+    }
+  ]
+}

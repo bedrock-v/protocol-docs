@@ -1,0 +1,11 @@
+{
+  "name": "SpawnBiomeType",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "int16",
+  "values": [
+    "Default",
+    "UserDefined"
+  ]
+}

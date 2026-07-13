@@ -1,0 +1,37 @@
+{
+  "name": "InventoryContentPacket",
+  "kind": "packet",
+  "id": 49,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Container Id",
+      "order": 0,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Slots",
+      "order": 1,
+      "type": "NetworkItemStackDescriptor[]",
+      "optional": false
+    },
+    {
+      "name": "Full Container Name",
+      "order": 2,
+      "type": "FullContainerName",
+      "optional": false
+    },
+    {
+      "name": "Storage Item",
+      "order": 3,
+      "type": "NetworkItemStackDescriptor",
+      "optional": false
+    }
+  ]
+}

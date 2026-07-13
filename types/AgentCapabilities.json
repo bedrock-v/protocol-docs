@@ -1,0 +1,14 @@
+{
+  "name": "AgentCapabilities",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Can Modify Blocks",
+      "order": 0,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

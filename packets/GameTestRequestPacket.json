@@ -1,0 +1,65 @@
+{
+  "name": "GameTestRequestPacket",
+  "kind": "packet",
+  "id": 194,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "MaxTestsPerBatch",
+      "order": 0,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "RepeatCount",
+      "order": 1,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Rotation",
+      "order": 2,
+      "type": "Rotation",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "StopOnFailure",
+      "order": 3,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "TestPos",
+      "order": 4,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "TestsPerRow",
+      "order": 5,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "TestName",
+      "order": 6,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

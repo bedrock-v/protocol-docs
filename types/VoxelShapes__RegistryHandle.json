@@ -1,0 +1,14 @@
+{
+  "name": "VoxelShapes::RegistryHandle",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Value",
+      "order": 0,
+      "type": "uint16",
+      "optional": false
+    }
+  ]
+}

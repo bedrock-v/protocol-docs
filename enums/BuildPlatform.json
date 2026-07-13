@@ -1,0 +1,20 @@
+{
+  "name": "BuildPlatform",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "int32",
+  "values": [
+    "Google",
+    "iOS",
+    "OSX",
+    "Amazon",
+    "Win32",
+    "Dedicated",
+    "Sony",
+    "Nx",
+    "Xbox",
+    "Linux",
+    "Unknown"
+  ]
+}

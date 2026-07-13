@@ -1,0 +1,22 @@
+{
+  "name": "NetworkStackLatencyPacket",
+  "kind": "packet",
+  "id": 115,
+  "description": "DEPRECATED. Was for testing/debug/telemetry: Used to provide ping time to in game debug graph, also for realms telemetry of actual in game latency.  Sent from both client & server.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Creation Time",
+      "order": 0,
+      "type": "uint64",
+      "optional": false
+    },
+    {
+      "name": "Is From Server",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "SharedTypes::Comprehensive::CameraAimAssistCommandDefinition",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Preset Id",
+      "order": 0,
+      "type": "SharedTypes__Reference_SharedTypes__AssetType__CameraAimAssist_",
+      "optional": false
+    },
+    {
+      "name": "Target Mode",
+      "order": 1,
+      "type": "Aim-Assist_Target_Mode",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "View Angle",
+      "order": 2,
+      "type": "Vec2",
+      "optional": false
+    },
+    {
+      "name": "Distance",
+      "order": 3,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

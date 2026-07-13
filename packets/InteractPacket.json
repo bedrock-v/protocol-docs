@@ -1,0 +1,32 @@
+{
+  "name": "InteractPacket",
+  "kind": "packet",
+  "id": 33,
+  "description": "Used for inventory button press and in _updateInteraction() for a variety of purposes. From the client.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Action",
+      "order": 0,
+      "type": "InteractPacketPayload_Action",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Target Runtime ID",
+      "order": 1,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Position",
+      "order": 2,
+      "type": "Vec3",
+      "optional": true
+    }
+  ]
+}

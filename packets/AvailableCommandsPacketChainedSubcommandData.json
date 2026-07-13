@@ -1,0 +1,22 @@
+{
+  "name": "AvailableCommandsPacketChainedSubcommandData",
+  "kind": "packet",
+  "id": null,
+  "description": null,
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "SubCommand values",
+      "order": 1,
+      "type": "AvailableCommandsPacketChainedSubcommandRelationship[]",
+      "optional": true
+    }
+  ]
+}

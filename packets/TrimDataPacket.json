@@ -1,0 +1,22 @@
+{
+  "name": "TrimDataPacket",
+  "kind": "packet",
+  "id": 302,
+  "description": "- mTrimPatterns: vector of TrimPattern\n- mTrimMaterials: vector of TrimMaterial",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "TrimPattern List",
+      "order": 0,
+      "type": "TrimPattern[]",
+      "optional": false
+    },
+    {
+      "name": "TrimMaterial List",
+      "order": 1,
+      "type": "TrimMaterial[]",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "AvailableActorIdentifiersPacket",
+  "kind": "packet",
+  "id": 119,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Identifier List",
+      "order": 0,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

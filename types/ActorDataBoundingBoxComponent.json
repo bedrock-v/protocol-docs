@@ -1,0 +1,14 @@
+{
+  "name": "ActorDataBoundingBoxComponent",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Actor Data Bounding Box",
+      "order": 0,
+      "type": "float[]",
+      "optional": false
+    }
+  ]
+}

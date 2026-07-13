@@ -1,0 +1,34 @@
+{
+  "name": "ChangeDimensionPacket",
+  "kind": "packet",
+  "id": 61,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Dimension ID",
+      "order": 0,
+      "type": "DimensionType",
+      "optional": false
+    },
+    {
+      "name": "Position",
+      "order": 1,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Respawn",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Loading Screen Id",
+      "order": 3,
+      "type": "uint32",
+      "optional": false
+    }
+  ]
+}

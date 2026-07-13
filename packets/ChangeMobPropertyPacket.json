@@ -1,0 +1,49 @@
+{
+  "name": "ChangeMobPropertyPacket",
+  "kind": "packet",
+  "id": 182,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Actor Id",
+      "order": 0,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Property Name",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "BoolComponent Value",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "StringComponent Value",
+      "order": 3,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "IntComponent Value",
+      "order": 4,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "FloatComponent Value",
+      "order": 5,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

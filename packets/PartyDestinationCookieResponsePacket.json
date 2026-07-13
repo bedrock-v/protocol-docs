@@ -1,0 +1,22 @@
+{
+  "name": "PartyDestinationCookieResponsePacket",
+  "kind": "packet",
+  "id": 350,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "cookie",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "accepted",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

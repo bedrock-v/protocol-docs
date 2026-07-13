@@ -1,0 +1,20 @@
+{
+  "name": "CameraInstruction::TargetInstruction",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Target Center Offset",
+      "order": 0,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Target Actor ID",
+      "order": 1,
+      "type": "int64",
+      "optional": false
+    }
+  ]
+}

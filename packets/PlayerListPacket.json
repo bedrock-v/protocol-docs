@@ -1,0 +1,16 @@
+{
+  "name": "PlayerListPacket",
+  "kind": "packet",
+  "id": 63,
+  "description": "Sent from the Server at the start of the game or when a player is added to all clients. Lists the players.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Entries",
+      "order": 0,
+      "type": "unknown[]",
+      "optional": true
+    }
+  ]
+}

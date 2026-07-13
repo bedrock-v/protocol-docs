@@ -1,0 +1,32 @@
+{
+  "name": "StructureTemplateDataResponsePacket",
+  "kind": "packet",
+  "id": 133,
+  "description": "The client sends a packet to the server, from there the structure is built and then put into a Tag where it is sent back to the client, from there you can view the structure in the Structure Block Screen. Currently this functionality is completely disabled and does nothing. Used to reply to a request for structure information.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Structure Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Structure's NBT",
+      "order": 1,
+      "type": "unknown",
+      "optional": false
+    },
+    {
+      "name": "Response Type",
+      "order": 2,
+      "type": "StructureTemplateResponseType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

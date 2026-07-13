@@ -1,0 +1,32 @@
+{
+  "name": "BiomeClimateData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "temperature",
+      "order": 0,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "downfall",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "snow accumulation min",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "snow accumulation max",
+      "order": 3,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

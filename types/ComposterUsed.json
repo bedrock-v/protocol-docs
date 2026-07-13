@@ -1,0 +1,28 @@
+{
+  "name": "ComposterUsed",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Block Interaction Type",
+      "order": 0,
+      "type": "MinecraftEventing__POIBlockInteractionType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Item Id",
+      "order": 1,
+      "type": "int16",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

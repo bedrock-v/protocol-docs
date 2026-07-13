@@ -1,0 +1,27 @@
+{
+  "name": "CameraInstruction::SplineInstruction::SplineProgressOption",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Key frame value",
+      "order": 0,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Key frame time",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Key frame easing func",
+      "order": 2,
+      "type": "easing_function",
+      "optional": false,
+      "underlyingType": "uint32"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "InventorySource",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Source Type",
+      "order": 0,
+      "type": "InventorySourceType",
+      "optional": false,
+      "underlyingType": "uint32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Container ID",
+      "order": 1,
+      "type": "int8",
+      "optional": true,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Bit Flags",
+      "order": 2,
+      "type": "InventorySourceFlags",
+      "optional": true,
+      "underlyingType": "uint32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

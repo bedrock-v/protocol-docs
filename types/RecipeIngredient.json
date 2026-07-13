@@ -1,0 +1,20 @@
+{
+  "name": "RecipeIngredient",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Item Descriptor",
+      "order": 0,
+      "type": "unknown",
+      "optional": false
+    },
+    {
+      "name": "StackSize",
+      "order": 1,
+      "type": "uint16",
+      "optional": false
+    }
+  ]
+}

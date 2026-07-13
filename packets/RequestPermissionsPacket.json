@@ -1,0 +1,32 @@
+{
+  "name": "RequestPermissionsPacket",
+  "kind": "packet",
+  "id": 185,
+  "description": "Can only be used by Operators or Hosts.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Target Player Id's Raw ID",
+      "order": 0,
+      "type": "int64",
+      "optional": false
+    },
+    {
+      "name": "Player Permission Level",
+      "order": 1,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Custom Permission Flags",
+      "order": 2,
+      "type": "uint16",
+      "optional": false
+    }
+  ]
+}

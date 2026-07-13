@@ -1,0 +1,17 @@
+{
+  "name": "ActorDataFlagComponent",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Actor Flag Bitset Data",
+      "order": 0,
+      "type": "uint8[]",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

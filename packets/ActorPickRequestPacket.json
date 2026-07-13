@@ -1,0 +1,28 @@
+{
+  "name": "ActorPickRequestPacket",
+  "kind": "packet",
+  "id": 35,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Actor ID",
+      "order": 0,
+      "type": "int64",
+      "optional": false
+    },
+    {
+      "name": "Max Slots",
+      "order": 1,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "With Data",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

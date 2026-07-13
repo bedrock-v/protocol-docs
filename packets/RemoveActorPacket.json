@@ -1,0 +1,16 @@
+{
+  "name": "RemoveActorPacket",
+  "kind": "packet",
+  "id": 14,
+  "description": "This is sent to the client to confirm which entity is being removed. This is done by sending an ActorUniqueID",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Target Actor ID",
+      "order": 0,
+      "type": "ActorUniqueID",
+      "optional": false
+    }
+  ]
+}

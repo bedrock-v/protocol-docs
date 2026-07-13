@@ -1,0 +1,23 @@
+{
+  "name": "Experiments",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Toggles",
+      "order": 0,
+      "type": "ExperimentToggle[]",
+      "optional": false,
+      "serialization": [
+        "No size compression"
+      ]
+    },
+    {
+      "name": "ExperimentsEverToggled",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

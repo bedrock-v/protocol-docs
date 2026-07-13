@@ -1,0 +1,22 @@
+{
+  "name": "PlayerLocationPacket",
+  "kind": "packet",
+  "id": 326,
+  "description": "Sent by PlayerLocationSender when a player position changes beyond a certain angle.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Target Actor ID",
+      "order": 0,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Location",
+      "order": 1,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

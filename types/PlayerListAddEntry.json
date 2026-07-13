@@ -1,0 +1,87 @@
+{
+  "name": "PlayerListAddEntry",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Action",
+      "order": 0,
+      "type": "uint8",
+      "optional": false,
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "UUID",
+      "order": 1,
+      "type": "mce__UUID",
+      "optional": false
+    },
+    {
+      "name": "Actor Unique ID",
+      "order": 2,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Player Name",
+      "order": 3,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "XBL XUID",
+      "order": 4,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Platform Online ID",
+      "order": 5,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Build Platform",
+      "order": 6,
+      "type": "BuildPlatform",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Serialized Skin",
+      "order": 7,
+      "type": "SerializedSkin",
+      "optional": false
+    },
+    {
+      "name": "Is Teacher",
+      "order": 8,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Is Host",
+      "order": 9,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Is SubClient",
+      "order": 10,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Player Color",
+      "order": 11,
+      "type": "Color",
+      "optional": false
+    }
+  ]
+}

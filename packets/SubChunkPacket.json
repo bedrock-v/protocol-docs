@@ -1,0 +1,34 @@
+{
+  "name": "SubChunkPacket",
+  "kind": "packet",
+  "id": 174,
+  "description": "Contains subchunk terrain data, heightmaps, and optional blob cache IDs.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Cache Enabled",
+      "order": 0,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Dimension Type",
+      "order": 1,
+      "type": "DimensionType",
+      "optional": false
+    },
+    {
+      "name": "Center Pos",
+      "order": 2,
+      "type": "SubChunkPos",
+      "optional": false
+    },
+    {
+      "name": "SubChunk Data",
+      "order": 3,
+      "type": "SubChunkPacketData[]",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "BlockActorDataPacket",
+  "kind": "packet",
+  "id": 56,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Block Position",
+      "order": 0,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Actor Data Tags",
+      "order": 1,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "RespawnPacket",
+  "kind": "packet",
+  "id": 45,
+  "description": "For some reason each respawn 1 packet is sent from the client and 3 are sent from the server.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Position",
+      "order": 0,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "State",
+      "order": 1,
+      "type": "PlayerRespawnState",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Player Runtime Id",
+      "order": 2,
+      "type": "ActorRuntimeID",
+      "optional": false
+    }
+  ]
+}

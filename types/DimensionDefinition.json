@@ -1,0 +1,48 @@
+{
+  "name": "DimensionDefinition",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Height Maximum",
+      "order": 0,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Height Minimum",
+      "order": 1,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Generator Type",
+      "order": 2,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Dimension Type",
+      "order": 3,
+      "type": "DimensionType",
+      "optional": false
+    },
+    {
+      "name": "Pack Id",
+      "order": 4,
+      "type": "mce__UUID",
+      "optional": false
+    }
+  ]
+}

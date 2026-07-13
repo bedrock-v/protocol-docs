@@ -1,0 +1,33 @@
+{
+  "name": "CommandOutput",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Output Type",
+      "order": 0,
+      "type": "CommandOutputType",
+      "optional": false,
+      "underlyingType": "int32"
+    },
+    {
+      "name": "Success Count",
+      "order": 1,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "Output Messages",
+      "order": 2,
+      "type": "CommandOutputMessage[]",
+      "optional": true
+    },
+    {
+      "name": "Data Set",
+      "order": 3,
+      "type": "string",
+      "optional": true
+    }
+  ]
+}

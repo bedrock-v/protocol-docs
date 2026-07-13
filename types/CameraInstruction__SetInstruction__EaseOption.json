@@ -1,0 +1,20 @@
+{
+  "name": "CameraInstruction::SetInstruction::EaseOption",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "type",
+      "order": 0,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "time",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ExperimentToggle",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Enabled",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

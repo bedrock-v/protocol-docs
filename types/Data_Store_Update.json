@@ -1,0 +1,44 @@
+{
+  "name": "Data Store Update",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Data Store Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Property",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Path",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Data",
+      "order": 3,
+      "type": "unknown",
+      "optional": false
+    },
+    {
+      "name": "Property Update Count",
+      "order": 4,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "Path Update Count",
+      "order": 5,
+      "type": "uint32",
+      "optional": false
+    }
+  ]
+}

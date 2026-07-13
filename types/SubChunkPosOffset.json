@@ -1,0 +1,26 @@
+{
+  "name": "SubChunkPosOffset",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Subchunk Offset X",
+      "order": 0,
+      "type": "int8",
+      "optional": false
+    },
+    {
+      "name": "Subchunk Offset Y",
+      "order": 1,
+      "type": "int8",
+      "optional": false
+    },
+    {
+      "name": "Subchunk Offset Z",
+      "order": 2,
+      "type": "int8",
+      "optional": false
+    }
+  ]
+}

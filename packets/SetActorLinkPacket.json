@@ -1,0 +1,16 @@
+{
+  "name": "SetActorLinkPacket",
+  "kind": "packet",
+  "id": 41,
+  "description": "Sent when the player starts riding something. Two are sent at a time for some reason.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Link",
+      "order": 0,
+      "type": "ActorLink",
+      "optional": false
+    }
+  ]
+}

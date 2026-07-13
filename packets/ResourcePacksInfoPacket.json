@@ -1,0 +1,46 @@
+{
+  "name": "ResourcePacksInfoPacket",
+  "kind": "packet",
+  "id": 6,
+  "description": "Sends resource pack information to the client including pack IDs, versions, sizes, and content keys.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Resource Pack Required",
+      "order": 0,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Has Addon Packs",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Has Scripts",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Force Disable Vibrant Visuals",
+      "order": 3,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "World Template Id And Version",
+      "order": 4,
+      "type": "PackIdVersion",
+      "optional": false
+    },
+    {
+      "name": "Resource Packs",
+      "order": 5,
+      "type": "PackInfoData[]",
+      "optional": false
+    }
+  ]
+}

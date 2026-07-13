@@ -1,0 +1,9 @@
+{
+  "name": "ClientboundDataDrivenUIShowScreenPacket",
+  "kind": "packet",
+  "id": 333,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": []
+}

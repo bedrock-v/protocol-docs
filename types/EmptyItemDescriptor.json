@@ -1,0 +1,18 @@
+{
+  "name": "EmptyItemDescriptor",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Descriptor Type",
+      "order": 0,
+      "type": "ItemDescriptorType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

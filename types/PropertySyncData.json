@@ -1,0 +1,20 @@
+{
+  "name": "PropertySyncData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Int Entries List",
+      "order": 0,
+      "type": "PropertySyncData__PropertySyncIntEntry[]",
+      "optional": false
+    },
+    {
+      "name": "Float Entries List",
+      "order": 1,
+      "type": "PropertySyncData__PropertySyncFloatEntry[]",
+      "optional": false
+    }
+  ]
+}

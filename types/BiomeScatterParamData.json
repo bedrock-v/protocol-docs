@@ -1,0 +1,67 @@
+{
+  "name": "BiomeScatterParamData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "coordinates",
+      "order": 0,
+      "type": "BiomeCoordinateData[]",
+      "optional": false
+    },
+    {
+      "name": "eval order",
+      "order": 1,
+      "type": "CoordinateEvaluationOrder",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "chance percent type",
+      "order": 2,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "chance percent",
+      "order": 3,
+      "type": "uint16",
+      "optional": false
+    },
+    {
+      "name": "chance numerator",
+      "order": 4,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "chance denominator",
+      "order": 5,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "iterations type",
+      "order": 6,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "iterations",
+      "order": 7,
+      "type": "uint16",
+      "optional": false
+    }
+  ]
+}

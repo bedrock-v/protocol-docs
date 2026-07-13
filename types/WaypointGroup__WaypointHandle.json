@@ -1,0 +1,14 @@
+{
+  "name": "WaypointGroup::WaypointHandle",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "UUID",
+      "order": 0,
+      "type": "mce__UUID",
+      "optional": false
+    }
+  ]
+}

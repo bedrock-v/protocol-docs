@@ -1,0 +1,16 @@
+{
+  "name": "ResourcePackClientResponsePacket",
+  "kind": "packet",
+  "id": 8,
+  "description": "Sent to MinecraftGame to complete the resource pack loading process.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Response",
+      "order": 0,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

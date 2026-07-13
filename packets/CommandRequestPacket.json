@@ -1,0 +1,35 @@
+{
+  "name": "CommandRequestPacket",
+  "kind": "packet",
+  "id": 77,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Command",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Origin",
+      "order": 1,
+      "type": "CommandOriginData",
+      "optional": false
+    },
+    {
+      "name": "IsInternal",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Version",
+      "order": 3,
+      "type": "CurrentCmdVersion",
+      "optional": false,
+      "underlyingType": "int32"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "PlayerToggleCrafterSlotRequestPacket",
+  "kind": "packet",
+  "id": 306,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Pos X",
+      "order": 0,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "Pos Y",
+      "order": 1,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "Pos Z",
+      "order": 2,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "Slot Index",
+      "order": 3,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Is Disabled",
+      "order": 4,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

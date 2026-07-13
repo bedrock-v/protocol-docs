@@ -1,0 +1,44 @@
+{
+  "name": "SerializedAbilitiesDataSerializedLayer",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "SerializedLayer",
+      "order": 0,
+      "type": "uint16",
+      "optional": false
+    },
+    {
+      "name": "AbilitiesSet",
+      "order": 1,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "AbilityValues",
+      "order": 2,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "FlySpeed",
+      "order": 3,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "VerticalFlySpeed",
+      "order": 4,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "WalkSpeed",
+      "order": 5,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

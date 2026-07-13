@@ -1,0 +1,18 @@
+{
+  "name": "DataItemType",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "uint8",
+  "values": [
+    "Byte",
+    "Short",
+    "Int",
+    "Float",
+    "String",
+    "CompoundTag",
+    "Pos",
+    "Int64",
+    "Vec3"
+  ]
+}

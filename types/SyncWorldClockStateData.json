@@ -1,0 +1,32 @@
+{
+  "name": "SyncWorldClockStateData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "ClockId",
+      "order": 0,
+      "type": "uint64",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Time",
+      "order": 1,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "IsPaused",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

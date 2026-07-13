@@ -1,0 +1,47 @@
+{
+  "name": "NetworkItemInstanceDescriptorData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Id",
+      "order": 0,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Stack size",
+      "order": 1,
+      "type": "uint16",
+      "optional": false
+    },
+    {
+      "name": "Aux value",
+      "order": 2,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Block Runtime Id",
+      "order": 3,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "User Data Buffer",
+      "order": 4,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Vec2",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "X",
+      "order": 0,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Y",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

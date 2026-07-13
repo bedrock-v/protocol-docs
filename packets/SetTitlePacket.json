@@ -1,0 +1,72 @@
+{
+  "name": "SetTitlePacket",
+  "kind": "packet",
+  "id": 88,
+  "description": "There are 2 commands associated with it: title and titleraw.\n\tBoth of which have functionality to change fade in/out time for titles, sub titles, and action bar text.\n\ttitleraw is using json to format so it will be bigger (i don't have an example)",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Title Type",
+      "order": 0,
+      "type": "SetTitlePacket_TitleType",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Title Text",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Fade In Time",
+      "order": 2,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Stay Time",
+      "order": 3,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Fade Out Time",
+      "order": 4,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Xuid",
+      "order": 5,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Platform Online Id",
+      "order": 6,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Filtered Title Message",
+      "order": 7,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

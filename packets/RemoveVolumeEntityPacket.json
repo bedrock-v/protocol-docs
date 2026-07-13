@@ -1,0 +1,28 @@
+{
+  "name": "RemoveVolumeEntityPacket",
+  "kind": "packet",
+  "id": 167,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Entity Network Id",
+      "order": 0,
+      "type": "EntityNetId",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Dimension Type",
+      "order": 1,
+      "type": "DimensionType",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

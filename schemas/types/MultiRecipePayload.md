@@ -1,0 +1,14 @@
+# MultiRecipePayload
+
+`struct`
+
+- protocol: 2168
+- minecraft: 1.26.40
+
+```mermaid
+flowchart LR
+  ROOT(["MultiRecipePayload"])
+  ROOT -->|"Multi-Recipe UUID"| mce__UUID["mce__UUID"]
+  ROOT -->|"Net Id"| RecipeNetId["RecipeNetId"]
+```
+

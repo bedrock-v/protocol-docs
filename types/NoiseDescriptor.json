@@ -1,0 +1,26 @@
+{
+  "name": "NoiseDescriptor",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "first_octave",
+      "order": 1,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "amplitudes",
+      "order": 2,
+      "type": "float[]",
+      "optional": false
+    }
+  ]
+}

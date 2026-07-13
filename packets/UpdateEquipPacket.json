@@ -1,0 +1,43 @@
+{
+  "name": "UpdateEquipPacket",
+  "kind": "packet",
+  "id": 81,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Container Id",
+      "order": 0,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Type",
+      "order": 1,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Size",
+      "order": 2,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Entity Unique Id",
+      "order": 3,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Data",
+      "order": 4,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

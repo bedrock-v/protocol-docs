@@ -1,0 +1,9 @@
+{
+  "name": "ClientboundDataDrivenUICloseScreenPacket",
+  "kind": "packet",
+  "id": 334,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": []
+}

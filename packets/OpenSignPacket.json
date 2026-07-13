@@ -1,0 +1,22 @@
+{
+  "name": "OpenSignPacket",
+  "kind": "packet",
+  "id": 303,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Pos",
+      "order": 0,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Is Front Side",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "UpdateSubChunkBlocksPacket",
+  "kind": "packet",
+  "id": 172,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Sub Chunk Block Position",
+      "order": 0,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Blocks Changed",
+      "order": 1,
+      "type": "UpdateSubChunkBlocksChangedInfo",
+      "optional": false
+    }
+  ]
+}

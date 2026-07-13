@@ -1,0 +1,27 @@
+{
+  "name": "CameraSplineRotationKeyFrame",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "rotation",
+      "order": 0,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "time",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "easing",
+      "order": 2,
+      "type": "easing_function",
+      "optional": true,
+      "underlyingType": "uint32"
+    }
+  ]
+}

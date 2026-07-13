@@ -1,0 +1,26 @@
+{
+  "name": "MolangVersion",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "int16",
+  "values": [
+    "Invalid",
+    "BeforeVersioning",
+    "Initial",
+    "FixedItemRemainingUseDurationQuery",
+    "ExpressionErrorMessages",
+    "UnexpectedOperatorErrors",
+    "ConditionalOperatorAssociativity",
+    "ComparisonAndLogicalOperatorPrecedence",
+    "DivideByNegativeValue",
+    "FixedCapeFlapAmountQuery",
+    "QueryBlockPropertyRenamedToState",
+    "DeprecateOldBlockQueryNames",
+    "DeprecatedSnifferAndCamelQueries",
+    "LeafSupportingInFirstSolidBlockBelow",
+    "NumValidVersions",
+    "Latest",
+    "HardcodedMolang"
+  ]
+}

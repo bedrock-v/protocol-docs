@@ -1,0 +1,22 @@
+{
+  "name": "CodeBuilderPacket",
+  "kind": "packet",
+  "id": 150,
+  "description": "This is EDU exclusively.It is sent once from _sendLevelData() in the start of a game from the server,\n\tand once per CodeBuilderCommand",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "URL",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Should open code builder",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

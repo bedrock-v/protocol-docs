@@ -1,0 +1,28 @@
+{
+  "name": "CreatePhotoPacket",
+  "kind": "packet",
+  "id": 171,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Raw ID",
+      "order": 0,
+      "type": "uint64",
+      "optional": false
+    },
+    {
+      "name": "Photo Name",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Photo Item Name",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

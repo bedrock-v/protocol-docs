@@ -1,0 +1,16 @@
+{
+  "name": "DimensionDataPacket",
+  "kind": "packet",
+  "id": 180,
+  "description": "Contains dimension definition data including height bounds and generator type for each dimension.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Definitions",
+      "order": 0,
+      "type": "object",
+      "optional": false
+    }
+  ]
+}

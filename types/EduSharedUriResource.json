@@ -1,0 +1,20 @@
+{
+  "name": "EduSharedUriResource",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Button Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Link Uri",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "CameraSplineDefinition",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "total_time",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "spline_type",
+      "order": 2,
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "control_points",
+      "order": 3,
+      "type": "CameraSplineControlPoint[]",
+      "optional": false
+    },
+    {
+      "name": "progress_key_frames",
+      "order": 4,
+      "type": "CameraSplineProgressKeyFrame[]",
+      "optional": false
+    },
+    {
+      "name": "rotation_key_frames",
+      "order": 5,
+      "type": "CameraSplineRotationKeyFrame[]",
+      "optional": false
+    }
+  ]
+}

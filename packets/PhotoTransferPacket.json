@@ -1,0 +1,60 @@
+{
+  "name": "PhotoTransferPacket",
+  "kind": "packet",
+  "id": 99,
+  "description": "\n\tWhen the player uses the camera item or adds a photo to the scrapbook it sends the photo to the server,\n\tthen the server sends a response back on whether that was successful or not.\n\tEither uploads a photo to the server's photoStorage or request one from it to be stored in client's photoStorage.\n\tIf no mPhotoData is provided it is a request for the given filename.\n\t",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Photo Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Photo Data",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Book ID",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Type",
+      "order": 3,
+      "type": "PhotoType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Source Type",
+      "order": 4,
+      "type": "PhotoType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Owner ID",
+      "order": 5,
+      "type": "int64",
+      "optional": false
+    },
+    {
+      "name": "New Photo Name",
+      "order": 6,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

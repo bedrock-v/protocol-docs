@@ -1,0 +1,44 @@
+{
+  "name": "NetworkSettingsPacket",
+  "kind": "packet",
+  "id": 143,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Compression Threshold",
+      "order": 0,
+      "type": "uint16",
+      "optional": false
+    },
+    {
+      "name": "CompressionAlgorithm",
+      "order": 1,
+      "type": "PacketCompressionAlgorithm",
+      "optional": false,
+      "underlyingType": "uint16",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Client Throttle Enabled",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Client Throttle Threshold",
+      "order": 3,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Client Throttle Scalar",
+      "order": 4,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

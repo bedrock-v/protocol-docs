@@ -1,0 +1,16 @@
+{
+  "name": "SetCommandsEnabledPacket",
+  "kind": "packet",
+  "id": 59,
+  "description": "see SimpleEventPacket",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Commands Enabled",
+      "order": 0,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

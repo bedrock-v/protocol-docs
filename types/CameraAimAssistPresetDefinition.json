@@ -1,0 +1,44 @@
+{
+  "name": "CameraAimAssistPresetDefinition",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "identifier",
+      "order": 0,
+      "type": "CameraAimAssist_Identifier",
+      "optional": false
+    },
+    {
+      "name": "exclusion_settings",
+      "order": 1,
+      "type": "CameraAimAssistPresetExclusionDefinition",
+      "optional": true
+    },
+    {
+      "name": "liquid_targeting_list",
+      "order": 2,
+      "type": "Item_Reference[]",
+      "optional": true
+    },
+    {
+      "name": "item_settings",
+      "order": 3,
+      "type": "object",
+      "optional": true
+    },
+    {
+      "name": "default_item_settings",
+      "order": 4,
+      "type": "CameraAimAssistCategory_Reference",
+      "optional": true
+    },
+    {
+      "name": "hand_settings",
+      "order": 5,
+      "type": "CameraAimAssistCategory_Reference",
+      "optional": true
+    }
+  ]
+}

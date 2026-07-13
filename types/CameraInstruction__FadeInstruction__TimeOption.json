@@ -1,0 +1,26 @@
+{
+  "name": "CameraInstruction::FadeInstruction::TimeOption",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Fade In Time",
+      "order": 0,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Hold Time",
+      "order": 1,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Fade Out Time",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

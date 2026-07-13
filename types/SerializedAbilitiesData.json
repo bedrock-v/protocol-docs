@@ -1,0 +1,40 @@
+{
+  "name": "SerializedAbilitiesData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Target Player Raw Id",
+      "order": 0,
+      "type": "int64",
+      "optional": false
+    },
+    {
+      "name": "Player Permissions",
+      "order": 1,
+      "type": "PlayerPermissionLevel",
+      "optional": false,
+      "underlyingType": "int8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Command Permissions",
+      "order": 2,
+      "type": "CommandPermissionLevel",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Layers",
+      "order": 3,
+      "type": "SerializedAbilitiesDataSerializedLayer[]",
+      "optional": false
+    }
+  ]
+}

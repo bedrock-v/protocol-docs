@@ -1,0 +1,26 @@
+{
+  "name": "GameRule",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Rule Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Rule Can Be Modified",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Rule Value",
+      "order": 2,
+      "type": "unknown",
+      "optional": false
+    }
+  ]
+}

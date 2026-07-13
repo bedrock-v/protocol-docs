@@ -1,0 +1,25 @@
+{
+  "name": "ArmorSlotAndDamagePair",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Armor Slot",
+      "order": 0,
+      "type": "SharedTypes__Legacy__ArmorSlot",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Damage",
+      "order": 1,
+      "type": "int16",
+      "optional": false
+    }
+  ]
+}

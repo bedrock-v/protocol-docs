@@ -1,0 +1,28 @@
+{
+  "name": "AvailableCommandsPacketConstrainedValueData",
+  "kind": "packet",
+  "id": null,
+  "description": null,
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Enum Value Symbol",
+      "order": 0,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "Enum Symbol",
+      "order": 1,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "Constraint Indices",
+      "order": 2,
+      "type": "uint8[]",
+      "optional": false
+    }
+  ]
+}

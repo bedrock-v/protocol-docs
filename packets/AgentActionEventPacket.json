@@ -1,0 +1,32 @@
+{
+  "name": "AgentActionEventPacket",
+  "kind": "packet",
+  "id": 181,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Request Id",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Action",
+      "order": 1,
+      "type": "AgentActionType",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Response",
+      "order": 2,
+      "type": "Json__Value",
+      "optional": false
+    }
+  ]
+}

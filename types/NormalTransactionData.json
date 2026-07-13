@@ -1,0 +1,14 @@
+{
+  "name": "NormalTransactionData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Actions",
+      "order": 0,
+      "type": "InventoryTransaction",
+      "optional": false
+    }
+  ]
+}

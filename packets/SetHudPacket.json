@@ -1,0 +1,31 @@
+{
+  "name": "SetHudPacket",
+  "kind": "packet",
+  "id": 308,
+  "description": "This packet will toggle the HUD visibility.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Hud Element",
+      "order": 0,
+      "type": "HudElement[]",
+      "optional": false,
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Hud Visible",
+      "order": 1,
+      "type": "HudVisibility",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

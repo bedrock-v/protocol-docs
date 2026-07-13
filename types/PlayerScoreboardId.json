@@ -1,0 +1,17 @@
+{
+  "name": "PlayerScoreboardId",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Player Unique Id",
+      "order": 0,
+      "type": "int64",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

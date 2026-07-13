@@ -1,0 +1,54 @@
+{
+  "name": "CameraAimAssistPacket",
+  "kind": "packet",
+  "id": 316,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Preset Id",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "View Angle",
+      "order": 1,
+      "type": "Vec2",
+      "optional": false
+    },
+    {
+      "name": "Distance",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Target Mode",
+      "order": 3,
+      "type": "CameraAimAssistPacketPayload_TargetMode",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Action",
+      "order": 4,
+      "type": "CameraAimAssistPacketPayload_Action",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Show Debug Render",
+      "order": 5,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

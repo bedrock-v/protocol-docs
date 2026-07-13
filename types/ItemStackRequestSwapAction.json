@@ -1,0 +1,30 @@
+{
+  "name": "ItemStackRequestSwapAction",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Action type",
+      "order": 0,
+      "type": "ItemStackRequestActionType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Source",
+      "order": 1,
+      "type": "ItemStackRequestSlotInfo",
+      "optional": false
+    },
+    {
+      "name": "Destination",
+      "order": 2,
+      "type": "ItemStackRequestSlotInfo",
+      "optional": false
+    }
+  ]
+}

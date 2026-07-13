@@ -1,0 +1,24 @@
+{
+  "name": "FullContainerName",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Container Name",
+      "order": 0,
+      "type": "ContainerEnumName",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Dynamic ID",
+      "order": 1,
+      "type": "uint32",
+      "optional": false
+    }
+  ]
+}

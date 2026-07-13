@@ -1,0 +1,28 @@
+{
+  "name": "EditorNetworkPacketVariantPayload",
+  "kind": "packet",
+  "id": null,
+  "description": null,
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Route To Manager",
+      "order": 0,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Raw Variant Name",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Raw Variant Data",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

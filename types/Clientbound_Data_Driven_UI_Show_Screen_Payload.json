@@ -1,0 +1,26 @@
+{
+  "name": "Clientbound Data Driven UI Show Screen Payload",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "ScreenId",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "FormId",
+      "order": 1,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "DataInstanceId",
+      "order": 2,
+      "type": "uint32",
+      "optional": true
+    }
+  ]
+}

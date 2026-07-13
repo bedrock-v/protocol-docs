@@ -1,0 +1,21 @@
+{
+  "name": "SetLastHurtByPacket",
+  "kind": "packet",
+  "id": 96,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "LastHurtBy",
+      "order": 0,
+      "type": "ActorType",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

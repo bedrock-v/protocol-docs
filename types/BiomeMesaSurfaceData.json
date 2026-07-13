@@ -1,0 +1,32 @@
+{
+  "name": "BiomeMesaSurfaceData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "clay material",
+      "order": 0,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "hard clay material",
+      "order": 1,
+      "type": "uint32",
+      "optional": false
+    },
+    {
+      "name": "bryce pillars",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "has forest",
+      "order": 3,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

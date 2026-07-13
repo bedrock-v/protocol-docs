@@ -1,0 +1,83 @@
+{
+  "name": "ShapedRecipePayload",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Recipe Id",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Width",
+      "order": 1,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Height",
+      "order": 2,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Ingredients",
+      "order": 3,
+      "type": "RecipeIngredient[]",
+      "optional": false
+    },
+    {
+      "name": "Results",
+      "order": 4,
+      "type": "NetworkItemInstanceDescriptorData[]",
+      "optional": false
+    },
+    {
+      "name": "UUID",
+      "order": 5,
+      "type": "mce__UUID",
+      "optional": false
+    },
+    {
+      "name": "Tag",
+      "order": 6,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Priority",
+      "order": 7,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Assume Symmetry",
+      "order": 8,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Unlocking Requirement",
+      "order": 9,
+      "type": "RecipeUnlockingRequirement",
+      "optional": true
+    },
+    {
+      "name": "Net Id",
+      "order": 10,
+      "type": "RecipeNetId",
+      "optional": false
+    }
+  ]
+}

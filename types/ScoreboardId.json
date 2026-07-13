@@ -1,0 +1,17 @@
+{
+  "name": "ScoreboardId",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Scoreboard Id",
+      "order": 0,
+      "type": "int64",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

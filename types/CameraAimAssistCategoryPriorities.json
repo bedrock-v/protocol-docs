@@ -1,0 +1,44 @@
+{
+  "name": "CameraAimAssistCategoryPriorities",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "entities",
+      "order": 0,
+      "type": "object",
+      "optional": true
+    },
+    {
+      "name": "blocks",
+      "order": 1,
+      "type": "object",
+      "optional": true
+    },
+    {
+      "name": "block_tags",
+      "order": 2,
+      "type": "object",
+      "optional": true
+    },
+    {
+      "name": "entity_type_families",
+      "order": 3,
+      "type": "object",
+      "optional": true
+    },
+    {
+      "name": "entity_default",
+      "order": 4,
+      "type": "int32",
+      "optional": true
+    },
+    {
+      "name": "block_default",
+      "order": 5,
+      "type": "int32",
+      "optional": true
+    }
+  ]
+}

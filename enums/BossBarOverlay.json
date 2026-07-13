@@ -1,0 +1,14 @@
+{
+  "name": "BossBarOverlay",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "uint8",
+  "values": [
+    "PROGRESS",
+    "NOTCHED_6",
+    "NOTCHED_10",
+    "NOTCHED_12",
+    "NOTCHED_20"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "ShapelessRecipePayload",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Recipe Id",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Ingredients",
+      "order": 1,
+      "type": "RecipeIngredient[]",
+      "optional": false
+    },
+    {
+      "name": "Results",
+      "order": 2,
+      "type": "NetworkItemInstanceDescriptorData[]",
+      "optional": false
+    },
+    {
+      "name": "UUID",
+      "order": 3,
+      "type": "mce__UUID",
+      "optional": false
+    },
+    {
+      "name": "Tag",
+      "order": 4,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Priority",
+      "order": 5,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Unlocking Requirement",
+      "order": 6,
+      "type": "RecipeUnlockingRequirement",
+      "optional": true
+    },
+    {
+      "name": "Net Id",
+      "order": 7,
+      "type": "RecipeNetId",
+      "optional": false
+    }
+  ]
+}

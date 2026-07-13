@@ -1,0 +1,14 @@
+{
+  "name": "BiomeSurfaceMaterialAdjustmentData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "adjustments",
+      "order": 0,
+      "type": "BiomeElementData[]",
+      "optional": false
+    }
+  ]
+}

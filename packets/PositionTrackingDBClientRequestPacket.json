@@ -1,0 +1,26 @@
+{
+  "name": "PositionTrackingDBClientRequestPacket",
+  "kind": "packet",
+  "id": 154,
+  "description": "Client to server packet for server authoratative runtime database (with persistent LevelStorage backup) designed primarily to track lodestone stuff. See Position Tracking DB Notes.md in bedrock-docs. see PositionTrackingDBServerBroadcastPacket",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Action",
+      "order": 0,
+      "type": "PositionTrackingDBClientRequestPacketPayload__Action",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Id",
+      "order": 1,
+      "type": "PositionTrackingId",
+      "optional": false
+    }
+  ]
+}

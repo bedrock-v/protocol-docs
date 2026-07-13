@@ -1,0 +1,16 @@
+{
+  "name": "UpdateAdventureSettingsPacket",
+  "kind": "packet",
+  "id": 188,
+  "description": "Sent by the server to update the state of AdventureSettings. Replaces the AdventureSettingsPacket for updating AdventureSettings from server to client.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Adventure Settings",
+      "order": 0,
+      "type": "AdventureSettings",
+      "optional": false
+    }
+  ]
+}

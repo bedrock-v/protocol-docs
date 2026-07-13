@@ -1,0 +1,42 @@
+{
+  "name": "SerializedPersonaPieceHandle",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "PieceId",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "PieceType",
+      "order": 1,
+      "type": "persona__PieceType",
+      "optional": false,
+      "underlyingType": "uint32",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "PackId",
+      "order": 2,
+      "type": "mce__UUID",
+      "optional": false
+    },
+    {
+      "name": "IsDefaultPiece",
+      "order": 3,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "ProductId",
+      "order": 4,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

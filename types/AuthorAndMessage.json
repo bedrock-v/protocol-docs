@@ -1,0 +1,30 @@
+{
+  "name": "AuthorAndMessage",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Message Type",
+      "order": 0,
+      "type": "uint8",
+      "optional": false,
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Player Name",
+      "order": 1,
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "Message",
+      "order": 2,
+      "type": "string",
+      "optional": true
+    }
+  ]
+}

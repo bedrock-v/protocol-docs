@@ -1,0 +1,28 @@
+{
+  "name": "GuiDataPickItemPacket",
+  "kind": "packet",
+  "id": 54,
+  "description": "This is only used when players use pick block, a command is used, tests, and some 3rd party content.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Item Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Item Effect Name",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Slot",
+      "order": 2,
+      "type": "int32",
+      "optional": false
+    }
+  ]
+}

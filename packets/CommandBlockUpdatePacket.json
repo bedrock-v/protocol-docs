@@ -1,0 +1,58 @@
+{
+  "name": "CommandBlockUpdatePacket",
+  "kind": "packet",
+  "id": 78,
+  "description": "Sent when you close the command block screen on the client.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Target",
+      "order": 0,
+      "type": "unknown",
+      "optional": false
+    },
+    {
+      "name": "Command",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Last Output",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Name",
+      "order": 3,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "FilteredName",
+      "order": 4,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Track Output",
+      "order": 5,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Tick Delay",
+      "order": 6,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "Execute On First Tick",
+      "order": 7,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

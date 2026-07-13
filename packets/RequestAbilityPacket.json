@@ -1,0 +1,41 @@
+{
+  "name": "RequestAbilityPacket",
+  "kind": "packet",
+  "id": 184,
+  "description": "Once changed, the server will broadcast the updated state of abilities for that player. If the request is rejected, the caller will receive their reverted state of Abilities.  Can only be used to modify the calling player.  \t- mVariable: Info about this variable",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Ability",
+      "order": 0,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Value Type",
+      "order": 1,
+      "type": "RequestAbilityPacketPayload__Type",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Bool",
+      "order": 2,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Float",
+      "order": 3,
+      "type": "float",
+      "optional": false
+    }
+  ]
+}

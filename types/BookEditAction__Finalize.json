@@ -1,0 +1,26 @@
+{
+  "name": "BookEditAction::Finalize",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Title",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Author",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "XUID",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "InventoryTransaction",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Actions",
+      "order": 0,
+      "type": "InventoryAction[]",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "PlaySoundPacket",
+  "kind": "packet",
+  "id": 86,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Position",
+      "order": 1,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Volume",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Pitch",
+      "order": 3,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "Loop Count",
+      "order": 4,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Server Sound Handle",
+      "order": 5,
+      "type": "ServerSoundHandle",
+      "optional": true
+    }
+  ]
+}

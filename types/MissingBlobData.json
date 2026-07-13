@@ -1,0 +1,20 @@
+{
+  "name": "MissingBlobData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Blob Id",
+      "order": 0,
+      "type": "uint64",
+      "optional": false
+    },
+    {
+      "name": "Blob Data",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

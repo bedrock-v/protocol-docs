@@ -1,0 +1,16 @@
+{
+  "name": "CameraInstructionPacket",
+  "kind": "packet",
+  "id": 300,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Camera Instruction",
+      "order": 0,
+      "type": "CameraInstruction",
+      "optional": false
+    }
+  ]
+}

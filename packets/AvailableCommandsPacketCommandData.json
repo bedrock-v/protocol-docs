@@ -1,0 +1,53 @@
+{
+  "name": "AvailableCommandsPacketCommandData",
+  "kind": "packet",
+  "id": null,
+  "description": null,
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Name",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Description",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Flags",
+      "order": 2,
+      "type": "uint16",
+      "optional": false
+    },
+    {
+      "name": "Permission Level",
+      "order": 3,
+      "type": "CommandPermissionLevel",
+      "optional": false,
+      "underlyingType": "uint8"
+    },
+    {
+      "name": "Alias Enum",
+      "order": 4,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "CommandData Chained Subcommand Indexes",
+      "order": 5,
+      "type": "uint32[]",
+      "optional": false
+    },
+    {
+      "name": "Overloads",
+      "order": 6,
+      "type": "AvailableCommandsPacketOverloadData[]",
+      "optional": false
+    }
+  ]
+}

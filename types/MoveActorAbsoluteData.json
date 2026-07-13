@@ -1,0 +1,44 @@
+{
+  "name": "MoveActorAbsoluteData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "ActorRuntimeID",
+      "order": 0,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Header",
+      "order": 1,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Position",
+      "order": 2,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Rotation X",
+      "order": 3,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Rotation Y",
+      "order": 4,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "Rotation Y Head",
+      "order": 5,
+      "type": "uint8",
+      "optional": false
+    }
+  ]
+}

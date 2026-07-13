@@ -1,0 +1,48 @@
+{
+  "name": "PlayerActionPacket",
+  "kind": "packet",
+  "id": 36,
+  "description": "The expected actions change depending on the ServerAuthMovementMode specified in the StartGamePacket.\n\tSee the PlayerActionType enum for details on which have differing behavior.\n\tSee also PlayerAuthInputPacket and InventoryTransactionPacket for similar types of player actions.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Player Runtime ID",
+      "order": 0,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "Action",
+      "order": 1,
+      "type": "PlayerActionType",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Block Position",
+      "order": 2,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Result Pos",
+      "order": 3,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Face",
+      "order": 4,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

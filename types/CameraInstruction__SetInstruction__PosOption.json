@@ -1,0 +1,14 @@
+{
+  "name": "CameraInstruction::SetInstruction::PosOption",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Pos",
+      "order": 0,
+      "type": "Vec3",
+      "optional": false
+    }
+  ]
+}

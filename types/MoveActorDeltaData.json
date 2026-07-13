@@ -1,0 +1,74 @@
+{
+  "name": "MoveActorDeltaData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Actor Runtime ID",
+      "order": 0,
+      "type": "ActorRuntimeID",
+      "optional": false
+    },
+    {
+      "name": "New Position X",
+      "order": 1,
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "New Position Y",
+      "order": 2,
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "New Position Z",
+      "order": 3,
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Rotation X",
+      "order": 4,
+      "type": "int8",
+      "optional": true
+    },
+    {
+      "name": "Rotation Y",
+      "order": 5,
+      "type": "int8",
+      "optional": true
+    },
+    {
+      "name": "Rotation Y Head",
+      "order": 6,
+      "type": "int8",
+      "optional": true
+    },
+    {
+      "name": "Is On Ground",
+      "order": 7,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Force Move",
+      "order": 8,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Force Move Local Entity",
+      "order": 9,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Force Completion",
+      "order": 10,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

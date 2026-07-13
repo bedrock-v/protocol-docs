@@ -1,0 +1,20 @@
+{
+  "name": "DebugRendererData",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Type",
+      "order": 0,
+      "type": "uint8",
+      "optional": false
+    },
+    {
+      "name": "DebugMarkerData",
+      "order": 1,
+      "type": "DebugMarkerData",
+      "optional": true
+    }
+  ]
+}

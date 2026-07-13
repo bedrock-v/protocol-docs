@@ -1,0 +1,27 @@
+{
+  "name": "AgentActionType",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "kind": "enum",
+  "underlyingType": "int32",
+  "values": [
+    "Attack",
+    "Collect",
+    "Destroy",
+    "DetectRedstone",
+    "DetectObstacle",
+    "Drop",
+    "DropAll",
+    "Inspect",
+    "InspectData",
+    "InspectItemCount",
+    "InspectItemDetail",
+    "InspectItemSpace",
+    "Interact",
+    "Move",
+    "PlaceBlock",
+    "Till",
+    "TransferItemTo",
+    "Turn"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "MoveActorDeltaPacket",
+  "kind": "packet",
+  "id": 111,
+  "description": "Each position, rotation and head-rotation component is sent as an independent optional, accompanied by flags indicating whether the actor is on the ground and whether this is a teleport.",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Move Data",
+      "order": 0,
+      "type": "MoveActorDeltaData",
+      "optional": false
+    }
+  ]
+}

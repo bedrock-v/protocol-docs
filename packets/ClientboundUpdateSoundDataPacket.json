@@ -1,0 +1,58 @@
+{
+  "name": "ClientboundUpdateSoundDataPacket",
+  "kind": "packet",
+  "id": 348,
+  "description": "",
+  "protocolVersion": 2168,
+  "minecraftVersion": "1.26.40",
+  "fields": [
+    {
+      "name": "Server Sound Handle",
+      "order": 0,
+      "type": "ServerSoundHandle",
+      "optional": false
+    },
+    {
+      "name": "Stop",
+      "order": 1,
+      "type": "unknown",
+      "optional": true
+    },
+    {
+      "name": "SetVolume",
+      "order": 2,
+      "type": "unknown",
+      "optional": true
+    },
+    {
+      "name": "SetPitch",
+      "order": 3,
+      "type": "unknown",
+      "optional": true
+    },
+    {
+      "name": "Fade",
+      "order": 4,
+      "type": "unknown",
+      "optional": true
+    },
+    {
+      "name": "SeekTo",
+      "order": 5,
+      "type": "unknown",
+      "optional": true
+    },
+    {
+      "name": "Pause",
+      "order": 6,
+      "type": "unknown",
+      "optional": true
+    },
+    {
+      "name": "Resume",
+      "order": 7,
+      "type": "unknown",
+      "optional": true
+    }
+  ]
+}
