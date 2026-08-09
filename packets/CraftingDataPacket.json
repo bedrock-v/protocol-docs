@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 52,
   "description": "Sent from the server on level startup to send all recipes to the client.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Shaped Recipes",

@@ -2,9 +2,6 @@
 
 `packet` - id **83**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 (only one marked for uncompressed) realms resource pack download
 
 ```mermaid

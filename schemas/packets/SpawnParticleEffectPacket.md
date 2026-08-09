@@ -2,9 +2,6 @@
 
 `packet` - id **118**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 This is not used for much anymore, only the Particle command (spawn particle by name at a location) and for ScriptServerSpawnParticleAttachedToActor and ScriptServerSpawnParticleInWorldEvent.
 
 ```mermaid

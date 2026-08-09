@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 320,
   "description": "\n\tSent by the server to clients for initializing and updating the client aim-assist registry.\n\tAddToExisting operations are sent by the server when new presets/categories are added to the registry through creator facing APIs.\n\t",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Camera Aim-Assist Presets",

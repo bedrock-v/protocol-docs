@@ -2,9 +2,6 @@
 
 `packet` - id **44**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 Combination of server bound and client bound packets to trigger animations.
 
 ```mermaid

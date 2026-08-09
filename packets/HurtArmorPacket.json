@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 38,
   "description": "Sends the damage taken after armor is taken into account. This looks like it is trying to be phased out, this is not sent while the ItemStackNetManagerServer is active. From the server.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Cause",

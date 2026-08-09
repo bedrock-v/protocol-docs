@@ -1,7 +1,5 @@
 {
   "name": "DeathCauseMessageType",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "kind": "struct",
   "fields": [
     {

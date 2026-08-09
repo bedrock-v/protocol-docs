@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 98,
   "description": "A request is made from the client during an interaction with an NPC then the request is processed by the server. \n\tActor MUST have the NPCComponent to be handled. \n\tWe currently only use this for EDU, but the goal was to expose the NPC Component to creators.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "NPC Runtime ID",

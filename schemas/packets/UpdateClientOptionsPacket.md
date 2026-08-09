@@ -2,9 +2,6 @@
 
 `packet` - id **323**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 The values in this packet are originally synced through the Connection Request and then updated via this packet.
 
 ```mermaid

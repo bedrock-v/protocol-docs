@@ -2,9 +2,6 @@
 
 `packet` - id **68**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 
 	If the server finds the map, it sends the data back. If it can't find the map, it creates it and sends the map and data back.
 	(the map creation data packet and the map data packet are separate packets).

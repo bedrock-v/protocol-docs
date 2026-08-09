@@ -2,9 +2,6 @@
 
 `packet` - id **6**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 Sends resource pack information to the client including pack IDs, versions, sizes, and content keys.
 
 ```mermaid

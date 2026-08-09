@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 129,
   "description": "Sent by the Client once, at login, to communicate if it supports the client blob cache protocol or not.\n\t<br> Documented in <a href=https://github.com/Mojang/bedrock-docs/blob/master/GameplaySystems/ClientBlobCacheProtocol.md>https://github.com/Mojang/bedrock-docs/blob/master/GameplaySystems/ClientBlobCacheProtocol.md</a>",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Is cache supported?",

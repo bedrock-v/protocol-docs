@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 144,
   "description": "These are for Server Authoritative Movement to sync all player input with the server.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Player Rotation",

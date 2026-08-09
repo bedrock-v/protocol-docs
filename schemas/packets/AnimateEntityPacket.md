@@ -2,9 +2,6 @@
 
 `packet` - id **158**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 Several properties can be specified in the following order:</br>
 	- The name of the animation (a string) that the specified entities are to play.</br>
 	- The next state to transition to (a string) once the specified animation is finished playing.</br>

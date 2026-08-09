@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 3,
   "description": "Sent from the server at the end of the login packet",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Handshake WebToken",

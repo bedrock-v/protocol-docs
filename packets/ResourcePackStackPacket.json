@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 7,
   "description": "Sent to client in response to ResourcePackClientResponsePacket with info on current resource pack stack.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Texture Pack Required",

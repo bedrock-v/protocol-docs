@@ -2,9 +2,6 @@
 
 `packet` - id **139**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 
 	This is used by EDU for joining players and removing players from your session,
 	the settings (there is only one) is an enum for enabling/disabling/refreshing multiplayer join codes.

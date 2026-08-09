@@ -2,9 +2,6 @@
 
 `packet` - id **40**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 
 	It is primarily relevant for client predicted entities like the player or a boat or horse they are in control of.
 	For most other actor types it does nothing.<br>

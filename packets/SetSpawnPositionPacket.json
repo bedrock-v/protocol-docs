@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 43,
   "description": "see RespawnPacket",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Spawn Position Type",

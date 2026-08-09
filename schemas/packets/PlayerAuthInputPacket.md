@@ -2,9 +2,6 @@
 
 `packet` - id **144**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 These are for Server Authoritative Movement to sync all player input with the server.
 
 ```mermaid

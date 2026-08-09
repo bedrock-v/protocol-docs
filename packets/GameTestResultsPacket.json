@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 195,
   "description": "Internal Text Packet",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Succeeded",

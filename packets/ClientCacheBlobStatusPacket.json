@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 135,
   "description": "Sent periodically by the client to update the server on which blob it has (ACK) and which blobs it is lacking (MISS).",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Missing Ids",

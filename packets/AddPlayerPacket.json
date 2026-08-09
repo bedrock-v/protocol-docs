@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 12,
   "description": "A new player joins the game; the server sends this packet to the other players.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "UUID",

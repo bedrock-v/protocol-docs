@@ -2,9 +2,6 @@
 
 `packet` - id **321**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 
 	Sent by clients to the server for activating/deactivating aim-assist.
 	Activation uses the CameraPreset Id for server-side lookup and uses its aim_assist field

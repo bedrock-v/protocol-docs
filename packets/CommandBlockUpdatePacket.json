@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 78,
   "description": "Sent when you close the command block screen on the client.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Target",

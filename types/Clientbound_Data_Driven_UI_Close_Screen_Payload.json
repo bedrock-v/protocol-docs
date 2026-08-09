@@ -1,7 +1,5 @@
 {
   "name": "Clientbound Data Driven UI Close Screen Payload",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "kind": "struct",
   "fields": [
     {

@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 314,
   "description": "Sends the name of the Structure Feature the player is currently occupying to the client.\n\tIf the player is not in a structure, this packet contains an empty string.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Current Structure Feature",

@@ -2,9 +2,6 @@
 
 `packet` - id **302**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 - mTrimPatterns: vector of TrimPattern
 - mTrimMaterials: vector of TrimMaterial
 

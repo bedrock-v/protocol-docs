@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 308,
   "description": "This packet will toggle the HUD visibility.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Hud Element",

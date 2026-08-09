@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 2,
   "description": "\n\tUsed after the Server handles a Login or (Sub)Client Authentication Packet\n\tIf everything is good, then it sends this packet to the client to finish the handshake.\n\tIf everything is not good, it terminates the connection.\n\t",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Status",

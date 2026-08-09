@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 145,
   "description": "Sent once by the server on startup to tell clients all of the items that can show up in the creative menu and recipe book.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Groups",

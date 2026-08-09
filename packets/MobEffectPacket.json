@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 28,
   "description": "At the start of the game the server sends any mob effects with _sendAdditionalLevelData() if the joining player saved out with them,\nand then anytime a mob effect is added, removed, or updated this packet is sent.<br>\nIt is important for player movement simulation to ensure that the following effects are sent for the player or any client predicted vehicle they are in control of:<br>\n- levitation<br>\n- slow_falling<br>\n- jump<br>\n- movement_speed<br>\n- movement_slowdown<br>\n- weaving",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Target Runtime ID",

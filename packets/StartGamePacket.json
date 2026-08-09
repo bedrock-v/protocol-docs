@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 11,
   "description": "The player movement mode is also specified here, see ServerAuthMovementMode enum documentation for details on the modes.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Entity ID",

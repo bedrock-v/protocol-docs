@@ -2,9 +2,6 @@
 
 `packet` - id **82**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 Sent from the serverFileChunkUploader during the initialization of the file uploader. This packet is sent to the primary client.
 
 ```mermaid

@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 122,
   "description": "- mBiomeData: map of biome string indices to biome definition data.\n- mStringList: list of biome name strings.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Map of Biome names to data",

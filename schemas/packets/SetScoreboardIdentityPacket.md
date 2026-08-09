@@ -2,9 +2,6 @@
 
 `packet` - id **112**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 Send an update packet for a player identity definition iff a tracked player has logged in with a different display name.
 
 ```mermaid

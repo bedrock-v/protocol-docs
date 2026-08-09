@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 161,
   "description": "Used only in server authoritative movement mode, see ServerAuthMovementMode documentation.<br>\n\tSince it is sent to the specified client the target player is implied to be the receiver.<br>\n\tIt is an optional part of the server authoritative protocol. A server could choose to never send this or do all corrections\n\tthrough MovePlayerPacket, although doing so would likely provide less smooth results.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "PredictionType",

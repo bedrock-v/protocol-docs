@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 17,
   "description": "From this the item and count is turned into an item and the transaction is handled afterwards.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Item Runtime ID",

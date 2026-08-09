@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 109,
   "description": "The packet can be fired from the client through the UI or from the server during updates.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Type",

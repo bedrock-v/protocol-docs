@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 101,
   "description": "see ModalFormRequestPacket",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Form ID",

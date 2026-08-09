@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 192,
   "description": "Sent from server.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "ServerTime",

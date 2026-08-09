@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 32,
   "description": "This is related to MobEquipmentPackets, but armor specifically and passes ALL equipment changes at once instead of one slot at a time.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Target Runtime ID",

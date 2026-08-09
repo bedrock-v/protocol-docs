@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 90,
   "description": "",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Block Position",

@@ -2,9 +2,6 @@
 
 `packet` - id **58**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 Used to start a chunk transaction.
 
 ```mermaid

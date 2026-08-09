@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 82,
   "description": "Sent from the serverFileChunkUploader during the initialization of the file uploader. This packet is sent to the primary client.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Resource Name",

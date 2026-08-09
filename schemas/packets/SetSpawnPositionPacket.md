@@ -2,9 +2,6 @@
 
 `packet` - id **43**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 see RespawnPacket
 
 ```mermaid

@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 64,
   "description": "This is fired from the client to the server and a SetCommandsEnabledPacket is sent back when enabling commands.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Type",

@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 97,
   "description": "",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Book Slot",

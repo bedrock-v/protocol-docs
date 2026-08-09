@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 137,
   "description": "Currently transmits EducationLevelSettings to all clients when the game is starting.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Education Level Settings",

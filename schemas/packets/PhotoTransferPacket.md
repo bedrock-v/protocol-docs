@@ -2,9 +2,6 @@
 
 `packet` - id **99**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 
 	When the player uses the camera item or adds a photo to the scrapbook it sends the photo to the server,
 	then the server sends a response back on whether that was successful or not.

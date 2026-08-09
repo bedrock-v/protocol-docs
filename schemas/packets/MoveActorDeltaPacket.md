@@ -2,9 +2,6 @@
 
 `packet` - id **111**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 Each position, rotation and head-rotation component is sent as an independent optional, accompanied by flags indicating whether the actor is on the ground and whether this is a teleport.
 
 ```mermaid

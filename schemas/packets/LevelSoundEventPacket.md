@@ -2,9 +2,6 @@
 
 `packet` - id **123**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 
 	Most sounds get launched on server and replicated to clients, but a handful of player initiated sounds are launched on their client and replicated through the network.
 	(In most of the codebase 'Event' means telemetry events; this is not the case here, this is how sounds get replicated across the network in vanilla.)

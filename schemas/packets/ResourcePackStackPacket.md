@@ -2,9 +2,6 @@
 
 `packet` - id **7**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 Sent to client in response to ResourcePackClientResponsePacket with info on current resource pack stack.
 
 ```mermaid

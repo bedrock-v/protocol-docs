@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 33,
   "description": "Used for inventory button press and in _updateInteraction() for a variety of purposes. From the client.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Action",

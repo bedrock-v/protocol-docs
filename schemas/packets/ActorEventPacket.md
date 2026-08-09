@@ -2,9 +2,6 @@
 
 `packet` - id **27**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 Ranges from a crossbow being ready to fire to taming animals..., some of which may be obsolete (frex, ADD_PLAYER_LEVELS)
 
 ```mermaid

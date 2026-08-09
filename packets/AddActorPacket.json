@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 13,
   "description": "Newly created entities on server use AddActorPacket to notify clients that they exist.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Target Actor ID",

@@ -1,7 +1,5 @@
 {
   "name": "Resource Pack Client Response - Resource Pack Stack Finished",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "kind": "struct",
   "fields": [
     {

@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 36,
   "description": "The expected actions change depending on the ServerAuthMovementMode specified in the StartGamePacket.\n\tSee the PlayerActionType enum for details on which have differing behavior.\n\tSee also PlayerAuthInputPacket and InventoryTransactionPacket for similar types of player actions.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Player Runtime ID",

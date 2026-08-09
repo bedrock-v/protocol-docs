@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 318,
   "description": "\n\tThese MovementEffects can be client-predicted.\n\tEx: Fireworks Rockets used while gliding send this packet to the client so they know the exact duration of the GLIDE_BOOST MovementEffect.\n\t",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Target Runtime ID",

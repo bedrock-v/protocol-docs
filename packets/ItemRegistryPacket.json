@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 162,
   "description": "This packet needs to be sent immediately after the StartGamePacket for primary clients.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Item Data",

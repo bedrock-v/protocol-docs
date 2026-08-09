@@ -2,9 +2,6 @@
 
 `packet` - id **312**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 In order for the client to send a packet with StartLoadingScreen, the server needs to anticipate that this packet is coming.
 If the server doesn't expect that we are about to start a loading screen, the server will disconnect the client.
 EndLoadingScreen is sent by the client when the loading screen closes.

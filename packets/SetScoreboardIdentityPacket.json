@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 112,
   "description": "Send an update packet for a player identity definition iff a tracked player has logged in with a different display name.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Scoreboard Identity Packet Type",

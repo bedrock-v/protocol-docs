@@ -2,9 +2,6 @@
 
 `packet` - id **185**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 Can only be used by Operators or Hosts.
 
 ```mermaid

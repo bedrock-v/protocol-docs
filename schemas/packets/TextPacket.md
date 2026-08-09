@@ -2,9 +2,6 @@
 
 `packet` - id **9**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 Used for commands, messages, and other info printed to the screen. Most of which are server->client or server broadcasted to all clients, but some cases have a client to other client via the server
 
 ```mermaid

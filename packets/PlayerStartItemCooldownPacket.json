@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 176,
   "description": "Packet sent by the player to start the cooldown on an item.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Item Category",

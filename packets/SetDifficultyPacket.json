@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 60,
   "description": "Used for when a client changes difficulty through the menu or when the server changes the difficulty.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Difficulty",

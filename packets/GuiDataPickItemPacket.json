@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 54,
   "description": "This is only used when players use pick block, a command is used, tests, and some 3rd party content.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Item Name",

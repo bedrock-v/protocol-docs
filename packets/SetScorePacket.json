@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 108,
   "description": "Sets the scoreboard which is used for 3rd party content.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Score Info",

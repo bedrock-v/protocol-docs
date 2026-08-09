@@ -2,9 +2,6 @@
 
 `packet` - id **36**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 The expected actions change depending on the ServerAuthMovementMode specified in the StartGamePacket.
 	See the PlayerActionType enum for details on which have differing behavior.
 	See also PlayerAuthInputPacket and InventoryTransactionPacket for similar types of player actions.

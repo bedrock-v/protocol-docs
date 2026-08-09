@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 346,
   "description": "",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "client_store_entry_point_configuration",

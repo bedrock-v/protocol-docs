@@ -2,9 +2,6 @@
 
 `packet` - id **140**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 Used when the player changes the world settings like doDayNightCycle or WeatherCycle via the world settings menu
 
 ```mermaid

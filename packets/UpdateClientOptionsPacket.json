@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 323,
   "description": "The values in this packet are originally synced through the Connection Request and then updated via this packet.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Graphics Mode Change",

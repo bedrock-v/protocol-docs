@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 21,
   "description": "This happens often. Luckily, the packets are small.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Block Position",

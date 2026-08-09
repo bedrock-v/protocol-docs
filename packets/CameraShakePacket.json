@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 159,
   "description": "It may be used to queue or stop a camera shake",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Intensity",

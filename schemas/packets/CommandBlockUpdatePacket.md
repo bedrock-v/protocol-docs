@@ -2,9 +2,6 @@
 
 `packet` - id **78**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 Sent when you close the command block screen on the client.
 
 ```mermaid

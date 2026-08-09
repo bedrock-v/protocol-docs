@@ -2,9 +2,6 @@
 
 `packet` - id **54**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 This is only used when players use pick block, a command is used, tests, and some 3rd party content.
 
 ```mermaid

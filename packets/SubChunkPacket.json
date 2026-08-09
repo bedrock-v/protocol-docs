@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 174,
   "description": "Contains subchunk terrain data, heightmaps, and optional blob cache IDs.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Cache Enabled",

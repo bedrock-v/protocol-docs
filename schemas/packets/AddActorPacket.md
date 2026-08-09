@@ -2,9 +2,6 @@
 
 `packet` - id **13**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 Newly created entities on server use AddActorPacket to notify clients that they exist.
 
 ```mermaid

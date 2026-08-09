@@ -2,9 +2,6 @@
 
 `packet` - id **73**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 
 
 ```mermaid

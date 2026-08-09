@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 125,
   "description": "It is a request from the client to either turn the page in the lectern or drop the book.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "New page to show",

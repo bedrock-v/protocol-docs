@@ -2,9 +2,6 @@
 
 `packet` - id **52**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 Sent from the server on level startup to send all recipes to the client.
 
 ```mermaid

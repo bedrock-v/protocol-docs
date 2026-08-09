@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 27,
   "description": "Ranges from a crossbow being ready to fire to taming animals..., some of which may be obsolete (frex, ADD_PLAYER_LEVELS)",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Target Runtime ID",

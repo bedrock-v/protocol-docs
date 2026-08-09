@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 141,
   "description": "\n\tOnly used when Item Stack Net Manager is disabled on the server.\n\tSends the position of the anvil that is requesting to be damaged from the client.\n\t",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Block Position",

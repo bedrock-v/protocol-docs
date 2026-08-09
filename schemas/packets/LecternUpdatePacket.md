@@ -2,9 +2,6 @@
 
 `packet` - id **125**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 It is a request from the client to either turn the page in the lectern or drop the book.
 
 ```mermaid

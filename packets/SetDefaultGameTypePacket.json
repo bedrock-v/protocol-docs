@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 105,
   "description": "",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Default Game Type",

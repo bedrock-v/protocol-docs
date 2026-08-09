@@ -2,9 +2,6 @@
 
 `packet` - id **12**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 A new player joins the game; the server sends this packet to the other players.
 
 ```mermaid

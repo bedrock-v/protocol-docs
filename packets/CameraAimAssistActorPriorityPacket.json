@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 339,
   "description": "\n\tSent by the server to clients for updating the actor priority for client aim-assist systems.\n\t",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Camera Aim-Assist Actor Priority List",

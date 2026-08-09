@@ -2,9 +2,6 @@
 
 `packet` - id **109**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 The packet can be fired from the client through the UI or from the server during updates.
 
 ```mermaid

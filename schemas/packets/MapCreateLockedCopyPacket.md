@@ -2,9 +2,6 @@
 
 `packet` - id **131**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 
 	It sends the original map id and the new map id. 
 	On the server it follows a similar process to creating a new map, sends the data and the map info to the client.

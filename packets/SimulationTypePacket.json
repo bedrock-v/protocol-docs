@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 168,
   "description": "- mSimType: an enum representing the simulation type to switch to.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Sim Type",

@@ -2,9 +2,6 @@
 
 `packet` - id **2**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 
 	Used after the Server handles a Login or (Sub)Client Authentication Packet
 	If everything is good, then it sends this packet to the client to finish the handshake.

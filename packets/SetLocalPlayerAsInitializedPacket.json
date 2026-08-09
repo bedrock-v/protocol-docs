@@ -3,8 +3,6 @@
   "kind": "packet",
   "id": 113,
   "description": "Client tells the server that the client is ready to roll.",
-  "protocolVersion": 2168,
-  "minecraftVersion": "1.26.40",
   "fields": [
     {
       "name": "Player ID",

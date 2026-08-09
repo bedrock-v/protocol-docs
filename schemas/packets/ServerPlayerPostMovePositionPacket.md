@@ -2,9 +2,6 @@
 
 `packet` - id **16**
 
-- protocol: 2168
-- minecraft: 1.26.40
-
 Is currently only used for debug draw. Packets will not be sent if debug draw is not available.
 
 ```mermaid
