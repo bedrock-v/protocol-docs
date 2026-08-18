@@ -1,0 +1,20 @@
+{
+  "name": "RecordStartedPacket",
+  "kind": "packet",
+  "id": 352,
+  "description": "",
+  "fields": [
+    {
+      "name": "Block Position",
+      "order": 0,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Server Sound Handle",
+      "order": 1,
+      "type": "ServerSoundHandle",
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "FurnaceOptions",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Left Furnace Tab",
+      "order": 0,
+      "type": "FurnaceLeftTabIndex",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Filtering",
+      "order": 1,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Layout",
+      "order": 2,
+      "type": "FurnaceLayout",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

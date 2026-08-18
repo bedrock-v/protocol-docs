@@ -67,6 +67,15 @@
       "order": 10,
       "type": "boolean",
       "optional": false
+    },
+    {
+      "name": "Ticks",
+      "order": 11,
+      "type": "uint64",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
     }
   ]
 }

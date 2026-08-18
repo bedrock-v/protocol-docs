@@ -9,6 +9,6 @@ flowchart LR
   ROOT(["PlayerUpdateEntityOverridesPacket"])
   ROOT -->|"Target ID"| ActorUniqueID["ActorUniqueID"]
   ROOT -->|"Property Index"| uint32["uint32"]
-  ROOT -->|"Update"| unknown["unknown"]
+  ROOT -->|"Update"| ClearOverride___RemoveOverride___IntOverride___FloatOverride["ClearOverride | RemoveOverride | IntOverride | FloatOverride"]
 ```
 

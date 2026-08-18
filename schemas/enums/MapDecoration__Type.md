@@ -30,6 +30,11 @@ flowchart TB
   ROOT --> JungleTemple["JungleTemple"]
   ROOT --> WitchHut["WitchHut"]
   ROOT --> TrialChambers["TrialChambers"]
+  ROOT --> AbandonedCamp["AbandonedCamp"]
+  ROOT --> BuriedAncientCity["BuriedAncientCity"]
+  ROOT --> BuriedMineshaft["BuriedMineshaft"]
+  ROOT --> DesertPyramid["DesertPyramid"]
+  ROOT --> WarmOceanRuins["WarmOceanRuins"]
   ROOT --> Count["Count"]
 ```
 

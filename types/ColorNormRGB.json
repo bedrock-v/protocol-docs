@@ -1,5 +1,5 @@
 {
   "name": "ColorNormRGB",
   "kind": "alias",
-  "type": "unknown"
+  "type": "string | float[]"
 }

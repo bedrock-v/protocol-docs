@@ -13,7 +13,7 @@
     {
       "name": "Location",
       "order": 1,
-      "type": "unknown",
+      "type": "CoordinatesLocation | HiddenLocation",
       "optional": false
     }
   ]

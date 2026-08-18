@@ -7,6 +7,6 @@ Sent from the Server at the start of the game or when a player is added to all c
 ```mermaid
 flowchart LR
   ROOT(["PlayerListPacket"])
-  ROOT -->|"Entries"| unknown["unknown[]"]
+  ROOT -->|"Entries"| PlayerListRemoveEntry___PlayerListAddEntry["PlayerListRemoveEntry | PlayerListAddEntry[]"]
 ```
 

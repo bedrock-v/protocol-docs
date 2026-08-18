@@ -28,6 +28,11 @@
     "JungleTemple",
     "WitchHut",
     "TrialChambers",
+    "AbandonedCamp",
+    "BuriedAncientCity",
+    "BuriedMineshaft",
+    "DesertPyramid",
+    "WarmOceanRuins",
     "Count"
   ]
 }

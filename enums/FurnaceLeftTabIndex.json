@@ -1,0 +1,13 @@
+{
+  "name": "FurnaceLeftTabIndex",
+  "kind": "enum",
+  "underlyingType": "int32",
+  "values": [
+    "None",
+    "RecipeFood",
+    "RecipeItems",
+    "RecipeBlocks",
+    "RecipeSearch",
+    "Inventory"
+  ]
+}

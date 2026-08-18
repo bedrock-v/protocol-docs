@@ -18,7 +18,7 @@
     {
       "name": "Messages",
       "order": 1,
-      "type": "unknown",
+      "type": "DisconnectPacketMessages | null",
       "optional": false
     }
   ]

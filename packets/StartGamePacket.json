@@ -19,11 +19,13 @@
     {
       "name": "Game Type",
       "order": 2,
-      "type": "int32",
+      "type": "GameType",
       "optional": false,
+      "underlyingType": "int32",
       "serialization": [
         "Compression",
-        "Enum-as-Value"
+        "Enum-as-Value",
+        "Allow unknown enum values"
       ]
     },
     {

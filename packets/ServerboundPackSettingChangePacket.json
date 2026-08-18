@@ -19,7 +19,7 @@
     {
       "name": "PackSettingValue",
       "order": 2,
-      "type": "unknown",
+      "type": "float | boolean | string | string[]",
       "optional": false
     }
   ]

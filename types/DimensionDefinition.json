@@ -3,7 +3,7 @@
   "kind": "struct",
   "fields": [
     {
-      "name": "Height Maximum",
+      "name": "Minimum Y",
       "order": 0,
       "type": "int32",
       "optional": false,
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "name": "Height Minimum",
+      "name": "Height Range",
       "order": 1,
       "type": "int32",
       "optional": false,
@@ -40,6 +40,12 @@
       "name": "Pack Id",
       "order": 4,
       "type": "mce__UUID",
+      "optional": false
+    },
+    {
+      "name": "Default Biome",
+      "order": 5,
+      "type": "string",
       "optional": false
     }
   ]

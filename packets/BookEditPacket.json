@@ -16,7 +16,7 @@
     {
       "name": "Operation",
       "order": 1,
-      "type": "unknown",
+      "type": "BookEditAction__ReplacePage | BookEditAction__AddPage | BookEditAction__DeletePage | BookEditAction__SwapPages | BookEditAction__Finalize",
       "optional": false
     }
   ]

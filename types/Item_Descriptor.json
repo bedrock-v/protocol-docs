@@ -1,5 +1,5 @@
 {
   "name": "Item Descriptor",
   "kind": "alias",
-  "type": "unknown"
+  "type": "string | object"
 }

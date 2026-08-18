@@ -1,0 +1,10 @@
+{
+  "name": "FurnaceLayout",
+  "kind": "enum",
+  "underlyingType": "int32",
+  "values": [
+    "None",
+    "InventoryOnly",
+    "Default"
+  ]
+}

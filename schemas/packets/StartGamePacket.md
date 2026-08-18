@@ -9,7 +9,7 @@ flowchart LR
   ROOT(["StartGamePacket"])
   ROOT -->|"Entity ID"| ActorUniqueID["ActorUniqueID"]
   ROOT -->|"Runtime ID"| ActorRuntimeID["ActorRuntimeID"]
-  ROOT -->|"Game Type"| int32["int32"]
+  ROOT -->|"Game Type"| GameType["GameType"]
   ROOT -->|"Position"| Vec3["Vec3"]
   ROOT -->|"Rotation"| Vec2["Vec2"]
   ROOT -->|"Settings"| LevelSettings["LevelSettings"]

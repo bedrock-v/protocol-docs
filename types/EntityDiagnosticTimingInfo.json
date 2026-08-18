@@ -25,6 +25,18 @@
       "order": 3,
       "type": "uint8",
       "optional": false
+    },
+    {
+      "name": "Position",
+      "order": 4,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Dimension",
+      "order": 5,
+      "type": "string",
+      "optional": false
     }
   ]
 }

@@ -150,6 +150,8 @@
     "ExpiredToken",
     "HostAcceptsNoTypeOfAuth",
     "NotAuthenticatedFastFail",
-    "EditorNotAllowed"
+    "EditorNotAllowed",
+    "MissingStructureData",
+    "UnsupportedTransport"
   ]
 }

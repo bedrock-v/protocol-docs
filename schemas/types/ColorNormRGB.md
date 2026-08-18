@@ -4,6 +4,6 @@
 
 ```mermaid
 flowchart LR
-  ROOT(["ColorNormRGB"]) -->|alias| unknown["unknown"]
+  ROOT(["ColorNormRGB"]) -->|alias| string___float["string | float[]"]
 ```
 

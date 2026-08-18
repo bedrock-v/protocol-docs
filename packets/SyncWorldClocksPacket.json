@@ -7,7 +7,7 @@
     {
       "name": "Data",
       "order": 0,
-      "type": "unknown",
+      "type": "SyncStateData | InitializeRegistryData | AddTimeMarkerData | RemoveTimeMarkerData",
       "optional": false
     }
   ]

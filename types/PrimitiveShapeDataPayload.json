@@ -72,7 +72,7 @@
     {
       "name": "Extra Shape Data",
       "order": 10,
-      "type": "unknown",
+      "type": "null | ArrowDataPayload | TextDataPayload | BoxDataPayload | LineDataPayload | SphereDataPayload | CylinderDataPayload | PyramidDataPayload | EllipsoidDataPayload | ConeDataPayload",
       "optional": true
     }
   ]

@@ -8,7 +8,6 @@
 flowchart LR
   ROOT(["BossEventPacket"])
   ROOT -->|"Target Actor ID"| ActorUniqueID["ActorUniqueID"]
-  ROOT -->|"Player ID"| ActorUniqueID["ActorUniqueID"]
   ROOT -->|"Event Type"| BossEventUpdateType["BossEventUpdateType"]
   ROOT -->|"Name"| string["string"]
   ROOT -->|"FilteredName"| string["string"]

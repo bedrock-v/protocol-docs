@@ -5,6 +5,7 @@
 ```mermaid
 flowchart TB
   ROOT(["persona::PieceType"])
+  ROOT --> Unknown["Unknown"]
   ROOT --> Skeleton["Skeleton"]
   ROOT --> Body["Body"]
   ROOT --> Skin["Skin"]
@@ -32,5 +33,6 @@ flowchart TB
   ROOT --> Capes["Capes"]
   ROOT --> ClassicSkin["ClassicSkin"]
   ROOT --> Emote["Emote"]
+  ROOT --> Unsupported["Unsupported"]
 ```
 

@@ -7,7 +7,7 @@
     {
       "name": "Entries",
       "order": 0,
-      "type": "unknown[]",
+      "type": "PlayerListRemoveEntry | PlayerListAddEntry[]",
       "optional": true
     }
   ]

@@ -1,0 +1,24 @@
+{
+  "name": "SetPlayerFurnaceOptionsPacket",
+  "kind": "packet",
+  "id": 351,
+  "description": "",
+  "fields": [
+    {
+      "name": "FurnaceType",
+      "order": 0,
+      "type": "SetPlayerFurnaceOptionsPacketPayload_FurnaceType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Furnace Options",
+      "order": 1,
+      "type": "FurnaceOptions",
+      "optional": false
+    }
+  ]
+}

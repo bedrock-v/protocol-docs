@@ -17,21 +17,25 @@
     {
       "name": "Generator Type",
       "order": 2,
-      "type": "int32",
+      "type": "GeneratorType",
       "optional": false,
+      "underlyingType": "int32",
       "serialization": [
         "Compression",
-        "Enum-as-Value"
+        "Enum-as-Value",
+        "Allow unknown enum values"
       ]
     },
     {
       "name": "Game Type",
       "order": 3,
-      "type": "int32",
+      "type": "GameType",
       "optional": false,
+      "underlyingType": "int32",
       "serialization": [
         "Compression",
-        "Enum-as-Value"
+        "Enum-as-Value",
+        "Allow unknown enum values"
       ]
     },
     {
@@ -43,11 +47,13 @@
     {
       "name": "Game Difficulty",
       "order": 5,
-      "type": "int32",
+      "type": "Difficulty",
       "optional": false,
+      "underlyingType": "int32",
       "serialization": [
         "Compression",
-        "Enum-as-Value"
+        "Enum-as-Value",
+        "Allow unknown enum values"
       ]
     },
     {
@@ -65,11 +71,13 @@
     {
       "name": "Editor World Type",
       "order": 8,
-      "type": "int32",
+      "type": "EditorWorldType",
       "optional": false,
+      "underlyingType": "int32",
       "serialization": [
         "Compression",
-        "Enum-as-Value"
+        "Enum-as-Value",
+        "Allow unknown enum values"
       ]
     },
     {
@@ -96,11 +104,13 @@
     {
       "name": "Education Edition Offer",
       "order": 12,
-      "type": "uint32",
+      "type": "EducationEditionOffer",
       "optional": false,
+      "underlyingType": "uint32",
       "serialization": [
         "Compression",
-        "Enum-as-Value"
+        "Enum-as-Value",
+        "Allow unknown enum values"
       ]
     },
     {
@@ -148,21 +158,25 @@
     {
       "name": "Xbox Live Broadcast Setting",
       "order": 20,
-      "type": "int32",
+      "type": "GamePublishSetting",
       "optional": false,
+      "underlyingType": "int32",
       "serialization": [
         "Compression",
-        "Enum-as-Value"
+        "Enum-as-Value",
+        "Allow unknown enum values"
       ]
     },
     {
       "name": "Platform Broadcast Setting",
       "order": 21,
-      "type": "int32",
+      "type": "GamePublishSetting",
       "optional": false,
+      "underlyingType": "int32",
       "serialization": [
         "Compression",
-        "Enum-as-Value"
+        "Enum-as-Value",
+        "Allow unknown enum values"
       ]
     },
     {
@@ -204,11 +218,13 @@
     {
       "name": "Player Permissions",
       "order": 28,
-      "type": "int8",
+      "type": "PlayerPermissionLevel",
       "optional": false,
+      "underlyingType": "int8",
       "serialization": [
         "Compression",
-        "Enum-as-Value"
+        "Enum-as-Value",
+        "Allow unknown enum values"
       ]
     },
     {
@@ -316,10 +332,12 @@
     {
       "name": "Chat Restriction Level",
       "order": 46,
-      "type": "uint8",
+      "type": "ChatRestrictionLevel",
       "optional": false,
+      "underlyingType": "uint8",
       "serialization": [
-        "Enum-as-Value"
+        "Enum-as-Value",
+        "Allow unknown enum values"
       ]
     },
     {
@@ -331,11 +349,13 @@
     {
       "name": "Server Editor Connection Policy",
       "order": 48,
-      "type": "int32",
+      "type": "ServerEditorConnectionPolicy",
       "optional": false,
+      "underlyingType": "int32",
       "serialization": [
         "Compression",
-        "Enum-as-Value"
+        "Enum-as-Value",
+        "Allow unknown enum values"
       ]
     },
     {

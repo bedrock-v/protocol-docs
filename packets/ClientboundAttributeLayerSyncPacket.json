@@ -7,7 +7,7 @@
     {
       "name": "Data",
       "order": 0,
-      "type": "unknown",
+      "type": "UpdateAttributeLayersData | UpdateAttributeLayerSettingsData | UpdateEnvironmentAttributesData | RemoveEnvironmentAttributesData",
       "optional": false
     }
   ]

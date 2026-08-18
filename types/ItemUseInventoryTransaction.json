@@ -55,26 +55,37 @@
       ]
     },
     {
-      "name": "Item",
+      "name": "Hand",
       "order": 6,
+      "type": "HandSlot",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Item",
+      "order": 7,
       "type": "NetworkItemStackDescriptor",
       "optional": false
     },
     {
       "name": "From Position",
-      "order": 7,
-      "type": "Vec3",
-      "optional": false
-    },
-    {
-      "name": "Click Position",
       "order": 8,
       "type": "Vec3",
       "optional": false
     },
     {
-      "name": "Target Block Id",
+      "name": "Click Position",
       "order": 9,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Target Block Id",
+      "order": 10,
       "type": "uint32",
       "optional": false,
       "serialization": [
@@ -83,7 +94,7 @@
     },
     {
       "name": "Client Interact Prediction",
-      "order": 10,
+      "order": 11,
       "type": "ItemUsePredictedResult",
       "optional": false,
       "underlyingType": "uint8",
@@ -93,7 +104,7 @@
     },
     {
       "name": "Client Cooldown State",
-      "order": 11,
+      "order": 12,
       "type": "ItemUseClientCooldownState",
       "optional": false,
       "underlyingType": "uint8",

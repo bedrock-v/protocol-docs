@@ -5,10 +5,12 @@
     {
       "name": "Spawn Biome Type",
       "order": 0,
-      "type": "int16",
+      "type": "SpawnBiomeType",
       "optional": false,
+      "underlyingType": "int16",
       "serialization": [
-        "Enum-as-Value"
+        "Enum-as-Value",
+        "Allow unknown enum values"
       ]
     },
     {

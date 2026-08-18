@@ -23,7 +23,7 @@
     {
       "name": "Data",
       "order": 3,
-      "type": "unknown",
+      "type": "double | boolean | string",
       "optional": false
     },
     {

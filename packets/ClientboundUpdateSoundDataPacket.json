@@ -13,43 +13,43 @@
     {
       "name": "Stop",
       "order": 1,
-      "type": "unknown",
+      "type": "Stop | SetVolume | SetPitch | Fade | SeekTo | Pause | Resume",
       "optional": true
     },
     {
       "name": "SetVolume",
       "order": 2,
-      "type": "unknown",
+      "type": "Stop | SetVolume | SetPitch | Fade | SeekTo | Pause | Resume",
       "optional": true
     },
     {
       "name": "SetPitch",
       "order": 3,
-      "type": "unknown",
+      "type": "Stop | SetVolume | SetPitch | Fade | SeekTo | Pause | Resume",
       "optional": true
     },
     {
       "name": "Fade",
       "order": 4,
-      "type": "unknown",
+      "type": "Stop | SetVolume | SetPitch | Fade | SeekTo | Pause | Resume",
       "optional": true
     },
     {
       "name": "SeekTo",
       "order": 5,
-      "type": "unknown",
+      "type": "Stop | SetVolume | SetPitch | Fade | SeekTo | Pause | Resume",
       "optional": true
     },
     {
       "name": "Pause",
       "order": 6,
-      "type": "unknown",
+      "type": "Stop | SetVolume | SetPitch | Fade | SeekTo | Pause | Resume",
       "optional": true
     },
     {
       "name": "Resume",
       "order": 7,
-      "type": "unknown",
+      "type": "Stop | SetVolume | SetPitch | Fade | SeekTo | Pause | Resume",
       "optional": true
     }
   ]

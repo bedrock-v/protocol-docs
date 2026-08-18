@@ -8,6 +8,6 @@
 flowchart LR
   ROOT(["DisconnectPacket"])
   ROOT -->|"Reason"| DisconnectFailReason["DisconnectFailReason"]
-  ROOT -->|"Messages"| unknown["unknown"]
+  ROOT -->|"Messages"| DisconnectPacketMessages___null["DisconnectPacketMessages | null"]
 ```
 

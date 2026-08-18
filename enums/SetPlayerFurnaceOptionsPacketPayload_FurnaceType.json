@@ -1,0 +1,11 @@
+{
+  "name": "SetPlayerFurnaceOptionsPacketPayload FurnaceType",
+  "kind": "enum",
+  "underlyingType": "uint8",
+  "values": [
+    "None",
+    "Furnace",
+    "BlastFurnace",
+    "Smoker"
+  ]
+}

@@ -16,5 +16,6 @@ flowchart LR
   ROOT -->|"Force Move"| boolean["boolean"]
   ROOT -->|"Force Move Local Entity"| boolean["boolean"]
   ROOT -->|"Force Completion"| boolean["boolean"]
+  ROOT -->|"Ticks"| uint64["uint64"]
 ```
 

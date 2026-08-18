@@ -19,7 +19,7 @@
     {
       "name": "Transaction",
       "order": 2,
-      "type": "unknown",
+      "type": "NormalTransactionData | InventoryMismatchData | ItemUseInventoryTransaction | ItemUseOnActorInventoryTransaction | ItemReleaseInventoryTransaction",
       "optional": false
     }
   ]

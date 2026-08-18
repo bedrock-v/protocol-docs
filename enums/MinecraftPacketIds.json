@@ -215,6 +215,8 @@
     "PlayerLocation",
     "SyncWorldClocks",
     "SendPartyDestinationCookie",
-    "PartyDestinationCookieResponse"
+    "PartyDestinationCookieResponse",
+    "SetPlayerFurnaceOptions",
+    "RecordStarted"
   ]
 }

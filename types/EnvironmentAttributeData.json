@@ -11,19 +11,19 @@
     {
       "name": "FromAttribute",
       "order": 1,
-      "type": "unknown",
+      "type": "BoolAttributeData | FloatAttributeData | ColorAttributeData",
       "optional": true
     },
     {
       "name": "Attribute",
       "order": 2,
-      "type": "unknown",
+      "type": "BoolAttributeData | FloatAttributeData | ColorAttributeData",
       "optional": false
     },
     {
       "name": "ToAttribute",
       "order": 3,
-      "type": "unknown",
+      "type": "BoolAttributeData | FloatAttributeData | ColorAttributeData",
       "optional": true
     },
     {
@@ -55,6 +55,12 @@
       "name": "NoiseTransition",
       "order": 8,
       "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "NoiseAlignment",
+      "order": 9,
+      "type": "NoiseAlignment",
       "optional": false
     }
   ]

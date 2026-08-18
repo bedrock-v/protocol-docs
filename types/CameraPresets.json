@@ -141,6 +141,18 @@
       "serialization": [
         "Enum-as-Value"
       ]
+    },
+    {
+      "name": "Apply Inherited Starting Rotation",
+      "order": 22,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Starting Rotation",
+      "order": 23,
+      "type": "Vec2",
+      "optional": false
     }
   ]
 }

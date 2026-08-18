@@ -5,7 +5,7 @@
     {
       "name": "Item Descriptor",
       "order": 0,
-      "type": "unknown",
+      "type": "EmptyItemDescriptor | ItemNameDescriptor | MolangItemDescriptor | ItemTagDescriptor",
       "optional": false
     },
     {

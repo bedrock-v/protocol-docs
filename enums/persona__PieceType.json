@@ -3,6 +3,7 @@
   "kind": "enum",
   "underlyingType": "uint32",
   "values": [
+    "Unknown",
     "Skeleton",
     "Body",
     "Skin",
@@ -29,6 +30,7 @@
     "RightArm",
     "Capes",
     "ClassicSkin",
-    "Emote"
+    "Emote",
+    "Unsupported"
   ]
 }

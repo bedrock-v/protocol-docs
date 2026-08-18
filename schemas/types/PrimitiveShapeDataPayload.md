@@ -15,6 +15,6 @@ flowchart LR
   ROOT -->|"Color"| Color["Color"]
   ROOT -->|"Dimension ID"| DimensionType["DimensionType"]
   ROOT -->|"Attached To Entity ID"| ActorUniqueID["ActorUniqueID"]
-  ROOT -->|"Extra Shape Data"| unknown["unknown"]
+  ROOT -->|"Extra Shape Data"| null___ArrowDataPayload___TextDataPayload___BoxDataPayload___LineDataPayload___SphereDataPayload___CylinderDataPayload___PyramidDataPayload___EllipsoidDataPayload___ConeDataPayload["null | ArrowDataPayload | TextDataPayload | BoxDataPayload | LineDataPayload | SphereDataPayload | CylinderDataPayload | PyramidDataPayload | EllipsoidDataPayload | ConeDataPayload"]
 ```
 

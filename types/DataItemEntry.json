@@ -14,7 +14,7 @@
     {
       "name": "Payload",
       "order": 1,
-      "type": "unknown",
+      "type": "DataItemBytePayload | DataItemShortPayload | DataItemIntPayload | DataItemFloatPayload | DataItemStringPayload | DataItemCompoundTagPayload | DataItemPosPayload | DataItemInt64Payload | DataItemVec3Payload",
       "optional": false
     }
   ]

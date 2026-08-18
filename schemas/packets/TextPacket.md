@@ -8,7 +8,7 @@ Used for commands, messages, and other info printed to the screen. Most of which
 flowchart LR
   ROOT(["TextPacket"])
   ROOT -->|"Localize?"| boolean["boolean"]
-  ROOT -->|"Body"| unknown["unknown"]
+  ROOT -->|"Body"| MessageOnly___AuthorAndMessage___MessageAndParams["MessageOnly | AuthorAndMessage | MessageAndParams"]
   ROOT -->|"Sender's XUID"| string["string"]
   ROOT -->|"Platform Id"| string["string"]
   ROOT -->|"Filtered Message"| string["string"]

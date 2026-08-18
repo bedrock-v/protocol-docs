@@ -11,14 +11,8 @@
       "optional": false
     },
     {
-      "name": "Player ID",
-      "order": 1,
-      "type": "ActorUniqueID",
-      "optional": false
-    },
-    {
       "name": "Event Type",
-      "order": 2,
+      "order": 1,
       "type": "BossEventUpdateType",
       "optional": false,
       "underlyingType": "uint8",
@@ -29,25 +23,25 @@
     },
     {
       "name": "Name",
-      "order": 3,
+      "order": 2,
       "type": "string",
       "optional": false
     },
     {
       "name": "FilteredName",
-      "order": 4,
+      "order": 3,
       "type": "string",
       "optional": false
     },
     {
       "name": "Health Percent",
-      "order": 5,
+      "order": 4,
       "type": "float",
       "optional": false
     },
     {
       "name": "Color",
-      "order": 6,
+      "order": 5,
       "type": "BossBarColor",
       "optional": false,
       "underlyingType": "uint8",
@@ -58,7 +52,7 @@
     },
     {
       "name": "Overlay",
-      "order": 7,
+      "order": 6,
       "type": "BossBarOverlay",
       "optional": false,
       "underlyingType": "uint8",

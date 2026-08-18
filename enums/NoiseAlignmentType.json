@@ -1,0 +1,8 @@
+{
+  "name": "NoiseAlignmentType",
+  "kind": "enum",
+  "underlyingType": "uint8",
+  "values": [
+    "minLocalTransitionEnd"
+  ]
+}

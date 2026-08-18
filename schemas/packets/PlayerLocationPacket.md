@@ -8,6 +8,6 @@ Sent by PlayerLocationSender when a player position changes beyond a certain ang
 flowchart LR
   ROOT(["PlayerLocationPacket"])
   ROOT -->|"Target Actor ID"| ActorUniqueID["ActorUniqueID"]
-  ROOT -->|"Location"| unknown["unknown"]
+  ROOT -->|"Location"| CoordinatesLocation___HiddenLocation["CoordinatesLocation | HiddenLocation"]
 ```
 

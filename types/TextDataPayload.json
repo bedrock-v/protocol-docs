@@ -21,20 +21,26 @@
       "optional": true
     },
     {
-      "name": "DepthTest",
+      "name": "LineGapHeight",
       "order": 3,
-      "type": "boolean",
+      "type": "float",
       "optional": true
     },
     {
-      "name": "ShowBackface",
+      "name": "DepthTest",
       "order": 4,
       "type": "boolean",
       "optional": true
     },
     {
-      "name": "ShowTextBackface",
+      "name": "ShowBackface",
       "order": 5,
+      "type": "boolean",
+      "optional": true
+    },
+    {
+      "name": "ShowTextBackface",
+      "order": 6,
       "type": "boolean",
       "optional": true
     }

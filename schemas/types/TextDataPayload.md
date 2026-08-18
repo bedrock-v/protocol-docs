@@ -8,6 +8,7 @@ flowchart LR
   ROOT -->|"Text"| string["string"]
   ROOT -->|"UseRotation"| boolean["boolean"]
   ROOT -->|"BackgroundColor"| Color["Color"]
+  ROOT -->|"LineGapHeight"| float["float"]
   ROOT -->|"DepthTest"| boolean["boolean"]
   ROOT -->|"ShowBackface"| boolean["boolean"]
   ROOT -->|"ShowTextBackface"| boolean["boolean"]

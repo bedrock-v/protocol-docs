@@ -6,49 +6,49 @@
       "name": "experienceId",
       "order": 0,
       "type": "mce__UUID",
-      "optional": false
+      "optional": true
     },
     {
       "name": "experienceName",
       "order": 1,
       "type": "string",
-      "optional": false
+      "optional": true
     },
     {
       "name": "worldId",
       "order": 2,
       "type": "mce__UUID",
-      "optional": false
+      "optional": true
     },
     {
       "name": "worldName",
       "order": 3,
       "type": "string",
-      "optional": false
+      "optional": true
     },
     {
       "name": "creatorId",
       "order": 4,
       "type": "string",
-      "optional": false
+      "optional": true
     },
     {
       "name": "targetId",
       "order": 5,
       "type": "mce__UUID",
-      "optional": false
+      "optional": true
     },
     {
       "name": "scenarioId",
       "order": 6,
       "type": "string",
-      "optional": false
+      "optional": true
     },
     {
       "name": "serverId",
       "order": 7,
       "type": "string",
-      "optional": false
+      "optional": true
     }
   ]
 }

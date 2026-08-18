@@ -4,6 +4,6 @@
 
 ```mermaid
 flowchart LR
-  ROOT(["Item Descriptor"]) -->|alias| unknown["unknown"]
+  ROOT(["Item Descriptor"]) -->|alias| string___object["string | object"]
 ```
 

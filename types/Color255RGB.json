@@ -1,5 +1,5 @@
 {
   "name": "Color255RGB",
   "kind": "alias",
-  "type": "unknown"
+  "type": "string | int32[]"
 }

@@ -5,6 +5,7 @@
 ```mermaid
 flowchart TB
   ROOT(["persona::AnimatedTextureType"])
+  ROOT --> None["None"]
   ROOT --> Face["Face"]
   ROOT --> Body32x32["Body32x32"]
   ROOT --> Body128x128["Body128x128"]

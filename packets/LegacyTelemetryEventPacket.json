@@ -30,7 +30,7 @@
     {
       "name": "Event Data",
       "order": 3,
-      "type": "unknown",
+      "type": "Achievement | Interaction | PortalCreated | PortalUsed | MobKilled | CauldronUsed | PlayerDied | BossKilled | SlashCommand | MobBorn | POICauldronUsed | ComposterUsed | BellUsed | ActorDefinition | RaidUpdate | TargetBlockHit | PiglinBarter | PlayerWaxedOrUnwaxedCopper | CodeBuilderRuntimeAction | CodeBuilderScoreboard | ItemUsed | Empty",
       "optional": false
     }
   ]

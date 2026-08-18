@@ -3,6 +3,7 @@
   "kind": "enum",
   "underlyingType": "uint32",
   "values": [
+    "None",
     "Face",
     "Body32x32",
     "Body128x128"

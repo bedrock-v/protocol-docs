@@ -7,13 +7,13 @@
     {
       "name": "Start Video Capture",
       "order": 0,
-      "type": "unknown",
+      "type": "Start_Video_Capture | Stop_Video_Capture",
       "optional": true
     },
     {
       "name": "Stop Video Capture",
       "order": 1,
-      "type": "unknown",
+      "type": "Start_Video_Capture | Stop_Video_Capture",
       "optional": true
     }
   ]

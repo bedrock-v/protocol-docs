@@ -38,9 +38,21 @@
       ]
     },
     {
-      "name": "Server Sound Handle",
+      "name": "Bypass Listener Range Check",
       "order": 5,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Server Sound Handle",
+      "order": 6,
       "type": "ServerSoundHandle",
+      "optional": true
+    },
+    {
+      "name": "Playback Position Seconds",
+      "order": 7,
+      "type": "float",
       "optional": true
     }
   ]

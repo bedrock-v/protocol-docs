@@ -5,7 +5,7 @@
     {
       "name": "Updates",
       "order": 0,
-      "type": "unknown[]",
+      "type": "Data_Store_Update | Data_Store_Change | Data_Store_Removal[]",
       "optional": false
     }
   ]

@@ -11,6 +11,7 @@ flowchart LR
   ROOT -->|"Position"| BlockPos["BlockPos"]
   ROOT -->|"Face"| uint8["uint8"]
   ROOT -->|"Slot"| int32["int32"]
+  ROOT -->|"Hand"| HandSlot["HandSlot"]
   ROOT -->|"Item"| NetworkItemStackDescriptor["NetworkItemStackDescriptor"]
   ROOT -->|"From Position"| Vec3["Vec3"]
   ROOT -->|"Click Position"| Vec3["Vec3"]

@@ -7,6 +7,6 @@
 ```mermaid
 flowchart LR
   ROOT(["ClientboundAttributeLayerSyncPacket"])
-  ROOT -->|"Data"| unknown["unknown"]
+  ROOT -->|"Data"| UpdateAttributeLayersData___UpdateAttributeLayerSettingsData___UpdateEnvironmentAttributesData___RemoveEnvironmentAttributesData["UpdateAttributeLayersData | UpdateAttributeLayerSettingsData | UpdateEnvironmentAttributesData | RemoveEnvironmentAttributesData"]
 ```
 

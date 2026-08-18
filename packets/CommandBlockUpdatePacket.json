@@ -7,7 +7,7 @@
     {
       "name": "Target",
       "order": 0,
-      "type": "unknown",
+      "type": "EntityCommandTarget | BlockCommandData",
       "optional": false
     },
     {

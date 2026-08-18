@@ -10,6 +10,6 @@
 ```mermaid
 flowchart LR
   ROOT(["SyncWorldClocksPacket"])
-  ROOT -->|"Data"| unknown["unknown"]
+  ROOT -->|"Data"| SyncStateData___InitializeRegistryData___AddTimeMarkerData___RemoveTimeMarkerData["SyncStateData | InitializeRegistryData | AddTimeMarkerData | RemoveTimeMarkerData"]
 ```
 

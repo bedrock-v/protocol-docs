@@ -1,0 +1,25 @@
+{
+  "name": "NoiseAlignment",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "type",
+      "order": 0,
+      "type": "NoiseAlignmentType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "value",
+      "order": 1,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

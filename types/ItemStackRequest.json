@@ -11,7 +11,7 @@
     {
       "name": "Actions",
       "order": 1,
-      "type": "unknown[]",
+      "type": "ItemStackRequestTakeAction | ItemStackRequestPlaceAction | ItemStackRequestSwapAction | ItemStackRequestDropAction | ItemStackRequestDestroyAction | ItemStackRequestConsumeAction | ItemStackRequestCreateAction | ItemStackRequestLabTableCombineAction | ItemStackRequestBeaconPaymentAction | ItemStackRequestMineBlockAction | ItemStackRequestCraftRecipeAction | ItemStackRequestCraftRecipeAutoAction | ItemStackRequestCraftCreativeAction | ItemStackRequestCraftRecipeOptionalAction | ItemStackRequestCraftRepairAndDisenchantAction | ItemStackRequestCraftLoomAction | ItemStackRequestCraftNonImplementedDeprecatedAction | ItemStackRequestCraftResultsDeprecatedAction[]",
       "optional": false
     },
     {

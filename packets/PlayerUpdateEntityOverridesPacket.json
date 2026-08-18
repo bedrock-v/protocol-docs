@@ -22,7 +22,7 @@
     {
       "name": "Update",
       "order": 2,
-      "type": "unknown",
+      "type": "ClearOverride | RemoveOverride | IntOverride | FloatOverride",
       "optional": false
     }
   ]

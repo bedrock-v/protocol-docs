@@ -12,7 +12,7 @@ flowchart TB
   ROOT --> Win32["Win32"]
   ROOT --> Dedicated["Dedicated"]
   ROOT --> Sony["Sony"]
-  ROOT --> Nx["Nx"]
+  ROOT --> Nintendo["Nintendo"]
   ROOT --> Xbox["Xbox"]
   ROOT --> Linux["Linux"]
   ROOT --> Unknown["Unknown"]

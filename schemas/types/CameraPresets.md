@@ -27,5 +27,7 @@ flowchart LR
   ROOT -->|"Player Effects"| boolean["boolean"]
   ROOT -->|"Aim Assist"| SharedTypes__Comprehensive__CameraAimAssistCommandDefinition["SharedTypes__Comprehensive__CameraAimAssistCommandDefinition"]
   ROOT -->|"Control Scheme"| Control_Scheme["Control_Scheme"]
+  ROOT -->|"Apply Inherited Starting Rotation"| boolean["boolean"]
+  ROOT -->|"Starting Rotation"| Vec2["Vec2"]
 ```
 

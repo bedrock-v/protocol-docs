@@ -7,7 +7,7 @@ Sent when you close the command block screen on the client.
 ```mermaid
 flowchart LR
   ROOT(["CommandBlockUpdatePacket"])
-  ROOT -->|"Target"| unknown["unknown"]
+  ROOT -->|"Target"| EntityCommandTarget___BlockCommandData["EntityCommandTarget | BlockCommandData"]
   ROOT -->|"Command"| string["string"]
   ROOT -->|"Last Output"| string["string"]
   ROOT -->|"Name"| string["string"]

@@ -7,6 +7,6 @@ Sets the scoreboard which is used for 3rd party content.
 ```mermaid
 flowchart LR
   ROOT(["SetScorePacket"])
-  ROOT -->|"Score Info"| unknown["unknown[]"]
+  ROOT -->|"Score Info"| RemoveScore___ChangePlayerScore___ChangeEntityScore___ChangeFakePlayerScore["RemoveScore | ChangePlayerScore | ChangeEntityScore | ChangeFakePlayerScore[]"]
 ```
 
