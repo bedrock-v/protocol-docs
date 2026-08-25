@@ -1,6 +1,6 @@
 # Bedrock Protocol Docs - r/26_u5
 
-- Build: 1.26.50.26
+- Build: 1.26.50.27
 - Minecraft version: 1.26.50
 - Protocol version: 2192
 
