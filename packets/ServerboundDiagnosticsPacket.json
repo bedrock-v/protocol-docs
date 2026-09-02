@@ -80,7 +80,7 @@
       "name": "System Categories",
       "order": 12,
       "type": "SystemCategory[]",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Whisker Scopes",

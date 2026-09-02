@@ -36,14 +36,20 @@
       "optional": false
     },
     {
-      "name": "Platform Online ID",
+      "name": "PlayFab ID",
       "order": 5,
       "type": "string",
       "optional": false
     },
     {
-      "name": "Build Platform",
+      "name": "Platform Online ID",
       "order": 6,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Build Platform",
+      "order": 7,
       "type": "BuildPlatform",
       "optional": false,
       "underlyingType": "int32",
@@ -53,31 +59,31 @@
     },
     {
       "name": "Serialized Skin",
-      "order": 7,
+      "order": 8,
       "type": "SerializedSkin",
       "optional": false
     },
     {
       "name": "Is Teacher",
-      "order": 8,
-      "type": "boolean",
-      "optional": false
-    },
-    {
-      "name": "Is Host",
       "order": 9,
       "type": "boolean",
       "optional": false
     },
     {
-      "name": "Is SubClient",
+      "name": "Is Host",
       "order": 10,
       "type": "boolean",
       "optional": false
     },
     {
-      "name": "Player Color",
+      "name": "Is SubClient",
       "order": 11,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Player Color",
+      "order": 12,
       "type": "Color",
       "optional": false
     }

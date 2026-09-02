@@ -1,0 +1,26 @@
+{
+  "name": "ServerboundStonecutterSetRecipePacket",
+  "kind": "packet",
+  "id": 354,
+  "description": "",
+  "fields": [
+    {
+      "name": "Container Id",
+      "order": 0,
+      "type": "uint8",
+      "optional": false,
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Recipe Index",
+      "order": 1,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

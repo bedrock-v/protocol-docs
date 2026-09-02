@@ -5,6 +5,6 @@
 ```mermaid
 flowchart TB
   ROOT(["NoiseAlignmentType"])
-  ROOT --> minLocalTransitionEnd["minLocalTransitionEnd"]
+  ROOT --> MinLocalTransitionEnd["MinLocalTransitionEnd"]
 ```
 

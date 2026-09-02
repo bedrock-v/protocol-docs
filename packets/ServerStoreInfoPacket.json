@@ -8,7 +8,7 @@
       "name": "client_store_entry_point_configuration",
       "order": 0,
       "type": "clientStoreEntryPointConfig",
-      "optional": false
+      "optional": true
     }
   ]
 }

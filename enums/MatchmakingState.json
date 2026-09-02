@@ -1,0 +1,10 @@
+{
+  "name": "MatchmakingState",
+  "kind": "enum",
+  "underlyingType": "uint8",
+  "values": [
+    "Idle",
+    "Matchmaking",
+    "MatchFound"
+  ]
+}

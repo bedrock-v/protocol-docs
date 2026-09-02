@@ -12,43 +12,43 @@
       "name": "ease",
       "order": 1,
       "type": "CameraInstruction__SetInstruction__EaseOption",
-      "optional": false
+      "optional": true
     },
     {
       "name": "pos",
       "order": 2,
       "type": "CameraInstruction__SetInstruction__PosOption",
-      "optional": false
+      "optional": true
     },
     {
       "name": "rot",
       "order": 3,
       "type": "CameraInstruction__SetInstruction__RotOption",
-      "optional": false
+      "optional": true
     },
     {
       "name": "facing",
       "order": 4,
       "type": "CameraInstruction__SetInstruction__FacingOption",
-      "optional": false
+      "optional": true
     },
     {
       "name": "view_offset",
       "order": 5,
       "type": "CameraInstruction__SetInstruction__ViewOffsetOption",
-      "optional": false
+      "optional": true
     },
     {
       "name": "entity_offset",
       "order": 6,
       "type": "CameraInstruction__SetInstruction__EntityOffsetOption",
-      "optional": false
+      "optional": true
     },
     {
       "name": "default",
       "order": 7,
       "type": "boolean",
-      "optional": false
+      "optional": true
     },
     {
       "name": "removeIgnoreStartingValuesComponent",

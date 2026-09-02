@@ -10,6 +10,7 @@ flowchart LR
   ROOT -->|"Actor Unique ID"| ActorUniqueID["ActorUniqueID"]
   ROOT -->|"Player Name"| string["string"]
   ROOT -->|"XBL XUID"| string["string"]
+  ROOT -->|"PlayFab ID"| string["string"]
   ROOT -->|"Platform Online ID"| string["string"]
   ROOT -->|"Build Platform"| BuildPlatform["BuildPlatform"]
   ROOT -->|"Serialized Skin"| SerializedSkin["SerializedSkin"]

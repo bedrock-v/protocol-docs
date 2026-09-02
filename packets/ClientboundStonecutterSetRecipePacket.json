@@ -1,0 +1,32 @@
+{
+  "name": "ClientboundStonecutterSetRecipePacket",
+  "kind": "packet",
+  "id": 355,
+  "description": "",
+  "fields": [
+    {
+      "name": "Player Id",
+      "order": 0,
+      "type": "ActorUniqueID",
+      "optional": false
+    },
+    {
+      "name": "Container Id",
+      "order": 1,
+      "type": "uint8",
+      "optional": false,
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Recipe Index",
+      "order": 2,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

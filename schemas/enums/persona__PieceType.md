@@ -33,6 +33,7 @@ flowchart TB
   ROOT --> Capes["Capes"]
   ROOT --> ClassicSkin["ClassicSkin"]
   ROOT --> Emote["Emote"]
+  ROOT --> CoCo["CoCo"]
   ROOT --> Unsupported["Unsupported"]
 ```
 

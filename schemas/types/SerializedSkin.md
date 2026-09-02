@@ -6,12 +6,11 @@
 flowchart LR
   ROOT(["SerializedSkin"])
   ROOT -->|"ID"| string["string"]
-  ROOT -->|"PlayFabID"| string["string"]
   ROOT -->|"ResourcePatch"| string["string"]
   ROOT -->|"ImageData"| SkinImage["SkinImage"]
   ROOT -->|"AnimatedImageData"| AnimatedImageData["AnimatedImageData[]"]
   ROOT -->|"CapeImageData"| SkinImage["SkinImage"]
-  ROOT -->|"GeometryData"| Json__Value["Json__Value"]
+  ROOT -->|"GeometryData"| string["string"]
   ROOT -->|"GeometryDataMinEngineVersion"| MinEngineVersion["MinEngineVersion"]
   ROOT -->|"AnimationData"| string["string"]
   ROOT -->|"CapeID"| string["string"]

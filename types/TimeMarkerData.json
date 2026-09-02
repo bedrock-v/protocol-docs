@@ -30,7 +30,7 @@
       "name": "Period",
       "order": 3,
       "type": "int32",
-      "optional": false
+      "optional": true
     }
   ]
 }

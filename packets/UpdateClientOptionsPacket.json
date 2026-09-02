@@ -8,7 +8,7 @@
       "name": "Graphics Mode Change",
       "order": 0,
       "type": "GraphicsMode",
-      "optional": false,
+      "optional": true,
       "underlyingType": "uint8",
       "serialization": [
         "Enum-as-Value"
@@ -18,7 +18,7 @@
       "name": "Filter Profanity Change",
       "order": 1,
       "type": "boolean",
-      "optional": false,
+      "optional": true,
       "serialization": [
         "Enum-as-Value"
       ]

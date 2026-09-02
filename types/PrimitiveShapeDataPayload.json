@@ -61,7 +61,7 @@
       "name": "Dimension ID",
       "order": 8,
       "type": "DimensionType",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Attached To Entity ID",

@@ -18,103 +18,103 @@
       "name": "Pos X",
       "order": 2,
       "type": "float",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Pos Y",
       "order": 3,
       "type": "float",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Pos Z",
       "order": 4,
       "type": "float",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Rot X",
       "order": 5,
       "type": "float",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Rot Y",
       "order": 6,
       "type": "float",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Rotation Speed",
       "order": 7,
       "type": "float",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Snap to Target",
       "order": 8,
       "type": "boolean",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Horizontal Rotation Limit",
       "order": 9,
       "type": "Vec2",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Vertical Rotation Limit",
       "order": 10,
       "type": "Vec2",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Continue Targeting",
       "order": 11,
       "type": "boolean",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Block Listening Radius",
       "order": 12,
       "type": "float",
-      "optional": false
+      "optional": true
     },
     {
       "name": "View Offset",
       "order": 13,
       "type": "Vec2",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Entity Offset",
       "order": 14,
       "type": "Vec3",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Radius",
       "order": 15,
       "type": "float",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Yaw Limit Min",
       "order": 16,
       "type": "float",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Yaw Limit Max",
       "order": 17,
       "type": "float",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Listener",
       "order": 18,
       "type": "SharedTypes__Comprehensive__CameraPreset__AudioListener",
-      "optional": false,
+      "optional": true,
       "underlyingType": "uint8",
       "serialization": [
         "Enum-as-Value"
@@ -124,19 +124,19 @@
       "name": "Player Effects",
       "order": 19,
       "type": "boolean",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Aim Assist",
       "order": 20,
       "type": "SharedTypes__Comprehensive__CameraAimAssistCommandDefinition",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Control Scheme",
       "order": 21,
       "type": "Control_Scheme",
-      "optional": false,
+      "optional": true,
       "underlyingType": "uint8",
       "serialization": [
         "Enum-as-Value"
@@ -152,7 +152,7 @@
       "name": "Starting Rotation",
       "order": 23,
       "type": "Vec2",
-      "optional": false
+      "optional": true
     }
   ]
 }

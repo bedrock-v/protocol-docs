@@ -30,13 +30,13 @@
       "name": "Position",
       "order": 4,
       "type": "Vec3",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Dimension",
       "order": 5,
       "type": "string",
-      "optional": false
+      "optional": true
     }
   ]
 }

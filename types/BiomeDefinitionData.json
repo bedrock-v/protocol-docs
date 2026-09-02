@@ -54,13 +54,13 @@
       "name": "tags",
       "order": 8,
       "type": "BiomeTagsData",
-      "optional": false
+      "optional": true
     },
     {
       "name": "chunk gen data",
       "order": 9,
       "type": "BiomeDefinitionChunkGenData",
-      "optional": false
+      "optional": true
     }
   ]
 }

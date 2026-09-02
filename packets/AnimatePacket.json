@@ -32,6 +32,17 @@
       "type": "ActorSwingSource",
       "optional": true,
       "underlyingType": "uint8"
+    },
+    {
+      "name": "Hand",
+      "order": 4,
+      "type": "HandSlot",
+      "optional": true,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
     }
   ]
 }

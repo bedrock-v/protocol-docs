@@ -1,0 +1,24 @@
+{
+  "name": "TransitionAttributeData",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "FromAttribute",
+      "order": 0,
+      "type": "BoolAttributeData | FloatAttributeData | ColorAttributeData",
+      "optional": false
+    },
+    {
+      "name": "ToAttribute",
+      "order": 1,
+      "type": "BoolAttributeData | FloatAttributeData | ColorAttributeData",
+      "optional": false
+    },
+    {
+      "name": "Settings",
+      "order": 2,
+      "type": "TransitionSettingsData",
+      "optional": false
+    }
+  ]
+}

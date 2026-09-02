@@ -6,7 +6,7 @@
       "name": "Code Builder Override Uri",
       "order": 0,
       "type": "string",
-      "optional": false
+      "optional": true
     }
   ]
 }

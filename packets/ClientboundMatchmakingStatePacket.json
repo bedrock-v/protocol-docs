@@ -1,0 +1,21 @@
+{
+  "name": "ClientboundMatchmakingStatePacket",
+  "kind": "packet",
+  "id": 353,
+  "description": "",
+  "fields": [
+    {
+      "name": "State",
+      "order": 0,
+      "type": "MatchmakingState",
+      "optional": false,
+      "underlyingType": "uint8"
+    },
+    {
+      "name": "Destination Name",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

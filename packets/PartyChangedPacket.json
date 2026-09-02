@@ -8,7 +8,7 @@
       "name": "party_info",
       "order": 0,
       "type": "PlayerPartyInfo",
-      "optional": false
+      "optional": true
     }
   ]
 }

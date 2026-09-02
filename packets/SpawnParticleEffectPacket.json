@@ -32,7 +32,7 @@
       "name": "Molang Variables",
       "order": 4,
       "type": "MolangVariableMap",
-      "optional": false
+      "optional": true
     }
   ]
 }

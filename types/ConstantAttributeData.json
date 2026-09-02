@@ -1,0 +1,12 @@
+{
+  "name": "ConstantAttributeData",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Attribute",
+      "order": 0,
+      "type": "BoolAttributeData | FloatAttributeData | ColorAttributeData",
+      "optional": false
+    }
+  ]
+}

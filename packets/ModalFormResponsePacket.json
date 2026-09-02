@@ -16,14 +16,14 @@
     {
       "name": "JSON Response",
       "order": 1,
-      "type": "Json__Value",
-      "optional": false
+      "type": "string",
+      "optional": true
     },
     {
       "name": "Form Cancel Reason",
       "order": 2,
       "type": "ModalFormCancelReason",
-      "optional": false,
+      "optional": true,
       "underlyingType": "uint8",
       "serialization": [
         "Enum-as-Value"

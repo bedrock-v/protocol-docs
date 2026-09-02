@@ -6,55 +6,55 @@
       "name": "climate",
       "order": 0,
       "type": "BiomeClimateData",
-      "optional": false
+      "optional": true
     },
     {
       "name": "consolidated features",
       "order": 1,
       "type": "BiomeConsolidatedFeaturesData",
-      "optional": false
+      "optional": true
     },
     {
       "name": "mountain params",
       "order": 2,
       "type": "BiomeMountainParamsData",
-      "optional": false
+      "optional": true
     },
     {
       "name": "surface material adjustments",
       "order": 3,
       "type": "BiomeSurfaceMaterialAdjustmentData",
-      "optional": false
+      "optional": true
     },
     {
       "name": "overworld gen rules",
       "order": 4,
       "type": "BiomeOverworldGenRulesData",
-      "optional": false
+      "optional": true
     },
     {
       "name": "multinoise gen rules",
       "order": 5,
       "type": "BiomeMultinoiseGenRulesData",
-      "optional": false
+      "optional": true
     },
     {
       "name": "legacy world gen rules",
       "order": 6,
       "type": "BiomeLegacyWorldGenRulesData",
-      "optional": false
+      "optional": true
     },
     {
       "name": "replacement biomes",
       "order": 7,
       "type": "BiomeReplacementsData",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Village Type",
       "order": 8,
       "type": "VillageType",
-      "optional": false,
+      "optional": true,
       "underlyingType": "uint8",
       "serialization": [
         "Enum-as-Value"
@@ -64,13 +64,13 @@
       "name": "surface builder data",
       "order": 9,
       "type": "BiomeSurfaceBuilderData",
-      "optional": false
+      "optional": true
     },
     {
       "name": "subsurface builder data",
       "order": 10,
       "type": "BiomeSurfaceBuilderData",
-      "optional": false
+      "optional": true
     }
   ]
 }

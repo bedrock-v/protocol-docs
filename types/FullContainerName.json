@@ -16,7 +16,7 @@
       "name": "Dynamic ID",
       "order": 1,
       "type": "uint32",
-      "optional": false
+      "optional": true
     }
   ]
 }

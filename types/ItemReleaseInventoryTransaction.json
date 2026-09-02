@@ -39,6 +39,17 @@
       "order": 4,
       "type": "Vec3",
       "optional": false
+    },
+    {
+      "name": "Hand",
+      "order": 5,
+      "type": "HandSlot",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Compression",
+        "Enum-as-Value"
+      ]
     }
   ]
 }

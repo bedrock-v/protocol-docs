@@ -42,7 +42,7 @@
       "name": "Agent Capabilities",
       "order": 6,
       "type": "AgentCapabilities",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Local Settings",
@@ -60,7 +60,7 @@
       "name": "External Link Settings",
       "order": 9,
       "type": "ExternalLinkSettings",
-      "optional": false
+      "optional": true
     }
   ]
 }

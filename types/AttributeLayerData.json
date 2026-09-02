@@ -9,26 +9,20 @@
       "optional": false
     },
     {
-      "name": "NoiseName",
-      "order": 1,
-      "type": "string",
-      "optional": true
-    },
-    {
       "name": "Dimension",
-      "order": 2,
+      "order": 1,
       "type": "DimensionType",
       "optional": false
     },
     {
       "name": "Settings",
-      "order": 3,
+      "order": 2,
       "type": "AttributeLayerSettings",
       "optional": false
     },
     {
       "name": "Attributes",
-      "order": 4,
+      "order": 3,
       "type": "EnvironmentAttributeData[]",
       "optional": false
     }

@@ -6,25 +6,25 @@
       "name": "Arrow End Location",
       "order": 0,
       "type": "Vec3",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Arrow Head Length",
       "order": 1,
       "type": "float",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Arrow Head Radius",
       "order": 2,
       "type": "float",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Num Segments",
       "order": 3,
       "type": "uint8",
-      "optional": false
+      "optional": true
     }
   ]
 }

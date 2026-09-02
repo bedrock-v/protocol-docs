@@ -8,7 +8,7 @@ see ModalFormRequestPacket
 flowchart LR
   ROOT(["ModalFormResponsePacket"])
   ROOT -->|"Form ID"| uint32["uint32"]
-  ROOT -->|"JSON Response"| Json__Value["Json__Value"]
+  ROOT -->|"JSON Response"| string["string"]
   ROOT -->|"Form Cancel Reason"| ModalFormCancelReason["ModalFormCancelReason"]
 ```
 

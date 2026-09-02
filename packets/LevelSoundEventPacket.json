@@ -53,7 +53,7 @@
       "name": "Fire At Position",
       "order": 7,
       "type": "Vec3",
-      "optional": false
+      "optional": true
     }
   ]
 }

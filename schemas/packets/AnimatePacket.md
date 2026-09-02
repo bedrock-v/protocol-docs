@@ -11,5 +11,6 @@ flowchart LR
   ROOT -->|"Target Actor Runtime ID"| ActorRuntimeID["ActorRuntimeID"]
   ROOT -->|"Data"| float["float"]
   ROOT -->|"Swing Source"| ActorSwingSource["ActorSwingSource"]
+  ROOT -->|"Hand"| HandSlot["HandSlot"]
 ```
 

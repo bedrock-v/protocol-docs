@@ -5,7 +5,7 @@
 ```mermaid
 flowchart LR
   ROOT(["NoiseAlignment"])
-  ROOT -->|"type"| NoiseAlignmentType["NoiseAlignmentType"]
-  ROOT -->|"value"| uint32["uint32"]
+  ROOT -->|"Type"| NoiseAlignmentType["NoiseAlignmentType"]
+  ROOT -->|"Value"| uint32["uint32"]
 ```
 

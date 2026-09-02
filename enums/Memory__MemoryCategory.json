@@ -112,6 +112,7 @@
     "Gameface_JSON",
     "Gameface_ScriptEngine",
     "Gameface_Script",
-    "Gameface_Layout"
+    "Gameface_Layout",
+    "Executable"
   ]
 }

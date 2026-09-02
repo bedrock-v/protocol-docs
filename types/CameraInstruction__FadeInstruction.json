@@ -6,13 +6,13 @@
       "name": "Time",
       "order": 0,
       "type": "CameraInstruction__FadeInstruction__TimeOption",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Color",
       "order": 1,
       "type": "CameraInstruction__FadeInstruction__ColorOption",
-      "optional": false
+      "optional": true
     }
   ]
 }

@@ -9,58 +9,9 @@
       "optional": false
     },
     {
-      "name": "FromAttribute",
+      "name": "Payload",
       "order": 1,
-      "type": "BoolAttributeData | FloatAttributeData | ColorAttributeData",
-      "optional": true
-    },
-    {
-      "name": "Attribute",
-      "order": 2,
-      "type": "BoolAttributeData | FloatAttributeData | ColorAttributeData",
-      "optional": false
-    },
-    {
-      "name": "ToAttribute",
-      "order": 3,
-      "type": "BoolAttributeData | FloatAttributeData | ColorAttributeData",
-      "optional": true
-    },
-    {
-      "name": "CurrentTransitionTicks",
-      "order": 4,
-      "type": "uint32",
-      "optional": false
-    },
-    {
-      "name": "TotalTransitionTicks",
-      "order": 5,
-      "type": "uint32",
-      "optional": false
-    },
-    {
-      "name": "Easing",
-      "order": 6,
-      "type": "easing_function",
-      "optional": false,
-      "underlyingType": "uint32"
-    },
-    {
-      "name": "LocalTransitionTicks",
-      "order": 7,
-      "type": "uint32",
-      "optional": false
-    },
-    {
-      "name": "NoiseTransition",
-      "order": 8,
-      "type": "boolean",
-      "optional": false
-    },
-    {
-      "name": "NoiseAlignment",
-      "order": 9,
-      "type": "NoiseAlignment",
+      "type": "ConstantAttributeData | TransitionAttributeData | NoiseTransitionAttributeData",
       "optional": false
     }
   ]

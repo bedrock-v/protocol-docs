@@ -14,13 +14,13 @@
       "name": "Float Value",
       "order": 1,
       "type": "float",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Vec3 Value",
       "order": 2,
       "type": "Vec3",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Biome Identifier",

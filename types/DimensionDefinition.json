@@ -47,6 +47,21 @@
       "order": 5,
       "type": "string",
       "optional": false
+    },
+    {
+      "name": "Cloud Height",
+      "order": 6,
+      "type": "int32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ]
+    },
+    {
+      "name": "Render Clouds",
+      "order": 7,
+      "type": "boolean",
+      "optional": false
     }
   ]
 }

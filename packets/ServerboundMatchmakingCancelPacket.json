@@ -1,0 +1,7 @@
+{
+  "name": "ServerboundMatchmakingCancelPacket",
+  "kind": "packet",
+  "id": 356,
+  "description": "",
+  "fields": []
+}

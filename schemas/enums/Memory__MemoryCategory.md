@@ -45,6 +45,6 @@ flowchart TB
   ROOT --> Languages["Languages"]
   ROOT --> Level["Level"]
   ROOT --> LevelStructures["LevelStructures"]
-  ROOT --> more["... 70 more"]
+  ROOT --> more["... 71 more"]
 ```
 

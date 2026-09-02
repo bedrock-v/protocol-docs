@@ -10,5 +10,6 @@ flowchart LR
   ROOT -->|"Slot"| int32["int32"]
   ROOT -->|"Item"| NetworkItemStackDescriptor["NetworkItemStackDescriptor"]
   ROOT -->|"From Position"| Vec3["Vec3"]
+  ROOT -->|"Hand"| HandSlot["HandSlot"]
 ```
 

@@ -9,68 +9,62 @@
       "optional": false
     },
     {
-      "name": "PlayFabID",
+      "name": "ResourcePatch",
       "order": 1,
       "type": "string",
       "optional": false
     },
     {
-      "name": "ResourcePatch",
-      "order": 2,
-      "type": "string",
-      "optional": false
-    },
-    {
       "name": "ImageData",
-      "order": 3,
+      "order": 2,
       "type": "SkinImage",
       "optional": false
     },
     {
       "name": "AnimatedImageData",
-      "order": 4,
+      "order": 3,
       "type": "AnimatedImageData[]",
       "optional": false
     },
     {
       "name": "CapeImageData",
-      "order": 5,
+      "order": 4,
       "type": "SkinImage",
       "optional": false
     },
     {
       "name": "GeometryData",
-      "order": 6,
-      "type": "Json__Value",
+      "order": 5,
+      "type": "string",
       "optional": false
     },
     {
       "name": "GeometryDataMinEngineVersion",
-      "order": 7,
+      "order": 6,
       "type": "MinEngineVersion",
       "optional": false
     },
     {
       "name": "AnimationData",
-      "order": 8,
+      "order": 7,
       "type": "string",
       "optional": false
     },
     {
       "name": "CapeID",
-      "order": 9,
+      "order": 8,
       "type": "string",
       "optional": false
     },
     {
       "name": "FullID",
-      "order": 10,
+      "order": 9,
       "type": "string",
       "optional": false
     },
     {
       "name": "ArmSize",
-      "order": 11,
+      "order": 10,
       "type": "persona__ArmSize__Type",
       "optional": false,
       "underlyingType": "uint8",
@@ -80,62 +74,62 @@
     },
     {
       "name": "SkinColor",
-      "order": 12,
+      "order": 11,
       "type": "Color",
       "optional": false
     },
     {
       "name": "PersonaPieces",
-      "order": 13,
+      "order": 12,
       "type": "SerializedPersonaPieceHandle[]",
       "optional": false
     },
     {
       "name": "PieceTintColors",
-      "order": 14,
+      "order": 13,
       "type": "object",
       "optional": false
     },
     {
       "name": "IsPremium",
-      "order": 15,
+      "order": 14,
       "type": "boolean",
       "optional": false
     },
     {
       "name": "IsPersona",
-      "order": 16,
+      "order": 15,
       "type": "boolean",
       "optional": false
     },
     {
       "name": "IsPersonaCapeOnClassicSkin",
-      "order": 17,
+      "order": 16,
       "type": "boolean",
       "optional": false
     },
     {
       "name": "IsPrimaryUser",
-      "order": 18,
+      "order": 17,
       "type": "boolean",
       "optional": false
     },
     {
       "name": "OverridesPlayerAppearance",
-      "order": 19,
+      "order": 18,
       "type": "boolean",
       "optional": false
     },
     {
       "name": "TrustedSkinFlag",
-      "order": 20,
+      "order": 19,
       "type": "TrustedSkinFlag",
       "optional": false,
       "underlyingType": "object"
     },
     {
       "name": "ProfileHash",
-      "order": 21,
+      "order": 20,
       "type": "string",
       "optional": false
     }

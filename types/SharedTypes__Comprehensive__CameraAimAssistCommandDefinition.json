@@ -6,13 +6,13 @@
       "name": "Preset Id",
       "order": 0,
       "type": "SharedTypes__Reference_SharedTypes__AssetType__CameraAimAssist_",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Target Mode",
       "order": 1,
       "type": "Aim-Assist_Target_Mode",
-      "optional": false,
+      "optional": true,
       "underlyingType": "uint8",
       "serialization": [
         "Enum-as-Value"
@@ -22,13 +22,13 @@
       "name": "View Angle",
       "order": 2,
       "type": "Vec2",
-      "optional": false
+      "optional": true
     },
     {
       "name": "Distance",
       "order": 3,
       "type": "float",
-      "optional": false
+      "optional": true
     }
   ]
 }

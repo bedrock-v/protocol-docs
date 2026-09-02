@@ -6,7 +6,7 @@
       "name": "Can Modify Blocks",
       "order": 0,
       "type": "boolean",
-      "optional": false
+      "optional": true
     }
   ]
 }

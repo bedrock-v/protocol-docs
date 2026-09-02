@@ -18,19 +18,19 @@
       "name": "sea block",
       "order": 2,
       "type": "uint32",
-      "optional": false
+      "optional": true
     },
     {
       "name": "foundation block",
       "order": 3,
       "type": "uint32",
-      "optional": false
+      "optional": true
     },
     {
       "name": "beach block",
       "order": 4,
       "type": "uint32",
-      "optional": false
+      "optional": true
     }
   ]
 }
