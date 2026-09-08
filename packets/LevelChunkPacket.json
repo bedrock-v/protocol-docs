@@ -51,6 +51,12 @@
       "order": 6,
       "type": "string",
       "optional": false
+    },
+    {
+      "name": "Is Client Biome Update",
+      "order": 7,
+      "type": "boolean",
+      "optional": false
     }
   ]
 }

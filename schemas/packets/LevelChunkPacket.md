@@ -14,5 +14,6 @@ flowchart LR
   ROOT -->|"Cache Enabled"| boolean["boolean"]
   ROOT -->|"Cache Metadata"| LevelChunkPacketPayload_SubChunkMetadata["LevelChunkPacketPayload_SubChunkMetadata[]"]
   ROOT -->|"Serialized Chunk Data"| string["string"]
+  ROOT -->|"Is Client Biome Update"| boolean["boolean"]
 ```
 
