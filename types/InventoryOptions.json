@@ -9,8 +9,8 @@
       "optional": false,
       "underlyingType": "int32",
       "serialization": [
-        "Compression",
-        "Enum-as-Value"
+        "Enum-as-Value",
+        "Compression"
       ]
     },
     {
@@ -20,8 +20,8 @@
       "optional": false,
       "underlyingType": "int32",
       "serialization": [
-        "Compression",
-        "Enum-as-Value"
+        "Enum-as-Value",
+        "Compression"
       ]
     },
     {
@@ -37,8 +37,8 @@
       "optional": false,
       "underlyingType": "int32",
       "serialization": [
-        "Compression",
-        "Enum-as-Value"
+        "Enum-as-Value",
+        "Compression"
       ]
     },
     {
@@ -48,8 +48,8 @@
       "optional": false,
       "underlyingType": "int32",
       "serialization": [
-        "Compression",
-        "Enum-as-Value"
+        "Enum-as-Value",
+        "Compression"
       ]
     }
   ]

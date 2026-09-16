@@ -3,8 +3,18 @@
   "kind": "struct",
   "fields": [
     {
-      "name": "Volume",
+      "name": "Type",
       "order": 0,
+      "type": "SoundDataEventType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Volume",
+      "order": 1,
       "type": "float",
       "optional": false
     }

@@ -23,9 +23,9 @@
       "optional": false,
       "underlyingType": "int32",
       "serialization": [
-        "Compression",
+        "Allow unknown enum values",
         "Enum-as-Value",
-        "Allow unknown enum values"
+        "Compression"
       ]
     },
     {

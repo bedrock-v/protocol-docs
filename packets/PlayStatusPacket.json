@@ -11,8 +11,8 @@
       "optional": false,
       "underlyingType": "int32",
       "serialization": [
-        "Big Endian",
-        "Enum-as-Value"
+        "Enum-as-Value",
+        "Big Endian"
       ]
     }
   ]

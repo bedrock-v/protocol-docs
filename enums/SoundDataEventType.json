@@ -1,0 +1,14 @@
+{
+  "name": "SoundDataEventType",
+  "kind": "enum",
+  "underlyingType": "uint8",
+  "values": [
+    "Stop",
+    "SetVolume",
+    "SetPitch",
+    "Fade",
+    "SeekTo",
+    "Pause",
+    "Resume"
+  ]
+}

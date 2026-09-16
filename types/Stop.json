@@ -1,5 +1,16 @@
 {
   "name": "Stop",
-  "kind": "alias",
-  "type": "object"
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Type",
+      "order": 0,
+      "type": "SoundDataEventType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    }
+  ]
 }

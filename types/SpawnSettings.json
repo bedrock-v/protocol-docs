@@ -9,8 +9,8 @@
       "optional": false,
       "underlyingType": "int16",
       "serialization": [
-        "Enum-as-Value",
-        "Allow unknown enum values"
+        "Allow unknown enum values",
+        "Enum-as-Value"
       ]
     },
     {

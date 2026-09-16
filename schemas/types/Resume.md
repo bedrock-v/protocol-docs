@@ -1,9 +1,10 @@
 # Resume
 
-`alias`
+`struct`
 
 ```mermaid
 flowchart LR
-  ROOT(["Resume"]) -->|alias| object["object"]
+  ROOT(["Resume"])
+  ROOT -->|"Type"| SoundDataEventType["SoundDataEventType"]
 ```
 

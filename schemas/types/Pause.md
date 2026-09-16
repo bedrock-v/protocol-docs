@@ -1,9 +1,10 @@
 # Pause
 
-`alias`
+`struct`
 
 ```mermaid
 flowchart LR
-  ROOT(["Pause"]) -->|alias| object["object"]
+  ROOT(["Pause"])
+  ROOT -->|"Type"| SoundDataEventType["SoundDataEventType"]
 ```
 

@@ -3,14 +3,24 @@
   "kind": "struct",
   "fields": [
     {
-      "name": "Duration",
+      "name": "Type",
       "order": 0,
+      "type": "SoundDataEventType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Duration",
+      "order": 1,
       "type": "float",
       "optional": false
     },
     {
       "name": "Target Volume",
-      "order": 1,
+      "order": 2,
       "type": "float",
       "optional": false
     }

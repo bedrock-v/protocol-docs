@@ -21,9 +21,9 @@
       "optional": false,
       "underlyingType": "int32",
       "serialization": [
-        "Compression",
+        "Allow unknown enum values",
         "Enum-as-Value",
-        "Allow unknown enum values"
+        "Compression"
       ]
     },
     {
@@ -33,9 +33,9 @@
       "optional": false,
       "underlyingType": "int32",
       "serialization": [
-        "Compression",
+        "Allow unknown enum values",
         "Enum-as-Value",
-        "Allow unknown enum values"
+        "Compression"
       ]
     },
     {
@@ -51,9 +51,9 @@
       "optional": false,
       "underlyingType": "int32",
       "serialization": [
-        "Compression",
+        "Allow unknown enum values",
         "Enum-as-Value",
-        "Allow unknown enum values"
+        "Compression"
       ]
     },
     {
@@ -75,9 +75,9 @@
       "optional": false,
       "underlyingType": "int32",
       "serialization": [
-        "Compression",
+        "Allow unknown enum values",
         "Enum-as-Value",
-        "Allow unknown enum values"
+        "Compression"
       ]
     },
     {
@@ -108,9 +108,9 @@
       "optional": false,
       "underlyingType": "uint32",
       "serialization": [
-        "Compression",
+        "Allow unknown enum values",
         "Enum-as-Value",
-        "Allow unknown enum values"
+        "Compression"
       ]
     },
     {
@@ -162,9 +162,9 @@
       "optional": false,
       "underlyingType": "int32",
       "serialization": [
-        "Compression",
+        "Allow unknown enum values",
         "Enum-as-Value",
-        "Allow unknown enum values"
+        "Compression"
       ]
     },
     {
@@ -174,9 +174,9 @@
       "optional": false,
       "underlyingType": "int32",
       "serialization": [
-        "Compression",
+        "Allow unknown enum values",
         "Enum-as-Value",
-        "Allow unknown enum values"
+        "Compression"
       ]
     },
     {
@@ -222,9 +222,9 @@
       "optional": false,
       "underlyingType": "int8",
       "serialization": [
-        "Compression",
+        "Allow unknown enum values",
         "Enum-as-Value",
-        "Allow unknown enum values"
+        "Compression"
       ]
     },
     {
@@ -336,8 +336,8 @@
       "optional": false,
       "underlyingType": "uint8",
       "serialization": [
-        "Enum-as-Value",
-        "Allow unknown enum values"
+        "Allow unknown enum values",
+        "Enum-as-Value"
       ]
     },
     {
@@ -353,9 +353,9 @@
       "optional": false,
       "underlyingType": "int32",
       "serialization": [
-        "Compression",
+        "Allow unknown enum values",
         "Enum-as-Value",
-        "Allow unknown enum values"
+        "Compression"
       ]
     },
     {

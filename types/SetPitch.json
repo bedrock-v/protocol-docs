@@ -3,8 +3,18 @@
   "kind": "struct",
   "fields": [
     {
-      "name": "Pitch",
+      "name": "Type",
       "order": 0,
+      "type": "SoundDataEventType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Pitch",
+      "order": 1,
       "type": "float",
       "optional": false
     }
