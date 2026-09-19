@@ -1,6 +1,6 @@
 # Bedrock Protocol Docs - r/26_u6
 
-- Build: 1.26.60.25
+- Build: 1.26.60.27
 - Minecraft version: 1.26.60
 - Protocol version: 2211
 
