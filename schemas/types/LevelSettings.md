@@ -16,6 +16,7 @@ flowchart LR
   ROOT -->|"Editor World Type"| EditorWorldType["EditorWorldType"]
   ROOT -->|"Is Created In Editor"| boolean["boolean"]
   ROOT -->|"Is Exported From Editor"| boolean["boolean"]
+  ROOT -->|"Editor Level Migration Version"| EditorLevelMigrationVersion["EditorLevelMigrationVersion"]
   ROOT -->|"Day Cycle Stop Time"| int32["int32"]
   ROOT -->|"Education Edition Offer"| EducationEditionOffer["EducationEditionOffer"]
   ROOT -->|"Education Features Enabled"| boolean["boolean"]

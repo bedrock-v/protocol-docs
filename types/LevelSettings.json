@@ -93,8 +93,19 @@
       "optional": false
     },
     {
-      "name": "Day Cycle Stop Time",
+      "name": "Editor Level Migration Version",
       "order": 11,
+      "type": "EditorLevelMigrationVersion",
+      "optional": false,
+      "underlyingType": "int8",
+      "serialization": [
+        "Enum-as-Value",
+        "Compression"
+      ]
+    },
+    {
+      "name": "Day Cycle Stop Time",
+      "order": 12,
       "type": "int32",
       "optional": false,
       "serialization": [
@@ -103,7 +114,7 @@
     },
     {
       "name": "Education Edition Offer",
-      "order": 12,
+      "order": 13,
       "type": "EducationEditionOffer",
       "optional": false,
       "underlyingType": "uint32",
@@ -115,60 +126,48 @@
     },
     {
       "name": "Education Features Enabled",
-      "order": 13,
+      "order": 14,
       "type": "boolean",
       "optional": false
     },
     {
       "name": "Education Product ID",
-      "order": 14,
+      "order": 15,
       "type": "string",
       "optional": false
     },
     {
       "name": "Rain Level",
-      "order": 15,
-      "type": "float",
-      "optional": false
-    },
-    {
-      "name": "Lightning Level",
       "order": 16,
       "type": "float",
       "optional": false
     },
     {
-      "name": "Has Confirmed Platform Locked Content",
+      "name": "Lightning Level",
       "order": 17,
-      "type": "boolean",
+      "type": "float",
       "optional": false
     },
     {
-      "name": "Multiplayer Game Intent",
+      "name": "Has Confirmed Platform Locked Content",
       "order": 18,
       "type": "boolean",
       "optional": false
     },
     {
-      "name": "LAN Broadcast Intent",
+      "name": "Multiplayer Game Intent",
       "order": 19,
       "type": "boolean",
       "optional": false
     },
     {
-      "name": "Xbox Live Broadcast Setting",
+      "name": "LAN Broadcast Intent",
       "order": 20,
-      "type": "GamePublishSetting",
-      "optional": false,
-      "underlyingType": "int32",
-      "serialization": [
-        "Allow unknown enum values",
-        "Enum-as-Value",
-        "Compression"
-      ]
+      "type": "boolean",
+      "optional": false
     },
     {
-      "name": "Platform Broadcast Setting",
+      "name": "Xbox Live Broadcast Setting",
       "order": 21,
       "type": "GamePublishSetting",
       "optional": false,
@@ -180,44 +179,56 @@
       ]
     },
     {
-      "name": "Commands Enabled",
+      "name": "Platform Broadcast Setting",
       "order": 22,
-      "type": "boolean",
-      "optional": false
+      "type": "GamePublishSetting",
+      "optional": false,
+      "underlyingType": "int32",
+      "serialization": [
+        "Allow unknown enum values",
+        "Enum-as-Value",
+        "Compression"
+      ]
     },
     {
-      "name": "Texture Packs Required",
+      "name": "Commands Enabled",
       "order": 23,
       "type": "boolean",
       "optional": false
     },
     {
-      "name": "Rule Data",
+      "name": "Texture Packs Required",
       "order": 24,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Rule Data",
+      "order": 25,
       "type": "GameRulesChangedPacketData",
       "optional": false
     },
     {
       "name": "Experiments",
-      "order": 25,
+      "order": 26,
       "type": "Experiments",
       "optional": false
     },
     {
       "name": "Has Bonus Chest Enabled",
-      "order": 26,
-      "type": "boolean",
-      "optional": false
-    },
-    {
-      "name": "Start With Map Enabled",
       "order": 27,
       "type": "boolean",
       "optional": false
     },
     {
-      "name": "Player Permissions",
+      "name": "Start With Map Enabled",
       "order": 28,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Player Permissions",
+      "order": 29,
       "type": "PlayerPermissionLevel",
       "optional": false,
       "underlyingType": "int8",
@@ -229,109 +240,109 @@
     },
     {
       "name": "Server Chunk Tick Range",
-      "order": 29,
+      "order": 30,
       "type": "int32",
       "optional": false
     },
     {
       "name": "Has Locked Behavior Pack",
-      "order": 30,
-      "type": "boolean",
-      "optional": false
-    },
-    {
-      "name": "Has Locked Resource Pack",
       "order": 31,
       "type": "boolean",
       "optional": false
     },
     {
-      "name": "Is From Locked Template",
+      "name": "Has Locked Resource Pack",
       "order": 32,
       "type": "boolean",
       "optional": false
     },
     {
-      "name": "Use Msa Gamertags Only",
+      "name": "Is From Locked Template",
       "order": 33,
       "type": "boolean",
       "optional": false
     },
     {
-      "name": "Is From World Template",
+      "name": "Use Msa Gamertags Only",
       "order": 34,
       "type": "boolean",
       "optional": false
     },
     {
-      "name": "Is World Template Option Locked",
+      "name": "Is From World Template",
       "order": 35,
       "type": "boolean",
       "optional": false
     },
     {
-      "name": "Only Spawn V1 Villagers",
+      "name": "Is World Template Option Locked",
       "order": 36,
       "type": "boolean",
       "optional": false
     },
     {
-      "name": "Persona Disabled",
+      "name": "Only Spawn V1 Villagers",
       "order": 37,
       "type": "boolean",
       "optional": false
     },
     {
-      "name": "Custom Skins Disabled",
+      "name": "Persona Disabled",
       "order": 38,
       "type": "boolean",
       "optional": false
     },
     {
-      "name": "Emote Chat Muted",
+      "name": "Custom Skins Disabled",
       "order": 39,
       "type": "boolean",
       "optional": false
     },
     {
-      "name": "Base Game Version",
+      "name": "Emote Chat Muted",
       "order": 40,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Base Game Version",
+      "order": 41,
       "type": "string",
       "optional": false
     },
     {
       "name": "Limited World Width",
-      "order": 41,
-      "type": "int32",
-      "optional": false
-    },
-    {
-      "name": "Limited World Depth",
       "order": 42,
       "type": "int32",
       "optional": false
     },
     {
-      "name": "Nether Type",
+      "name": "Limited World Depth",
       "order": 43,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "Nether Type",
+      "order": 44,
       "type": "boolean",
       "optional": false
     },
     {
       "name": "Edu Shared Uri Resource",
-      "order": 44,
+      "order": 45,
       "type": "EduSharedUriResource",
       "optional": false
     },
     {
       "name": "Override Force Experimental Gameplay",
-      "order": 45,
+      "order": 46,
       "type": "boolean",
       "optional": true
     },
     {
       "name": "Chat Restriction Level",
-      "order": 46,
+      "order": 47,
       "type": "ChatRestrictionLevel",
       "optional": false,
       "underlyingType": "uint8",
@@ -342,13 +353,13 @@
     },
     {
       "name": "Disable Player Interactions",
-      "order": 47,
+      "order": 48,
       "type": "boolean",
       "optional": false
     },
     {
       "name": "Server Editor Connection Policy",
-      "order": 48,
+      "order": 49,
       "type": "ServerEditorConnectionPolicy",
       "optional": false,
       "underlyingType": "int32",
@@ -360,7 +371,7 @@
     },
     {
       "name": "Allow Anonymous Block Drops In Editor Worlds",
-      "order": 49,
+      "order": 50,
       "type": "boolean",
       "optional": false
     }

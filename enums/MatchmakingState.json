@@ -5,6 +5,12 @@
   "values": [
     "Idle",
     "Matchmaking",
-    "MatchFound"
+    "MatchFound",
+    "Canceled",
+    "PlayerLeftParty",
+    "PlayerLeftServer",
+    "ServerShutdown",
+    "TimedOut",
+    "RequeueAsParty"
   ]
 }

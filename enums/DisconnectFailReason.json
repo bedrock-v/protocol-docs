@@ -152,6 +152,7 @@
     "NotAuthenticatedFastFail",
     "EditorNotAllowed",
     "MissingStructureData",
-    "UnsupportedTransport"
+    "UnsupportedTransport",
+    "SubClientLoginNotBound"
   ]
 }

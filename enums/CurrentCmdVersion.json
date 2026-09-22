@@ -50,6 +50,7 @@
     "LocateStructureOutput",
     "PostBlockFlattening",
     "TestForBlockCommandDoesNotIgnoreBlockState",
+    "SameActorBlockReplacementRetainsItemsFix",
     "Count",
     "Latest"
   ]

@@ -9,5 +9,6 @@ flowchart LR
   ROOT(["ClientboundMatchmakingStatePacket"])
   ROOT -->|"State"| MatchmakingState["MatchmakingState"]
   ROOT -->|"Destination Name"| string["string"]
+  ROOT -->|"Options"| MatchmakingStateOptions["MatchmakingStateOptions"]
 ```
 

@@ -1,0 +1,9 @@
+{
+  "name": "EditorLevelMigrationVersion",
+  "kind": "enum",
+  "underlyingType": "int8",
+  "values": [
+    "Legacy",
+    "EditorAchievements"
+  ]
+}

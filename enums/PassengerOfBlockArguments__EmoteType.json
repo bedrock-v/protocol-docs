@@ -1,0 +1,10 @@
+{
+  "name": "PassengerOfBlockArguments::EmoteType",
+  "kind": "enum",
+  "underlyingType": "uint8",
+  "values": [
+    "Standing",
+    "Riding",
+    "Laying"
+  ]
+}

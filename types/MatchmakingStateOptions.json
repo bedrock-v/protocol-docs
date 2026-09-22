@@ -1,0 +1,18 @@
+{
+  "name": "MatchmakingStateOptions",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Triggering Player Name",
+      "order": 0,
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "Triggered By Local Player",
+      "order": 1,
+      "type": "boolean",
+      "optional": true
+    }
+  ]
+}

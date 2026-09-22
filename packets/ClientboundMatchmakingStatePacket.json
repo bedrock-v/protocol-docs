@@ -9,13 +9,22 @@
       "order": 0,
       "type": "MatchmakingState",
       "optional": false,
-      "underlyingType": "uint8"
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
     },
     {
       "name": "Destination Name",
       "order": 1,
       "type": "string",
       "optional": false
+    },
+    {
+      "name": "Options",
+      "order": 2,
+      "type": "MatchmakingStateOptions",
+      "optional": true
     }
   ]
 }

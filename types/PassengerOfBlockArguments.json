@@ -1,0 +1,40 @@
+{
+  "name": "PassengerOfBlockArguments",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "BlockPos",
+      "order": 0,
+      "type": "BlockPos",
+      "optional": false
+    },
+    {
+      "name": "Offset",
+      "order": 1,
+      "type": "Vec3",
+      "optional": false
+    },
+    {
+      "name": "Rotation",
+      "order": 2,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "RotationLimit",
+      "order": 3,
+      "type": "float",
+      "optional": false
+    },
+    {
+      "name": "EmoteType",
+      "order": 4,
+      "type": "PassengerOfBlockArguments__EmoteType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}
