@@ -1,0 +1,9 @@
+{
+  "name": "CursorItemDragState",
+  "kind": "enum",
+  "underlyingType": "uint8",
+  "values": [
+    "Start",
+    "Stop"
+  ]
+}

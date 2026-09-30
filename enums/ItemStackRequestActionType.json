@@ -19,6 +19,7 @@
     "CraftRecipeOptional",
     "CraftRepairAndDisenchant",
     "CraftLoom",
+    "CraftReservedAction",
     "CraftNonImplemented",
     "CraftResults"
   ]

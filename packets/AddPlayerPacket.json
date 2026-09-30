@@ -94,14 +94,20 @@
       "optional": false
     },
     {
-      "name": "Device Id",
+      "name": "Passenger Block Data",
       "order": 14,
+      "type": "PassengerOfBlockArguments",
+      "optional": true
+    },
+    {
+      "name": "Device Id",
+      "order": 15,
       "type": "string",
       "optional": false
     },
     {
       "name": "Build Platform",
-      "order": 15,
+      "order": 16,
       "type": "BuildPlatform",
       "optional": false,
       "underlyingType": "int32",

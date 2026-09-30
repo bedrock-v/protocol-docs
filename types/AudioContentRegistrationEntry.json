@@ -1,0 +1,30 @@
+{
+  "name": "AudioContentRegistrationEntry",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Audio Content ID",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Shared Metadata",
+      "order": 1,
+      "type": "SignedAudioContent",
+      "optional": false
+    },
+    {
+      "name": "Server Content",
+      "order": 2,
+      "type": "SignedAudioContent",
+      "optional": false
+    },
+    {
+      "name": "Playback Content",
+      "order": 3,
+      "type": "SignedAudioContent",
+      "optional": false
+    }
+  ]
+}

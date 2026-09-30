@@ -572,6 +572,7 @@
     "mount",
     "dismount",
     "straw_bed.break_leave",
+    "ice_ball.break",
     "undefined"
   ]
 }

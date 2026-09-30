@@ -21,6 +21,7 @@ flowchart LR
   ROOT -->|"Synched Properties"| PropertySyncData["PropertySyncData"]
   ROOT -->|"Abilities Data"| SerializedAbilitiesData["SerializedAbilitiesData"]
   ROOT -->|"Actor Links"| ActorLink["ActorLink[]"]
+  ROOT -->|"Passenger Block Data"| PassengerOfBlockArguments["PassengerOfBlockArguments"]
   ROOT -->|"Device Id"| string["string"]
   ROOT -->|"Build Platform"| BuildPlatform["BuildPlatform"]
 ```

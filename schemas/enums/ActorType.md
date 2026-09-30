@@ -45,6 +45,6 @@ flowchart TB
   ROOT --> SkeletonHorse["SkeletonHorse"]
   ROOT --> ZombieHorse["ZombieHorse"]
   ROOT --> Zombie["Zombie"]
-  ROOT --> more["... 119 more"]
+  ROOT --> more["... 121 more"]
 ```
 

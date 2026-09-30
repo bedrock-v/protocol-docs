@@ -75,6 +75,12 @@
       "order": 11,
       "type": "ActorLink[]",
       "optional": false
+    },
+    {
+      "name": "Passenger Block Data",
+      "order": 12,
+      "type": "PassengerOfBlockArguments",
+      "optional": true
     }
   ]
 }

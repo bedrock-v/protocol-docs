@@ -69,6 +69,10 @@
     "CreatedOutputContainer",
     "SmithingTableTemplateContainer",
     "CrafterLevelEntityContainer",
-    "DynamicContainer"
+    "DynamicContainer",
+    "ReservedContainerA",
+    "ReservedContainerB",
+    "ReservedContainerC",
+    "ReservedContainerD"
   ]
 }

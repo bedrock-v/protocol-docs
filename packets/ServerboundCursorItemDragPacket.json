@@ -1,0 +1,17 @@
+{
+  "name": "ServerboundCursorItemDragPacket",
+  "kind": "packet",
+  "id": 358,
+  "description": "Sent from the client when a cursor item split drag starts or stops.",
+  "fields": [
+    {
+      "name": "State",
+      "order": 0,
+      "type": "uint8",
+      "optional": false,
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "ItemStackRequestReservedAction",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Action type",
+      "order": 0,
+      "type": "ItemStackRequestActionType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Reserved Id",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Num Crafts",
+      "order": 2,
+      "type": "uint8",
+      "optional": false
+    }
+  ]
+}

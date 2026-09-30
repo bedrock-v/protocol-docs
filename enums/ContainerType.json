@@ -41,6 +41,7 @@
     "SMITHING_TABLE",
     "CHEST_BOAT",
     "DECORATED_POT",
-    "CRAFTER"
+    "CRAFTER",
+    "RESERVED_CONTAINER_TYPE"
   ]
 }

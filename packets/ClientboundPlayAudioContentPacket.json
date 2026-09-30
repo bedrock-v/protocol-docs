@@ -1,0 +1,33 @@
+{
+  "name": "ClientboundPlayAudioContentPacket",
+  "kind": "packet",
+  "id": 359,
+  "description": "",
+  "fields": [
+    {
+      "name": "Shared Metadata",
+      "order": 0,
+      "type": "SignedAudioContent",
+      "optional": false
+    },
+    {
+      "name": "Playback Content",
+      "order": 1,
+      "type": "SignedAudioContent",
+      "optional": false
+    },
+    {
+      "name": "Playback Type",
+      "order": 2,
+      "type": "AudioContentPlaybackType",
+      "optional": false,
+      "underlyingType": "uint8"
+    },
+    {
+      "name": "Play Sound",
+      "order": 3,
+      "type": "PlaySoundPacketPayload",
+      "optional": false
+    }
+  ]
+}

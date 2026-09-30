@@ -1,0 +1,14 @@
+{
+  "name": "ServerboundRegisterAudioContentPacket",
+  "kind": "packet",
+  "id": 360,
+  "description": "",
+  "fields": [
+    {
+      "name": "Registrations",
+      "order": 0,
+      "type": "AudioContentRegistrationEntry[]",
+      "optional": false
+    }
+  ]
+}

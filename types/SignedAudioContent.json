@@ -1,0 +1,12 @@
+{
+  "name": "SignedAudioContent",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Compact JWT",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

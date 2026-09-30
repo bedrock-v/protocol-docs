@@ -19,5 +19,6 @@ flowchart LR
   ROOT -->|"Actor Data"| SynchedActorDataList["SynchedActorDataList"]
   ROOT -->|"Synched Properties"| PropertySyncData["PropertySyncData"]
   ROOT -->|"Actor Links"| ActorLink["ActorLink[]"]
+  ROOT -->|"Passenger Block Data"| PassengerOfBlockArguments["PassengerOfBlockArguments"]
 ```
 

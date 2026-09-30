@@ -21,6 +21,7 @@ flowchart TB
   ROOT --> CraftRecipeOptional["CraftRecipeOptional"]
   ROOT --> CraftRepairAndDisenchant["CraftRepairAndDisenchant"]
   ROOT --> CraftLoom["CraftLoom"]
+  ROOT --> CraftReservedAction["CraftReservedAction"]
   ROOT --> CraftNonImplemented["CraftNonImplemented"]
   ROOT --> CraftResults["CraftResults"]
 ```

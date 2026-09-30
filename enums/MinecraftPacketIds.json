@@ -132,6 +132,7 @@
     "SettingsCommandPacket",
     "AnvilDamage",
     "CompletedUsingItem",
+    "ServerboundCursorItemDrag",
     "NetworkSettings",
     "PlayerAuthInputPacket",
     "CreativeContent",
@@ -219,6 +220,8 @@
     "SetPlayerFurnaceOptions",
     "RecordStarted",
     "ClientboundMatchmakingState",
-    "ServerboundMatchmakingCancel"
+    "ServerboundMatchmakingCancel",
+    "ClientboundPlayAudioContent",
+    "ServerboundRegisterAudioContent"
   ]
 }
