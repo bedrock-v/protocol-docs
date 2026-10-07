@@ -1,8 +1,8 @@
 # Bedrock Protocol Docs - r/26_u6
 
-- Build: 1.26.60.29
+- Build: 1.26.60.30
 - Minecraft version: 1.26.60
-- Protocol version: 2223
+- Protocol version: 2225
 
 ## Folders
 - packets/ - packet schemas (256)
