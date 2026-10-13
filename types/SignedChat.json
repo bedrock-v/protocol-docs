@@ -1,0 +1,48 @@
+{
+  "name": "SignedChat",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Key Id",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Sender Id",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Room Id",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Message Id",
+      "order": 3,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Scan Text",
+      "order": 4,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Redacted Text",
+      "order": 5,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Signature",
+      "order": 6,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

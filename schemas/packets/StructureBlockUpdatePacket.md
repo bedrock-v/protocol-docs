@@ -11,5 +11,6 @@ flowchart LR
   ROOT -->|"Structure Data"| StructureEditorData["StructureEditorData"]
   ROOT -->|"Trigger?"| boolean["boolean"]
   ROOT -->|"IsWaterlogged"| boolean["boolean"]
+  ROOT -->|"KeepStructureVoid"| boolean["boolean"]
 ```
 

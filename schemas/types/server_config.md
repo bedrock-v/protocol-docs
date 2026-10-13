@@ -8,5 +8,6 @@ flowchart LR
   ROOT -->|"gathering"| gatheringsConfig["gatheringsConfig"]
   ROOT -->|"clientStoreEntryPoint"| clientStoreEntryPointConfig["clientStoreEntryPointConfig"]
   ROOT -->|"presence"| presenceConfig["presenceConfig"]
+  ROOT -->|"managedChat"| managedChatJoinInfo["managedChatJoinInfo"]
 ```
 

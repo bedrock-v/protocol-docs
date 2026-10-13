@@ -15,5 +15,6 @@ flowchart LR
   ROOT -->|"Track Output"| boolean["boolean"]
   ROOT -->|"Tick Delay"| int32["int32"]
   ROOT -->|"Execute On First Tick"| boolean["boolean"]
+  ROOT -->|"Last Output Is Raw Message"| boolean["boolean"]
 ```
 

@@ -573,6 +573,9 @@
     "dismount",
     "straw_bed.break_leave",
     "ice_ball.break",
+    "convert_to_frostbite",
+    "convert_to_zombie",
+    "crack",
     "undefined"
   ]
 }

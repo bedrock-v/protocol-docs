@@ -1,0 +1,8 @@
+{
+  "name": "StringAttributeOperation",
+  "kind": "enum",
+  "underlyingType": "int32",
+  "values": [
+    "OVERRIDE"
+  ]
+}

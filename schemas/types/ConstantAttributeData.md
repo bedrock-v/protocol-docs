@@ -5,6 +5,6 @@
 ```mermaid
 flowchart LR
   ROOT(["ConstantAttributeData"])
-  ROOT -->|"Attribute"| BoolAttributeData___FloatAttributeData___ColorAttributeData["BoolAttributeData | FloatAttributeData | ColorAttributeData"]
+  ROOT -->|"Attribute"| BoolAttributeData___FloatAttributeData___ColorAttributeData___StringAttributeData["BoolAttributeData | FloatAttributeData | ColorAttributeData | StringAttributeData"]
 ```
 

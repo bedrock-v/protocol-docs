@@ -27,6 +27,12 @@
       "order": 3,
       "type": "boolean",
       "optional": false
+    },
+    {
+      "name": "KeepStructureVoid",
+      "order": 4,
+      "type": "boolean",
+      "optional": false
     }
   ]
 }

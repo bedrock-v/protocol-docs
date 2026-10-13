@@ -19,6 +19,12 @@
       "order": 2,
       "type": "presenceConfig",
       "optional": true
+    },
+    {
+      "name": "managedChat",
+      "order": 3,
+      "type": "managedChatJoinInfo",
+      "optional": true
     }
   ]
 }

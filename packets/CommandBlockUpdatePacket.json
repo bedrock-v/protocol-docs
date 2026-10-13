@@ -51,6 +51,12 @@
       "order": 7,
       "type": "boolean",
       "optional": false
+    },
+    {
+      "name": "Last Output Is Raw Message",
+      "order": 8,
+      "type": "boolean",
+      "optional": false
     }
   ]
 }

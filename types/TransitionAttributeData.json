@@ -5,13 +5,13 @@
     {
       "name": "FromAttribute",
       "order": 0,
-      "type": "BoolAttributeData | FloatAttributeData | ColorAttributeData",
+      "type": "BoolAttributeData | FloatAttributeData | ColorAttributeData | StringAttributeData",
       "optional": false
     },
     {
       "name": "ToAttribute",
       "order": 1,
-      "type": "BoolAttributeData | FloatAttributeData | ColorAttributeData",
+      "type": "BoolAttributeData | FloatAttributeData | ColorAttributeData | StringAttributeData",
       "optional": false
     },
     {

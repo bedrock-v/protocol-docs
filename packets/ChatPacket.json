@@ -1,0 +1,20 @@
+{
+  "name": "ChatPacket",
+  "kind": "packet",
+  "id": 361,
+  "description": "Carries a Chat Service signature that receiving clients verify. The hosting server relays the signed block unmodified and may only decorate around it.",
+  "fields": [
+    {
+      "name": "Signed Chat",
+      "order": 0,
+      "type": "SignedChat",
+      "optional": false
+    },
+    {
+      "name": "Formatting",
+      "order": 1,
+      "type": "ChatFormatting",
+      "optional": true
+    }
+  ]
+}

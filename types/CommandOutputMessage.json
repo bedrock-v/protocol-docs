@@ -19,6 +19,12 @@
       "order": 2,
       "type": "string[]",
       "optional": true
+    },
+    {
+      "name": "Raw Message",
+      "order": 3,
+      "type": "string",
+      "optional": true
     }
   ]
 }

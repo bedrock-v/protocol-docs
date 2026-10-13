@@ -1,0 +1,30 @@
+{
+  "name": "ChatFormatting",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Name Prefix",
+      "order": 0,
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "Name Postfix",
+      "order": 1,
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "Message Prefix",
+      "order": 2,
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "Message Postfix",
+      "order": 3,
+      "type": "string",
+      "optional": true
+    }
+  ]
+}

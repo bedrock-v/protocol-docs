@@ -1,0 +1,19 @@
+{
+  "name": "StringAttributeData",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "value",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "operation",
+      "order": 1,
+      "type": "StringAttributeOperation",
+      "optional": true,
+      "underlyingType": "int32"
+    }
+  ]
+}

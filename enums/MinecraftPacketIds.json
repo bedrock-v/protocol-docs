@@ -155,8 +155,6 @@
     "ItemRegistryPacket",
     "ClientBoundDebugRendererPacket",
     "SyncActorProperty",
-    "AddVolumeEntityPacket",
-    "RemoveVolumeEntityPacket",
     "SimulationTypePacket",
     "NpcDialoguePacket",
     "EduUriResourcePacket",

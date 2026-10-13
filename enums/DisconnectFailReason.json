@@ -153,6 +153,14 @@
     "EditorNotAllowed",
     "MissingStructureData",
     "UnsupportedTransport",
-    "SubClientLoginNotBound"
+    "SubClientLoginNotBound",
+    "SessionRuntimeError",
+    "SessionInvalidResponse",
+    "SessionNetworkError",
+    "SessionServiceError",
+    "SessionServiceUnavailable",
+    "SessionThrottled",
+    "SessionRequestRejected",
+    "SessionUnknownError"
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "name": "managedChatJoinInfo",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Enabled",
+      "order": 0,
+      "type": "boolean",
+      "optional": true
+    }
+  ]
+}
