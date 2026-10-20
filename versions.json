@@ -1,0 +1,177 @@
+[
+  {
+    "version": "1.26.70.20",
+    "update": "r/26_u7",
+    "slug": "1_26_70_20",
+    "minecraftVersion": "1.26.70",
+    "protocolVersion": 2235
+  },
+  {
+    "version": "1.26.60.30",
+    "update": "r/26_u6",
+    "slug": "1_26_60_30",
+    "minecraftVersion": "1.26.60",
+    "protocolVersion": 2225
+  },
+  {
+    "version": "1.26.60.30",
+    "update": "r/26_u6",
+    "slug": "1_26_60_30",
+    "minecraftVersion": "1.26.60",
+    "protocolVersion": 2225
+  },
+  {
+    "version": "1.26.60.29",
+    "update": "r/26_u6",
+    "slug": "1_26_60_29",
+    "minecraftVersion": "1.26.60",
+    "protocolVersion": 2223
+  },
+  {
+    "version": "1.26.60.29",
+    "update": "r/26_u6",
+    "slug": "1_26_60_29",
+    "minecraftVersion": "1.26.60",
+    "protocolVersion": 2223
+  },
+  {
+    "version": "1.26.60.28",
+    "update": "r/26_u6",
+    "slug": "1_26_60_28",
+    "minecraftVersion": "1.26.60",
+    "protocolVersion": 2216
+  },
+  {
+    "version": "1.26.60.28",
+    "update": "r/26_u6",
+    "slug": "1_26_60_28",
+    "minecraftVersion": "1.26.60",
+    "protocolVersion": 2216
+  },
+  {
+    "version": "1.26.60.27",
+    "update": "r/26_u6",
+    "slug": "1_26_60_27",
+    "minecraftVersion": "1.26.60",
+    "protocolVersion": 2211
+  },
+  {
+    "version": "1.26.60.27",
+    "update": "r/26_u6",
+    "slug": "1_26_60_27",
+    "minecraftVersion": "1.26.60",
+    "protocolVersion": 2211
+  },
+  {
+    "version": "1.26.60.25",
+    "update": "r/26_u6",
+    "slug": "1_26_60_25",
+    "minecraftVersion": "1.26.60",
+    "protocolVersion": 2211
+  },
+  {
+    "version": "1.26.60.25",
+    "update": "r/26_u6",
+    "slug": "1_26_60_25",
+    "minecraftVersion": "1.26.60",
+    "protocolVersion": 2211
+  },
+  {
+    "version": "1.26.60.23",
+    "update": "r/26_u6",
+    "slug": "1_26_60_23",
+    "minecraftVersion": "1.26.60",
+    "protocolVersion": 2208
+  },
+  {
+    "version": "1.26.60.23",
+    "update": "r/26_u6",
+    "slug": "1_26_60_23",
+    "minecraftVersion": "1.26.60",
+    "protocolVersion": 2208
+  },
+  {
+    "version": "1.26.60.21",
+    "update": "r/26_u6",
+    "slug": "1_26_60_21",
+    "minecraftVersion": "1.26.60",
+    "protocolVersion": 2207
+  },
+  {
+    "version": "1.26.60.21",
+    "update": "r/26_u6",
+    "slug": "1_26_60_21",
+    "minecraftVersion": "1.26.60",
+    "protocolVersion": 2207
+  },
+  {
+    "version": "1.26.50.27",
+    "update": "r/26_u5",
+    "slug": "1_26_50_27",
+    "minecraftVersion": "1.26.50",
+    "protocolVersion": 2192
+  },
+  {
+    "version": "1.26.50.27",
+    "update": "r/26_u5",
+    "slug": "1_26_50_27",
+    "minecraftVersion": "1.26.50",
+    "protocolVersion": 2192
+  },
+  {
+    "version": "1.26.50.27",
+    "update": "r/26_u5",
+    "slug": "1_26_50_27",
+    "minecraftVersion": "1.26.50",
+    "protocolVersion": 2192
+  },
+  {
+    "version": "1.26.50.26",
+    "update": "r/26_u5",
+    "slug": "1_26_50_26",
+    "minecraftVersion": "1.26.50",
+    "protocolVersion": 2192
+  },
+  {
+    "version": "1.26.50.26",
+    "update": "r/26_u5",
+    "slug": "1_26_50_26",
+    "minecraftVersion": "1.26.50",
+    "protocolVersion": 2192
+  },
+  {
+    "version": "1.26.50.26",
+    "update": "r/26_u5",
+    "slug": "1_26_50_26",
+    "minecraftVersion": "1.26.50",
+    "protocolVersion": 2192
+  },
+  {
+    "version": "1.26.40.30",
+    "update": "r/26_u4",
+    "slug": "1_26_40_30",
+    "minecraftVersion": "1.26.40",
+    "protocolVersion": 2168
+  },
+  {
+    "version": "1.26.40.30",
+    "update": "r/26_u4",
+    "slug": "1_26_40_30",
+    "minecraftVersion": "1.26.40",
+    "protocolVersion": 2168
+  },
+  {
+    "version": "1.26.40.30",
+    "update": "r/26_u4",
+    "slug": "1_26_40_30",
+    "minecraftVersion": "1.26.40",
+    "protocolVersion": 2168
+  },
+  {
+    "version": "1.26.40.30",
+    "update": "r/26_u4",
+    "slug": "1_26_40_30",
+    "minecraftVersion": "1.26.40",
+    "protocolVersion": 2168
+  }
+]
