@@ -8,7 +8,10 @@
       "name": "Command",
       "order": 0,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 512
+      }
     },
     {
       "name": "Origin",

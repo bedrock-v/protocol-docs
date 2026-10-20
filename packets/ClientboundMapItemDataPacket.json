@@ -14,7 +14,11 @@
       "name": "Dimension",
       "order": 1,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 255.0
+      }
     },
     {
       "name": "Is Locked",
@@ -32,25 +36,38 @@
       "name": "Creation Map IDs",
       "order": 4,
       "type": "ActorUniqueID[]",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "maxItems": 65535
+      }
     },
     {
       "name": "Scale",
       "order": 5,
       "type": "int8",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "minimum": -128.0,
+        "maximum": 127.0
+      }
     },
     {
       "name": "Tracked Actor IDs",
       "order": 6,
       "type": "MapItemTrackedActor_UniqueId[]",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "maxItems": 65535
+      }
     },
     {
       "name": "Decorations",
       "order": 7,
       "type": "MapDecoration[]",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "maxItems": 65535
+      }
     },
     {
       "name": "Width",
@@ -92,7 +109,10 @@
       "name": "Pixels",
       "order": 12,
       "type": "uint32[]",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "maxItems": 16384
+      }
     }
   ]
 }

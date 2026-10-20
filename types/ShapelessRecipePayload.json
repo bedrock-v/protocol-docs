@@ -12,7 +12,10 @@
       "name": "Ingredients",
       "order": 1,
       "type": "RecipeIngredient[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 128
+      }
     },
     {
       "name": "Results",

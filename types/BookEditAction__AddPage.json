@@ -15,13 +15,19 @@
       "name": "Page Text",
       "order": 1,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 768
+      }
     },
     {
       "name": "Photo Name",
       "order": 2,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 768
+      }
     }
   ]
 }

@@ -8,7 +8,10 @@
       "name": "Options",
       "order": 0,
       "type": "ItemEnchantOption[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 3
+      }
     }
   ]
 }

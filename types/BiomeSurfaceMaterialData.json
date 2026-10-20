@@ -6,31 +6,46 @@
       "name": "top block",
       "order": 0,
       "type": "uint32",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "mid block",
       "order": 1,
       "type": "uint32",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "sea floor block",
       "order": 2,
       "type": "uint32",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "foundation block",
       "order": 3,
       "type": "uint32",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "sea block",
       "order": 4,
       "type": "uint32",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "sea floor depth",

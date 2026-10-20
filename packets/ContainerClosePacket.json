@@ -11,7 +11,11 @@
       "optional": false,
       "serialization": [
         "Enum-as-Value"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 255.0
+      }
     },
     {
       "name": "Container Type",
@@ -20,7 +24,11 @@
       "optional": false,
       "serialization": [
         "Enum-as-Value"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 255.0
+      }
     },
     {
       "name": "Server Initiated Close",

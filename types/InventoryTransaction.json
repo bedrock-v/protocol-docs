@@ -6,7 +6,8 @@
       "name": "Actions",
       "order": 0,
       "type": "InventoryAction[]",
-      "optional": false
+      "optional": false,
+      "runtimeConstraint": "Verify that the number of InventoryActions does not exceed 100"
     }
   ]
 }

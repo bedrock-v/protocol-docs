@@ -1,0 +1,30 @@
+{
+  "name": "AvailableCommandsPacketChainedSubcommandRelationship",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "SubCommand First Value",
+      "order": 0,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ],
+      "constraints": {
+        "minimum": 0.0
+      }
+    },
+    {
+      "name": "SubCommand Second Value",
+      "order": 1,
+      "type": "uint32",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ],
+      "constraints": {
+        "minimum": 0.0
+      }
+    }
+  ]
+}

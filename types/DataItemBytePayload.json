@@ -10,13 +10,18 @@
       "underlyingType": "uint8",
       "serialization": [
         "Enum-as-Value"
-      ]
+      ],
+      "const": "byte"
     },
     {
       "name": "Value",
       "order": 1,
       "type": "int8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": -128.0,
+        "maximum": 127.0
+      }
     }
   ]
 }

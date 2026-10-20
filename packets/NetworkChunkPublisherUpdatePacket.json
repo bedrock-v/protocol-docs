@@ -17,7 +17,10 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Server Built Chunks List",
@@ -26,7 +29,10 @@
       "optional": false,
       "serialization": [
         "No size compression"
-      ]
+      ],
+      "constraints": {
+        "maxItems": 9216
+      }
     }
   ]
 }

@@ -6,13 +6,15 @@
       "name": "min",
       "order": 0,
       "type": "float",
-      "optional": true
+      "optional": true,
+      "default": 0.0
     },
     {
       "name": "max",
       "order": 1,
       "type": "float",
-      "optional": true
+      "optional": true,
+      "default": 0.0
     }
   ]
 }

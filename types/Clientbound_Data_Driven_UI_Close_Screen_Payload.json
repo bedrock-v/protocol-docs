@@ -6,7 +6,10 @@
       "name": "FormId",
       "order": 0,
       "type": "uint32",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "minimum": 0.0
+      }
     }
   ]
 }

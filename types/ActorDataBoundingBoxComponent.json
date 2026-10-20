@@ -6,7 +6,11 @@
       "name": "Actor Data Bounding Box",
       "order": 0,
       "type": "float[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minItems": 3,
+        "maxItems": 3
+      }
     }
   ]
 }

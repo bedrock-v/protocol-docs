@@ -1,0 +1,24 @@
+{
+  "name": "EditorNetworkPacketVariantPayload",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Route To Manager",
+      "order": 0,
+      "type": "boolean",
+      "optional": false
+    },
+    {
+      "name": "Raw Variant Name",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Raw Variant Data",
+      "order": 2,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

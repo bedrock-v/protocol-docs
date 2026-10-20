@@ -12,7 +12,10 @@
       "name": "time",
       "order": 1,
       "type": "float",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "easing",

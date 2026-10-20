@@ -14,7 +14,10 @@
       "name": "Texture Pack List",
       "order": 1,
       "type": "PackInstanceId[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 65535
+      }
     },
     {
       "name": "Base Game Version",

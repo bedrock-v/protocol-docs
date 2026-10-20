@@ -24,13 +24,19 @@
       "name": "Command Name",
       "order": 2,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 512
+      }
     },
     {
       "name": "Error List",
       "order": 3,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 2048
+      }
     }
   ]
 }

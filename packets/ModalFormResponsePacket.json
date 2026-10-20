@@ -11,13 +11,17 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "JSON Response",
       "order": 1,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "runtimeConstraint": "Verify that the string contains valid depth-limited JSON"
     },
     {
       "name": "Form Cancel Reason",

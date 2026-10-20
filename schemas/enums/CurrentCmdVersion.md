@@ -45,6 +45,6 @@ flowchart TB
   ROOT --> CommandPositionFix["CommandPositionFix"]
   ROOT --> CommandSelectorHasItemFilterUsesDataAsDamageForSelectingDamageableItems["CommandSelectorHasItemFilterUsesDataAsDamageForSelectingDamageableItems"]
   ROOT --> ExecuteDetectConditionSubcommandNotAllowNonLoadedBlocks["ExecuteDetectConditionSubcommandNotAllowNonLoadedBlocks"]
-  ROOT --> more["... 9 more"]
+  ROOT --> more["... 10 more"]
 ```
 

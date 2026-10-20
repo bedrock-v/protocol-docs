@@ -6,7 +6,10 @@
       "name": "ClockData",
       "order": 0,
       "type": "WorldClockData[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 256
+      }
     }
   ]
 }

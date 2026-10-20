@@ -8,7 +8,8 @@
       "name": "Identifier List",
       "order": 0,
       "type": "unknown",
-      "optional": false
+      "optional": false,
+      "runtimeConstraint": "Verify that the tag contains at least the \"idlist\" key"
     }
   ]
 }

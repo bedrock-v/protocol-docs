@@ -14,13 +14,23 @@
       "name": "PackSettingName",
       "order": 1,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 128
+      }
     },
     {
       "name": "PackSettingValue",
       "order": 2,
       "type": "float | boolean | string | string[]",
-      "optional": false
+      "optional": false,
+      "variants": [
+        "float",
+        "boolean",
+        "string",
+        "string[]"
+      ],
+      "controlType": "uint32"
     }
   ]
 }

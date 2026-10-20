@@ -6,49 +6,84 @@
       "name": "experienceId",
       "order": 0,
       "type": "mce__UUID",
-      "optional": true
+      "optional": true,
+      "default": {
+        "Least Significant Bits": 0,
+        "Most Significant Bits": 0
+      },
+      "constraints": {
+        "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+      }
     },
     {
       "name": "experienceName",
       "order": 1,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "default": "",
+      "constraints": {
+        "minLength": 1,
+        "maxLength": 29
+      }
     },
     {
       "name": "worldId",
       "order": 2,
       "type": "mce__UUID",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+      }
     },
     {
       "name": "worldName",
       "order": 3,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "minLength": 1,
+        "maxLength": 29
+      }
     },
     {
       "name": "creatorId",
       "order": 4,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "default": "",
+      "constraints": {
+        "minLength": 1,
+        "maxLength": 60
+      }
     },
     {
       "name": "targetId",
       "order": 5,
       "type": "mce__UUID",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+      }
     },
     {
       "name": "scenarioId",
       "order": 6,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "minLength": 1,
+        "maxLength": 100
+      }
     },
     {
       "name": "serverId",
       "order": 7,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "minLength": 1,
+        "maxLength": 100
+      }
     }
   ]
 }

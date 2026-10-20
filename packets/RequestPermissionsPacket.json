@@ -24,7 +24,10 @@
       "name": "Custom Permission Flags",
       "order": 2,
       "type": "uint16",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     }
   ]
 }

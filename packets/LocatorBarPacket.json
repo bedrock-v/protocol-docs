@@ -8,7 +8,10 @@
       "name": "Waypoints",
       "order": 0,
       "type": "LocatorBarWaypointPayload[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 40000
+      }
     }
   ]
 }

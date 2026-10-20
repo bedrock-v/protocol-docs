@@ -6,19 +6,29 @@
       "name": "name",
       "order": 0,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "pattern": "^\\w+:\\w+$"
+      }
     },
     {
       "name": "total_time",
       "order": 1,
       "type": "float",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "spline_type",
       "order": 2,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "default": "catmullrom",
+      "constraints": {
+        "pattern": "^(?:catmullrom|linear)$"
+      }
     },
     {
       "name": "control_points",

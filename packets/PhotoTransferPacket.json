@@ -8,13 +8,19 @@
       "name": "Photo Name",
       "order": 0,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\\.jpeg$"
+      }
     },
     {
       "name": "Photo Data",
       "order": 1,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 20971520
+      }
     },
     {
       "name": "Book ID",

@@ -6,7 +6,10 @@
       "name": "id",
       "order": 0,
       "type": "uint16",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "temperature",

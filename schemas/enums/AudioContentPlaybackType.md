@@ -7,5 +7,6 @@ flowchart TB
   ROOT(["AudioContentPlaybackType"])
   ROOT --> Music["Music"]
   ROOT --> Sound["Sound"]
+  ROOT --> ConcurrentMusic["ConcurrentMusic"]
 ```
 

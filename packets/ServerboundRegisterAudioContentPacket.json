@@ -8,7 +8,10 @@
       "name": "Registrations",
       "order": 0,
       "type": "AudioContentRegistrationEntry[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 64
+      }
     }
   ]
 }

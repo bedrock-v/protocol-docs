@@ -12,7 +12,8 @@
       "name": "UseRotation",
       "order": 1,
       "type": "boolean",
-      "optional": true
+      "optional": true,
+      "default": false
     },
     {
       "name": "BackgroundColor",
@@ -24,25 +25,29 @@
       "name": "LineGapHeight",
       "order": 3,
       "type": "float",
-      "optional": true
+      "optional": true,
+      "default": 0.0
     },
     {
       "name": "DepthTest",
       "order": 4,
       "type": "boolean",
-      "optional": true
+      "optional": true,
+      "default": false
     },
     {
       "name": "ShowBackface",
       "order": 5,
       "type": "boolean",
-      "optional": true
+      "optional": true,
+      "default": false
     },
     {
       "name": "ShowTextBackface",
       "order": 6,
       "type": "boolean",
-      "optional": true
+      "optional": true,
+      "default": false
     }
   ]
 }

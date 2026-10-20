@@ -16,7 +16,10 @@
       "name": "Dynamic ID",
       "order": 1,
       "type": "uint32",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "minimum": 0.0
+      }
     }
   ]
 }

@@ -14,13 +14,19 @@
       "name": "Chunk ID",
       "order": 1,
       "type": "uint32",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Byte Offset",
       "order": 2,
       "type": "uint64",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Chunk Data",

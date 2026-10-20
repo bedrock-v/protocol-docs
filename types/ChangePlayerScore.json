@@ -7,7 +7,8 @@
       "order": 0,
       "type": "ScorePacketEntryAction",
       "optional": false,
-      "underlyingType": "uint8"
+      "underlyingType": "uint8",
+      "const": "changeplayer"
     },
     {
       "name": "Scoreboard Id",

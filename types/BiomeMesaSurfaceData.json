@@ -6,13 +6,19 @@
       "name": "clay material",
       "order": 0,
       "type": "uint32",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "hard clay material",
       "order": 1,
       "type": "uint32",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "bryce pillars",

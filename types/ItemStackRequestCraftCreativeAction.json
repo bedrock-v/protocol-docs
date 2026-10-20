@@ -10,7 +10,8 @@
       "underlyingType": "uint8",
       "serialization": [
         "Enum-as-Value"
-      ]
+      ],
+      "const": "craftcreative"
     },
     {
       "name": "Creative Item Net Id",
@@ -19,13 +20,20 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 1.0
+      }
     },
     {
       "name": "Number of requested crafts",
       "order": 2,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 1.0,
+        "maximum": 255.0
+      }
     }
   ]
 }

@@ -16,13 +16,22 @@
       "name": "Player Name",
       "order": 1,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "default": "",
+      "constraints": {
+        "maxLength": 256
+      }
     },
     {
       "name": "Message",
       "order": 2,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "default": "",
+      "constraints": {
+        "minLength": 1,
+        "maxLength": 65536
+      }
     }
   ]
 }

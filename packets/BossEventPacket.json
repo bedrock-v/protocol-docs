@@ -25,13 +25,19 @@
       "name": "Name",
       "order": 2,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 256
+      }
     },
     {
       "name": "FilteredName",
       "order": 3,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 256
+      }
     },
     {
       "name": "Health Percent",

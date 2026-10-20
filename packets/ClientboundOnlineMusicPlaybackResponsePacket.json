@@ -1,0 +1,36 @@
+{
+  "name": "ClientboundOnlineMusicPlaybackResponsePacket",
+  "kind": "packet",
+  "id": 363,
+  "description": "",
+  "fields": [
+    {
+      "name": "Request ID",
+      "order": 0,
+      "type": "uint32",
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
+    },
+    {
+      "name": "Source",
+      "order": 1,
+      "type": "MusicPlaybackSource",
+      "optional": false,
+      "underlyingType": "uint8"
+    },
+    {
+      "name": "Shared Metadata",
+      "order": 2,
+      "type": "SignedAudioContent",
+      "optional": false
+    },
+    {
+      "name": "Playback Content",
+      "order": 3,
+      "type": "SignedAudioContent",
+      "optional": false
+    }
+  ]
+}

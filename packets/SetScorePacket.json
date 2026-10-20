@@ -8,7 +8,8 @@
       "name": "Score Info",
       "order": 0,
       "type": "RemoveScore | ChangePlayerScore | ChangeEntityScore | ChangeFakePlayerScore[]",
-      "optional": true
+      "optional": true,
+      "default": []
     }
   ]
 }

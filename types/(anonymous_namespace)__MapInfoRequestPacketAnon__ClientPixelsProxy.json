@@ -1,0 +1,24 @@
+{
+  "name": "(anonymous namespace)::MapInfoRequestPacketAnon::ClientPixelsProxy",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "pixel",
+      "order": 0,
+      "type": "uint32",
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
+    },
+    {
+      "name": "index",
+      "order": 1,
+      "type": "uint16",
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
+    }
+  ]
+}

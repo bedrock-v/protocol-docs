@@ -12,7 +12,11 @@
       "name": "Header",
       "order": 1,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 255.0
+      }
     },
     {
       "name": "Position",
@@ -24,19 +28,31 @@
       "name": "Rotation X",
       "order": 3,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 255.0
+      }
     },
     {
       "name": "Rotation Y",
       "order": 4,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 255.0
+      }
     },
     {
       "name": "Rotation Y Head",
       "order": 5,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 255.0
+      }
     }
   ]
 }

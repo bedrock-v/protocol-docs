@@ -1,0 +1,12 @@
+{
+  "name": "WebSocketPacketData",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Websocket Server URI",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

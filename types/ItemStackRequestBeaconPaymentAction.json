@@ -10,7 +10,8 @@
       "underlyingType": "uint8",
       "serialization": [
         "Enum-as-Value"
-      ]
+      ],
+      "const": "screenbeaconpayment"
     },
     {
       "name": "Primary Effect Id",
@@ -19,7 +20,11 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 38.0
+      }
     },
     {
       "name": "Secondary Effect Id",
@@ -28,7 +33,11 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 38.0
+      }
     }
   ]
 }

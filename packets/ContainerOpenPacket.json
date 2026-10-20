@@ -8,13 +8,21 @@
       "name": "Container Id",
       "order": 0,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 255.0
+      }
     },
     {
       "name": "Container Type",
       "order": 1,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 255.0
+      }
     },
     {
       "name": "Position",

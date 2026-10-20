@@ -12,19 +12,28 @@
       "name": "feature",
       "order": 1,
       "type": "uint16",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "identifier",
       "order": 2,
       "type": "uint16",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "pass",
       "order": 3,
       "type": "uint16",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "can use internal feature",

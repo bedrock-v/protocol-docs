@@ -12,13 +12,19 @@
       "name": "condition json",
       "order": 1,
       "type": "uint16",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "min passing neighbors",
       "order": 2,
       "type": "uint32",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     }
   ]
 }

@@ -6,43 +6,64 @@
       "name": "Key Id",
       "order": 0,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 128
+      }
     },
     {
       "name": "Sender Id",
       "order": 1,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 64
+      }
     },
     {
       "name": "Room Id",
       "order": 2,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 128
+      }
     },
     {
       "name": "Message Id",
       "order": 3,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 64
+      }
     },
     {
       "name": "Scan Text",
       "order": 4,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 512
+      }
     },
     {
       "name": "Redacted Text",
       "order": 5,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 512
+      }
     },
     {
       "name": "Signature",
       "order": 6,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 256
+      }
     }
   ]
 }

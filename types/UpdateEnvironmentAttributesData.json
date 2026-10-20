@@ -6,7 +6,10 @@
       "name": "Attribute Layer Name",
       "order": 0,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 128
+      }
     },
     {
       "name": "Attribute Layer Dimension",
@@ -18,7 +21,10 @@
       "name": "Attributes",
       "order": 2,
       "type": "EnvironmentAttributeData[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 1024
+      }
     }
   ]
 }

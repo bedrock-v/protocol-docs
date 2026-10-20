@@ -8,7 +8,10 @@
       "name": "cookie",
       "order": 0,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 2048
+      }
     },
     {
       "name": "accepted",

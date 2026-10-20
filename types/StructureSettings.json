@@ -6,7 +6,10 @@
       "name": "Structure Palette Name",
       "order": 0,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 256
+      }
     },
     {
       "name": "Should ignore entities?",
@@ -90,7 +93,10 @@
       "name": "Integrity Seed",
       "order": 12,
       "type": "uint32",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Rotation Pivot",

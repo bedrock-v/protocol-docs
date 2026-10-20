@@ -24,7 +24,8 @@
       "name": "Allow aim assist",
       "order": 2,
       "type": "boolean",
-      "optional": true
+      "optional": true,
+      "default": false
     }
   ]
 }

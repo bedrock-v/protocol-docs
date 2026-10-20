@@ -1,0 +1,64 @@
+{
+  "name": "AvailableCommandsPacketCommandData",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Name",
+      "order": 0,
+      "type": "string",
+      "optional": false,
+      "constraints": {
+        "maxLength": 512
+      }
+    },
+    {
+      "name": "Description",
+      "order": 1,
+      "type": "string",
+      "optional": false,
+      "constraints": {
+        "maxLength": 1000
+      }
+    },
+    {
+      "name": "Flags",
+      "order": 2,
+      "type": "uint16",
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
+    },
+    {
+      "name": "Permission Level",
+      "order": 3,
+      "type": "CommandPermissionLevel",
+      "optional": false,
+      "underlyingType": "uint8"
+    },
+    {
+      "name": "Alias Enum",
+      "order": 4,
+      "type": "int32",
+      "optional": false
+    },
+    {
+      "name": "CommandData Chained Subcommand Indexes",
+      "order": 5,
+      "type": "uint32[]",
+      "optional": false,
+      "constraints": {
+        "maxItems": 250
+      }
+    },
+    {
+      "name": "Overloads",
+      "order": 6,
+      "type": "AvailableCommandsPacketOverloadData[]",
+      "optional": false,
+      "constraints": {
+        "maxItems": 250
+      }
+    }
+  ]
+}

@@ -15,7 +15,10 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Redstone Mode",

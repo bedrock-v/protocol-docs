@@ -6,13 +6,18 @@
       "name": "Client Request Id",
       "order": 0,
       "type": "ItemStackRequestId",
-      "optional": false
+      "optional": false,
+      "runtimeConstraint": "Verify the request id is a valid negative odd client request id"
     },
     {
       "name": "Actions",
       "order": 1,
-      "type": "ItemStackRequestTakeAction | ItemStackRequestPlaceAction | ItemStackRequestSwapAction | ItemStackRequestDropAction | ItemStackRequestDestroyAction | ItemStackRequestConsumeAction | ItemStackRequestCreateAction | ItemStackRequestLabTableCombineAction | ItemStackRequestBeaconPaymentAction | ItemStackRequestMineBlockAction | ItemStackRequestCraftRecipeAction | ItemStackRequestCraftRecipeAutoAction | ItemStackRequestCraftCreativeAction | ItemStackRequestCraftRecipeOptionalAction | ItemStackRequestCraftRepairAndDisenchantAction | ItemStackRequestCraftLoomAction | ItemStackRequestReservedAction | ItemStackRequestCraftNonImplementedDeprecatedAction | ItemStackRequestCraftResultsDeprecatedAction[]",
-      "optional": false
+      "type": "ItemStackRequestTakeAction | ItemStackRequestPlaceAction | ItemStackRequestSwapAction | ItemStackRequestDropAction | ItemStackRequestDestroyAction | ItemStackRequestConsumeAction | ItemStackRequestCreateAction | ItemStackRequestLabTableCombineAction | ItemStackRequestBeaconPaymentAction | ItemStackRequestMineBlockAction | ItemStackRequestCraftRecipeAction | ItemStackRequestCraftRecipeAutoAction | ItemStackRequestCraftCreativeAction | ItemStackRequestCraftRecipeOptionalAction | ItemStackRequestCraftRepairAndDisenchantAction | ItemStackRequestCraftLoomAction | ItemStackRequestCraftDiscPressAction | ItemStackRequestCraftNonImplementedDeprecatedAction | ItemStackRequestCraftResultsDeprecatedAction[]",
+      "optional": false,
+      "constraints": {
+        "minItems": 1,
+        "maxItems": 100
+      }
     },
     {
       "name": "Strings To Filter",

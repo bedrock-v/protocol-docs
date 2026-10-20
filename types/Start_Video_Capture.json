@@ -6,7 +6,10 @@
       "name": "FrameRate",
       "order": 0,
       "type": "uint32",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "FilePrefix",

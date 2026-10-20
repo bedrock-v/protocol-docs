@@ -12,19 +12,31 @@
       "name": "Offset",
       "order": 1,
       "type": "Vec3",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": -5.0,
+        "maximum": 5.0
+      }
     },
     {
       "name": "Rotation",
       "order": 2,
       "type": "float",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 360.0
+      }
     },
     {
       "name": "RotationLimit",
       "order": 3,
       "type": "float",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 360.0
+      }
     },
     {
       "name": "EmoteType",

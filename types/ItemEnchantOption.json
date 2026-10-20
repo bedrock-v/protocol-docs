@@ -6,7 +6,11 @@
       "name": "Cost",
       "order": 0,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 255.0
+      }
     },
     {
       "name": "Enchants",
@@ -18,7 +22,11 @@
       "name": "Enchant Name",
       "order": 2,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minLength": 1,
+        "maxLength": 256
+      }
     },
     {
       "name": "Enchant Net Id",

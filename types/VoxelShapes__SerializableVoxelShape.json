@@ -12,19 +12,31 @@
       "name": "X Coordinates",
       "order": 1,
       "type": "float[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minItems": 1,
+        "maxItems": 128
+      }
     },
     {
       "name": "Y Coordinates",
       "order": 2,
       "type": "float[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minItems": 1,
+        "maxItems": 128
+      }
     },
     {
       "name": "Z Coordinates",
       "order": 3,
       "type": "float[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minItems": 1,
+        "maxItems": 128
+      }
     }
   ]
 }

@@ -14,7 +14,10 @@
       "name": "Server Port",
       "order": 1,
       "type": "uint16",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Reload World",

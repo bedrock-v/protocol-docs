@@ -15,7 +15,11 @@
       "name": "Subchunk Height Map",
       "order": 1,
       "type": "int8[][]",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "minItems": 16,
+        "maxItems": 16
+      }
     },
     {
       "name": "Render Height Map Type",
@@ -30,7 +34,11 @@
       "name": "Subchunk Render Height Map",
       "order": 3,
       "type": "int8[][]",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "minItems": 16,
+        "maxItems": 16
+      }
     }
   ]
 }

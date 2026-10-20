@@ -10,7 +10,8 @@
       "underlyingType": "uint8",
       "serialization": [
         "Enum-as-Value"
-      ]
+      ],
+      "const": "craftloom"
     },
     {
       "name": "Pattern Name Id",
@@ -22,7 +23,11 @@
       "name": "Num Crafts",
       "order": 2,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 1.0,
+        "maximum": 255.0
+      }
     }
   ]
 }

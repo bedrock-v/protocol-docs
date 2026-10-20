@@ -20,7 +20,15 @@
       "name": "Transaction",
       "order": 2,
       "type": "NormalTransactionData | InventoryMismatchData | ItemUseInventoryTransaction | ItemUseOnActorInventoryTransaction | ItemReleaseInventoryTransaction",
-      "optional": false
+      "optional": false,
+      "variants": [
+        "NormalTransactionData",
+        "InventoryMismatchData",
+        "ItemUseInventoryTransaction",
+        "ItemUseOnActorInventoryTransaction",
+        "ItemReleaseInventoryTransaction"
+      ],
+      "controlType": "uint32"
     }
   ]
 }

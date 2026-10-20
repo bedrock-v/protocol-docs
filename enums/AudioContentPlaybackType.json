@@ -4,6 +4,7 @@
   "underlyingType": "uint8",
   "values": [
     "Music",
-    "Sound"
+    "Sound",
+    "ConcurrentMusic"
   ]
 }

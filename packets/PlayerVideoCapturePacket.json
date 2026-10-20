@@ -8,13 +8,31 @@
       "name": "Start Video Capture",
       "order": 0,
       "type": "Start_Video_Capture | Stop_Video_Capture",
-      "optional": true
+      "optional": true,
+      "default": {
+        "FilePrefix": "Frame_",
+        "FrameRate": 30
+      },
+      "variants": [
+        "Start_Video_Capture",
+        "Stop_Video_Capture"
+      ],
+      "controlType": "uint32"
     },
     {
       "name": "Stop Video Capture",
       "order": 1,
       "type": "Start_Video_Capture | Stop_Video_Capture",
-      "optional": true
+      "optional": true,
+      "default": {
+        "FilePrefix": "Frame_",
+        "FrameRate": 30
+      },
+      "variants": [
+        "Start_Video_Capture",
+        "Stop_Video_Capture"
+      ],
+      "controlType": "uint32"
     }
   ]
 }

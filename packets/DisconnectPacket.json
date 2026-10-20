@@ -19,7 +19,12 @@
       "name": "Messages",
       "order": 1,
       "type": "DisconnectPacketMessages | null",
-      "optional": false
+      "optional": false,
+      "variants": [
+        "DisconnectPacketMessages",
+        "null"
+      ],
+      "controlType": "uint32"
     }
   ]
 }

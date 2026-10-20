@@ -12,7 +12,11 @@
       "name": "type",
       "order": 1,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 255.0
+      }
     },
     {
       "name": "curve",
@@ -36,13 +40,18 @@
       "name": "splineIdentifier",
       "order": 5,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "default": "",
+      "constraints": {
+        "maxLength": 1024
+      }
     },
     {
       "name": "loadFromJson",
       "order": 6,
       "type": "boolean",
-      "optional": true
+      "optional": true,
+      "default": false
     }
   ]
 }

@@ -23,7 +23,10 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Xuid",
@@ -41,7 +44,11 @@
       "name": "Flags",
       "order": 5,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 255.0
+      }
     }
   ]
 }

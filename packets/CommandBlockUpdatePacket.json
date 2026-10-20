@@ -8,7 +8,12 @@
       "name": "Target",
       "order": 0,
       "type": "EntityCommandTarget | BlockCommandData",
-      "optional": false
+      "optional": false,
+      "variants": [
+        "EntityCommandTarget",
+        "BlockCommandData"
+      ],
+      "controlType": "uint32"
     },
     {
       "name": "Command",

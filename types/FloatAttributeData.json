@@ -13,7 +13,8 @@
       "order": 1,
       "type": "FloatAttributeOperation",
       "optional": true,
-      "underlyingType": "int32"
+      "underlyingType": "int32",
+      "default": "override"
     },
     {
       "name": "constraintMin",

@@ -1,0 +1,36 @@
+{
+  "name": "ItemStackRequestCraftDiscPressAction",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Action type",
+      "order": 0,
+      "type": "ItemStackRequestActionType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ],
+      "const": "craftdiscpress"
+    },
+    {
+      "name": "Track Sound Event Id",
+      "order": 1,
+      "type": "string",
+      "optional": false,
+      "constraints": {
+        "maxLength": 256
+      }
+    },
+    {
+      "name": "Num Crafts",
+      "order": 2,
+      "type": "uint8",
+      "optional": false,
+      "constraints": {
+        "minimum": 1.0,
+        "maximum": 255.0
+      }
+    }
+  ]
+}

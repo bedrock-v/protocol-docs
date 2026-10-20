@@ -8,7 +8,10 @@
       "name": "Requests",
       "order": 0,
       "type": "ItemStackRequest[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 100
+      }
     }
   ]
 }

@@ -7,13 +7,15 @@
       "order": 0,
       "type": "UpdateType",
       "optional": false,
-      "underlyingType": "uint8"
+      "underlyingType": "uint8",
+      "const": "setfloatoverride"
     },
     {
       "name": "Value",
       "order": 1,
       "type": "float",
-      "optional": false
+      "optional": false,
+      "runtimeConstraint": "Must be a finite (non-NaN, non-infinite) floating-point value"
     }
   ]
 }

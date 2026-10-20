@@ -6,25 +6,35 @@
       "name": "noise",
       "order": 0,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "default": ""
     },
     {
       "name": "threshold",
       "order": 1,
       "type": "float",
-      "optional": true
+      "optional": true,
+      "default": 1.1754943508222876E-38
     },
     {
       "name": "range",
       "order": 2,
       "type": "FloatRange",
-      "optional": true
+      "optional": true,
+      "default": {
+        "max": 3.4028234663852887E+38,
+        "min": 1.1754943508222876E-38
+      }
     },
     {
       "name": "block",
       "order": 3,
       "type": "uint32",
-      "optional": true
+      "optional": true,
+      "default": 0,
+      "constraints": {
+        "minimum": 0.0
+      }
     }
   ]
 }

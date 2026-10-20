@@ -42,7 +42,8 @@
       "serialization": [
         "Enum-as-Value",
         "Compression"
-      ]
+      ],
+      "default": "mainhand"
     }
   ]
 }

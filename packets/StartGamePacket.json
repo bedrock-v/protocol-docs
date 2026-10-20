@@ -80,7 +80,10 @@
       "name": "Level Current Time",
       "order": 11,
       "type": "uint64",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Enchantment Seed",
@@ -125,7 +128,10 @@
       "name": "Server Block Type Registry Checksum",
       "order": 18,
       "type": "uint64",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "World Template ID",

@@ -18,7 +18,8 @@
       "name": "Parameters",
       "order": 2,
       "type": "string[]",
-      "optional": true
+      "optional": true,
+      "default": []
     },
     {
       "name": "Raw Message",

@@ -11,7 +11,11 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 19.0
+      }
     },
     {
       "name": "Value Type",

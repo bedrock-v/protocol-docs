@@ -6,7 +6,10 @@
       "name": "Text",
       "order": 0,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 4096
+      }
     },
     {
       "name": "Position",
@@ -24,7 +27,10 @@
       "name": "duration",
       "order": 3,
       "type": "uint64",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     }
   ]
 }

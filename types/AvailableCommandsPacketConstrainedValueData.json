@@ -1,0 +1,33 @@
+{
+  "name": "AvailableCommandsPacketConstrainedValueData",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Enum Value Symbol",
+      "order": 0,
+      "type": "uint32",
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
+    },
+    {
+      "name": "Enum Symbol",
+      "order": 1,
+      "type": "uint32",
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
+    },
+    {
+      "name": "Constraint Indices",
+      "order": 2,
+      "type": "uint8[]",
+      "optional": false,
+      "constraints": {
+        "maxItems": 250
+      }
+    }
+  ]
+}

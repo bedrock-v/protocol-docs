@@ -14,25 +14,42 @@
       "name": "Body",
       "order": 1,
       "type": "MessageOnly | AuthorAndMessage | MessageAndParams",
-      "optional": false
+      "optional": false,
+      "variants": [
+        "MessageOnly",
+        "AuthorAndMessage",
+        "MessageAndParams"
+      ],
+      "controlType": "uint32"
     },
     {
       "name": "Sender's XUID",
       "order": 2,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "default": "",
+      "constraints": {
+        "maxLength": 64
+      }
     },
     {
       "name": "Platform Id",
       "order": 3,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "default": "",
+      "constraints": {
+        "maxLength": 256
+      }
     },
     {
       "name": "Filtered Message",
       "order": 4,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "maxLength": 65536
+      }
     }
   ]
 }

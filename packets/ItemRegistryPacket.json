@@ -8,7 +8,8 @@
       "name": "Item Data",
       "order": 0,
       "type": "ItemData[]",
-      "optional": false
+      "optional": false,
+      "runtimeConstraint": "Verify that specified items exist"
     }
   ]
 }

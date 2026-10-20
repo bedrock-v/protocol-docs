@@ -10,13 +10,17 @@
       "underlyingType": "uint8",
       "serialization": [
         "Enum-as-Value"
-      ]
+      ],
+      "const": "molang"
     },
     {
       "name": "Tag Expression",
       "order": 1,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minLength": 1
+      }
     },
     {
       "name": "Molang Version",

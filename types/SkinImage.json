@@ -6,19 +6,30 @@
       "name": "Width",
       "order": 0,
       "type": "uint32",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 4096.0
+      }
     },
     {
       "name": "Height",
       "order": 1,
       "type": "uint32",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 4096.0
+      }
     },
     {
       "name": "ImageBytes",
       "order": 2,
       "type": "uint8[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 67108864
+      }
     }
   ]
 }

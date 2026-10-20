@@ -32,7 +32,10 @@
       "name": "Chained Subcommand Data",
       "order": 4,
       "type": "AvailableCommandsPacketChainedSubcommandData[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 16
+      }
     },
     {
       "name": "Commands",

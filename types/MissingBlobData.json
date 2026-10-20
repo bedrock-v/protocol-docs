@@ -6,7 +6,10 @@
       "name": "Blob Id",
       "order": 0,
       "type": "uint64",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Blob Data",

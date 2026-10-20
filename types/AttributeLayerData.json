@@ -6,7 +6,10 @@
       "name": "Name",
       "order": 0,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 128
+      }
     },
     {
       "name": "Dimension",
@@ -24,7 +27,10 @@
       "name": "Attributes",
       "order": 3,
       "type": "EnvironmentAttributeData[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 1024
+      }
     }
   ]
 }

@@ -10,19 +10,27 @@
       "underlyingType": "uint8",
       "serialization": [
         "Enum-as-Value"
-      ]
+      ],
+      "const": "craftresults"
     },
     {
       "name": "Craft Results",
       "order": 1,
       "type": "ItemStackRequestNetworkItemInstanceDescriptor[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minItems": 1
+      }
     },
     {
       "name": "Num Crafts",
       "order": 2,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 1.0,
+        "maximum": 255.0
+      }
     }
   ]
 }

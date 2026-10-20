@@ -6,7 +6,10 @@
       "name": "Attribute Layers",
       "order": 0,
       "type": "AttributeLayerData[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 512
+      }
     }
   ]
 }

@@ -6,7 +6,8 @@
       "name": "Enabled",
       "order": 0,
       "type": "boolean",
-      "optional": true
+      "optional": true,
+      "default": false
     }
   ]
 }

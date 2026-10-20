@@ -12,7 +12,12 @@
       "name": "ItemEnchants",
       "order": 1,
       "type": "EnchantmentInstance[][]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minItems": 3,
+        "maxItems": 3
+      },
+      "runtimeConstraint": "Verify amount of EnchantmentInstances being serialized in ItemEnchants"
     }
   ]
 }

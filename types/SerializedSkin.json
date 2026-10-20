@@ -12,7 +12,8 @@
       "name": "ResourcePatch",
       "order": 1,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "runtimeConstraint": "Verify that the string contains JSON within the maximum nesting depth"
     },
     {
       "name": "ImageData",
@@ -36,7 +37,8 @@
       "name": "GeometryData",
       "order": 5,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "runtimeConstraint": "Verify that the string contains valid depth-limited JSON"
     },
     {
       "name": "GeometryDataMinEngineVersion",

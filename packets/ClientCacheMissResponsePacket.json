@@ -8,7 +8,10 @@
       "name": "Missing Blobs",
       "order": 0,
       "type": "MissingBlobData[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 4095
+      }
     }
   ]
 }

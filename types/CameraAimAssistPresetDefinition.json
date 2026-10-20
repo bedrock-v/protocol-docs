@@ -12,19 +12,27 @@
       "name": "exclusion_settings",
       "order": 1,
       "type": "CameraAimAssistPresetExclusionDefinition",
-      "optional": true
+      "optional": true,
+      "default": {
+        "entity_type_families": [],
+        "block_tags": [],
+        "entities": [],
+        "blocks": []
+      }
     },
     {
       "name": "liquid_targeting_list",
       "order": 2,
       "type": "Item_Reference[]",
-      "optional": true
+      "optional": true,
+      "default": []
     },
     {
       "name": "item_settings",
       "order": 3,
       "type": "object",
-      "optional": true
+      "optional": true,
+      "default": []
     },
     {
       "name": "default_item_settings",

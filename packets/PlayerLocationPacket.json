@@ -14,7 +14,12 @@
       "name": "Location",
       "order": 1,
       "type": "CoordinatesLocation | HiddenLocation",
-      "optional": false
+      "optional": false,
+      "variants": [
+        "CoordinatesLocation",
+        "HiddenLocation"
+      ],
+      "controlType": "uint32"
     }
   ]
 }

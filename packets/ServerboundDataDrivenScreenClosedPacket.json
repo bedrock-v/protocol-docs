@@ -8,7 +8,11 @@
       "name": "FormId",
       "order": 0,
       "type": "uint32",
-      "optional": true
+      "optional": true,
+      "default": 0,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "CloseReason",

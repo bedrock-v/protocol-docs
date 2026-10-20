@@ -14,7 +14,17 @@
       "name": "Event",
       "order": 1,
       "type": "Stop | SetVolume | SetPitch | Fade | SeekTo | Pause | Resume",
-      "optional": false
+      "optional": false,
+      "variants": [
+        "Stop",
+        "SetVolume",
+        "SetPitch",
+        "Fade",
+        "SeekTo",
+        "Pause",
+        "Resume"
+      ],
+      "controlType": "uint32"
     }
   ]
 }

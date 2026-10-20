@@ -18,19 +18,28 @@
       "name": "sea block",
       "order": 2,
       "type": "uint32",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "foundation block",
       "order": 3,
       "type": "uint32",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "beach block",
       "order": 4,
       "type": "uint32",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "minimum": 0.0
+      }
     }
   ]
 }

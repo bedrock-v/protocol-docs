@@ -38,7 +38,10 @@
       "name": "Resource Packs",
       "order": 5,
       "type": "PackInfoData[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 65535
+      }
     }
   ]
 }

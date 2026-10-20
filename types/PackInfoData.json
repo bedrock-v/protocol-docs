@@ -12,7 +12,10 @@
       "name": "Pack Size",
       "order": 1,
       "type": "uint64",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Content Key",

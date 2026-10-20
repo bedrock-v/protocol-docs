@@ -8,7 +8,14 @@
       "name": "Response",
       "order": 0,
       "type": "Resource_Pack_Client_Response_-_Cancel | Resource_Pack_Client_Response_-_Downloading | Resource_Pack_Client_Response_-_Downloading_Finished | Resource_Pack_Client_Response_-_Resource_Pack_Stack_Finished",
-      "optional": false
+      "optional": false,
+      "variants": [
+        "Resource_Pack_Client_Response_-_Cancel",
+        "Resource_Pack_Client_Response_-_Downloading",
+        "Resource_Pack_Client_Response_-_Downloading_Finished",
+        "Resource_Pack_Client_Response_-_Resource_Pack_Stack_Finished"
+      ],
+      "controlType": "uint32"
     }
   ]
 }

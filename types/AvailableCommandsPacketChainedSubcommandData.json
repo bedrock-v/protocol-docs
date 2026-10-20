@@ -1,0 +1,25 @@
+{
+  "name": "AvailableCommandsPacketChainedSubcommandData",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Name",
+      "order": 0,
+      "type": "string",
+      "optional": false,
+      "constraints": {
+        "maxLength": 512
+      }
+    },
+    {
+      "name": "SubCommand values",
+      "order": 1,
+      "type": "AvailableCommandsPacketChainedSubcommandRelationship[]",
+      "optional": true,
+      "default": [],
+      "constraints": {
+        "maxItems": 32
+      }
+    }
+  ]
+}

@@ -13,13 +13,17 @@
       "name": "Success Count",
       "order": 1,
       "type": "uint32",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Output Messages",
       "order": 2,
       "type": "CommandOutputMessage[]",
-      "optional": true
+      "optional": true,
+      "default": []
     },
     {
       "name": "Data Set",

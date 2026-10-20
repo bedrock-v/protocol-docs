@@ -6,25 +6,40 @@
       "name": "X Size",
       "order": 0,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 127.0
+      }
     },
     {
       "name": "Y Size",
       "order": 1,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 127.0
+      }
     },
     {
       "name": "Z Size",
       "order": 2,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 127.0
+      }
     },
     {
       "name": "Storage",
       "order": 3,
       "type": "uint8[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 256048
+      }
     }
   ]
 }

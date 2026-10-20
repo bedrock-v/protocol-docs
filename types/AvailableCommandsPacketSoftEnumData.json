@@ -1,0 +1,21 @@
+{
+  "name": "AvailableCommandsPacketSoftEnumData",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Enum Name",
+      "order": 0,
+      "type": "string",
+      "optional": false,
+      "constraints": {
+        "maxLength": 512
+      }
+    },
+    {
+      "name": "Enum Options",
+      "order": 1,
+      "type": "string[]",
+      "optional": false
+    }
+  ]
+}

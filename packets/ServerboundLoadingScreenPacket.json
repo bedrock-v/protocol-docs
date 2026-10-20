@@ -18,7 +18,10 @@
       "name": "Loading Screen Id",
       "order": 1,
       "type": "uint32",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "minimum": 0.0
+      }
     }
   ]
 }

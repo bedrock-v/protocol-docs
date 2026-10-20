@@ -17,13 +17,23 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Update",
       "order": 2,
       "type": "ClearOverride | RemoveOverride | IntOverride | FloatOverride",
-      "optional": false
+      "optional": false,
+      "variants": [
+        "ClearOverride",
+        "RemoveOverride",
+        "IntOverride",
+        "FloatOverride"
+      ],
+      "controlType": "uint32"
     }
   ]
 }

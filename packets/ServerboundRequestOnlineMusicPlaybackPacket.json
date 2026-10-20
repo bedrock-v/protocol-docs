@@ -1,0 +1,27 @@
+{
+  "name": "ServerboundRequestOnlineMusicPlaybackPacket",
+  "kind": "packet",
+  "id": 362,
+  "description": "",
+  "fields": [
+    {
+      "name": "Request ID",
+      "order": 0,
+      "type": "uint32",
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
+    },
+    {
+      "name": "Sound Event Name",
+      "order": 1,
+      "type": "string",
+      "optional": false,
+      "constraints": {
+        "minLength": 1,
+        "maxLength": 256
+      }
+    }
+  ]
+}

@@ -8,7 +8,10 @@
       "name": "Armor Slot and Damage Pairs",
       "order": 0,
       "type": "ArmorSlotAndDamagePair[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 5
+      }
     }
   ]
 }

@@ -6,13 +6,22 @@
       "name": "AttributeName",
       "order": 0,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 128
+      }
     },
     {
       "name": "Payload",
       "order": 1,
       "type": "ConstantAttributeData | TransitionAttributeData | NoiseTransitionAttributeData",
-      "optional": false
+      "optional": false,
+      "variants": [
+        "ConstantAttributeData",
+        "TransitionAttributeData",
+        "NoiseTransitionAttributeData"
+      ],
+      "controlType": "uint32"
     }
   ]
 }

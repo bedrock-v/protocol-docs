@@ -16,7 +16,12 @@
       "name": "Message",
       "order": 1,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "default": "",
+      "constraints": {
+        "minLength": 1,
+        "maxLength": 65536
+      }
     }
   ]
 }

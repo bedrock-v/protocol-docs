@@ -12,7 +12,10 @@
       "name": "Stack size",
       "order": 1,
       "type": "uint16",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Aux value",
@@ -21,7 +24,11 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 32767.0
+      }
     },
     {
       "name": "Net Id Variant",
@@ -39,7 +46,10 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "User Data Buffer",

@@ -1,0 +1,58 @@
+{
+  "name": "GraphicsParameterOverridePacketPayload",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Parameter Keyframe Values",
+      "order": 0,
+      "type": "object",
+      "optional": false
+    },
+    {
+      "name": "Float Value",
+      "order": 1,
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Vec3 Value",
+      "order": 2,
+      "type": "Vec3",
+      "optional": true
+    },
+    {
+      "name": "Biome Identifier",
+      "order": 3,
+      "type": "string",
+      "optional": false,
+      "constraints": {
+        "maxLength": 255
+      }
+    },
+    {
+      "name": "Player Identifier",
+      "order": 4,
+      "type": "string",
+      "optional": true,
+      "constraints": {
+        "maxLength": 255
+      }
+    },
+    {
+      "name": "Identifier for Parameter",
+      "order": 5,
+      "type": "GraphicsOverrideParameterType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
+    },
+    {
+      "name": "Reset Parameter",
+      "order": 6,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

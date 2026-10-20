@@ -11,7 +11,11 @@
       "optional": false,
       "serialization": [
         "Big Endian"
-      ]
+      ],
+      "constraints": {
+        "minimum": 2238.0,
+        "maximum": 2238.0
+      }
     }
   ]
 }

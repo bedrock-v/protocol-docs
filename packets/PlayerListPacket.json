@@ -8,7 +8,11 @@
       "name": "Entries",
       "order": 0,
       "type": "PlayerListRemoveEntry | PlayerListAddEntry[]",
-      "optional": true
+      "optional": true,
+      "default": [],
+      "constraints": {
+        "maxItems": 1000
+      }
     }
   ]
 }

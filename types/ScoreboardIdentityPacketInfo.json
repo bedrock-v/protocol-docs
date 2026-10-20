@@ -1,0 +1,21 @@
+{
+  "name": "ScoreboardIdentityPacketInfo",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Scoreboard Id",
+      "order": 0,
+      "type": "ScoreboardId",
+      "optional": false
+    },
+    {
+      "name": "Player Unique Id",
+      "order": 1,
+      "type": "int64",
+      "optional": true,
+      "serialization": [
+        "Compression"
+      ]
+    }
+  ]
+}

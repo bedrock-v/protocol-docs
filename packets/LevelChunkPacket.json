@@ -23,7 +23,11 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 64.0
+      }
     },
     {
       "name": "Client Request SubChunk Limit",
@@ -32,7 +36,11 @@
       "optional": true,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": -1.0,
+        "maximum": 64.0
+      }
     },
     {
       "name": "Cache Enabled",
@@ -44,7 +52,10 @@
       "name": "Cache Metadata",
       "order": 5,
       "type": "LevelChunkPacketPayload_SubChunkMetadata[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 65
+      }
     },
     {
       "name": "Serialized Chunk Data",

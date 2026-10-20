@@ -1,0 +1,12 @@
+{
+  "name": "GameRulesChangedPacketData",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Rules List",
+      "order": 0,
+      "type": "GameRule[]",
+      "optional": false
+    }
+  ]
+}

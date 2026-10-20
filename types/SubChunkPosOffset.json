@@ -6,19 +6,31 @@
       "name": "Subchunk Offset X",
       "order": 0,
       "type": "int8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": -128.0,
+        "maximum": 127.0
+      }
     },
     {
       "name": "Subchunk Offset Y",
       "order": 1,
       "type": "int8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": -128.0,
+        "maximum": 127.0
+      }
     },
     {
       "name": "Subchunk Offset Z",
       "order": 2,
       "type": "int8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": -128.0,
+        "maximum": 127.0
+      }
     }
   ]
 }

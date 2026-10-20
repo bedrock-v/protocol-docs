@@ -1,0 +1,15 @@
+{
+  "name": "LevelChunkPacketPayload SubChunkMetadata",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Blob Id",
+      "order": 0,
+      "type": "uint64",
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
+    }
+  ]
+}

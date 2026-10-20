@@ -8,7 +8,10 @@
       "name": "PurchaseReceipts",
       "order": 0,
       "type": "string[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 10000
+      }
     }
   ]
 }

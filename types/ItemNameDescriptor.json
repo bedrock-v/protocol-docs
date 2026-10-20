@@ -10,13 +10,17 @@
       "underlyingType": "uint8",
       "serialization": [
         "Enum-as-Value"
-      ]
+      ],
+      "const": "itemname"
     },
     {
       "name": "Full Name",
       "order": 1,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minLength": 1
+      }
     },
     {
       "name": "Aux Value",
@@ -25,7 +29,11 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 32767.0
+      }
     }
   ]
 }

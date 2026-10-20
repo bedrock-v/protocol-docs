@@ -70,9 +70,9 @@
     "SmithingTableTemplateContainer",
     "CrafterLevelEntityContainer",
     "DynamicContainer",
-    "ReservedContainerA",
-    "ReservedContainerB",
-    "ReservedContainerC",
-    "ReservedContainerD"
+    "DiscPressBlockContainer",
+    "DiscPressDyeContainer",
+    "DiscPressDiscContainer",
+    "DiscPressResultPreviewContainer"
   ]
 }

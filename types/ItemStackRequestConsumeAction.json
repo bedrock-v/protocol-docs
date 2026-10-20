@@ -10,13 +10,18 @@
       "underlyingType": "uint8",
       "serialization": [
         "Enum-as-Value"
-      ]
+      ],
+      "const": "consume"
     },
     {
       "name": "Amount",
       "order": 1,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 1.0,
+        "maximum": 64.0
+      }
     },
     {
       "name": "Source",

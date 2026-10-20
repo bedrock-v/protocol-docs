@@ -10,7 +10,8 @@
       "underlyingType": "uint8",
       "serialization": [
         "Enum-as-Value"
-      ]
+      ],
+      "const": "empty"
     }
   ]
 }

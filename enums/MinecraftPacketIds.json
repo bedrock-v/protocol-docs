@@ -220,6 +220,9 @@
     "ClientboundMatchmakingState",
     "ServerboundMatchmakingCancel",
     "ClientboundPlayAudioContent",
-    "ServerboundRegisterAudioContent"
+    "ServerboundRegisterAudioContent",
+    "Chat",
+    "ClientboundOnlineMusicPlaybackResponse",
+    "ServerboundRequestOnlineMusicPlayback"
   ]
 }

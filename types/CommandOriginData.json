@@ -18,13 +18,18 @@
       "name": "RequestId",
       "order": 2,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "default": "",
+      "constraints": {
+        "maxLength": 39
+      }
     },
     {
       "name": "PlayerId",
       "order": 3,
       "type": "int64",
-      "optional": true
+      "optional": true,
+      "default": 0
     }
   ]
 }

@@ -9,13 +9,20 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": -32768.0,
+        "maximum": 32767.0
+      }
     },
     {
       "name": "Stack size",
       "order": 1,
       "type": "uint16",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Aux value",
@@ -24,7 +31,11 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 32767.0
+      }
     },
     {
       "name": "Block Runtime Id",

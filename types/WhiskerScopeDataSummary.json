@@ -18,19 +18,28 @@
       "name": "TotalHighCostNS",
       "order": 2,
       "type": "uint64",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "TotalMidCostNS",
       "order": 3,
       "type": "uint64",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "TotalLowCostNS",
       "order": 4,
       "type": "uint64",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     }
   ]
 }

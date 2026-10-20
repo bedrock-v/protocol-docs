@@ -6,7 +6,10 @@
       "name": "richPresenceId",
       "order": 0,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "maxLength": 50
+      }
     }
   ]
 }

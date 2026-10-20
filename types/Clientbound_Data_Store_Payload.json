@@ -6,7 +6,10 @@
       "name": "Updates",
       "order": 0,
       "type": "Data_Store_Update | Data_Store_Change | Data_Store_Removal[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 500
+      }
     }
   ]
 }

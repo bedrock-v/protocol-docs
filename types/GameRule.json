@@ -18,7 +18,14 @@
       "name": "Rule Value",
       "order": 2,
       "type": "null | boolean | int32 | float",
-      "optional": false
+      "optional": false,
+      "variants": [
+        "null",
+        "boolean",
+        "int32",
+        "float"
+      ],
+      "controlType": "uint32"
     }
   ]
 }

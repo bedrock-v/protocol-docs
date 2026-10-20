@@ -6,7 +6,10 @@
       "name": "Event Name",
       "order": 0,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 256
+      }
     }
   ]
 }

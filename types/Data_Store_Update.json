@@ -6,37 +6,62 @@
       "name": "Data Store Name",
       "order": 0,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minLength": 1,
+        "maxLength": 1000
+      }
     },
     {
       "name": "Property",
       "order": 1,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minLength": 1,
+        "maxLength": 1000
+      }
     },
     {
       "name": "Path",
       "order": 2,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 1000
+      }
     },
     {
       "name": "Data",
       "order": 3,
       "type": "double | boolean | string",
-      "optional": false
+      "optional": false,
+      "variants": [
+        "double",
+        "boolean",
+        "string"
+      ],
+      "controlType": "uint32"
     },
     {
       "name": "Property Update Count",
       "order": 4,
       "type": "uint32",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 4294967294.0
+      }
     },
     {
       "name": "Path Update Count",
       "order": 5,
       "type": "uint32",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 4294967294.0
+      }
     }
   ]
 }

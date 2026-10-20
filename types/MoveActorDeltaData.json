@@ -30,19 +30,31 @@
       "name": "Rotation X",
       "order": 4,
       "type": "int8",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "minimum": -128.0,
+        "maximum": 127.0
+      }
     },
     {
       "name": "Rotation Y",
       "order": 5,
       "type": "int8",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "minimum": -128.0,
+        "maximum": 127.0
+      }
     },
     {
       "name": "Rotation Y Head",
       "order": 6,
       "type": "int8",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "minimum": -128.0,
+        "maximum": 127.0
+      }
     },
     {
       "name": "Is On Ground",
@@ -75,7 +87,10 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0
+      }
     }
   ]
 }

@@ -8,7 +8,14 @@
       "name": "Data",
       "order": 0,
       "type": "UpdateAttributeLayersData | UpdateAttributeLayerSettingsData | UpdateEnvironmentAttributesData | RemoveEnvironmentAttributesData",
-      "optional": false
+      "optional": false,
+      "variants": [
+        "UpdateAttributeLayersData",
+        "UpdateAttributeLayerSettingsData",
+        "UpdateEnvironmentAttributesData",
+        "RemoveEnvironmentAttributesData"
+      ],
+      "controlType": "uint32"
     }
   ]
 }

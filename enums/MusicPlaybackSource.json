@@ -1,0 +1,9 @@
+{
+  "name": "MusicPlaybackSource",
+  "kind": "enum",
+  "underlyingType": "uint8",
+  "values": [
+    "Local",
+    "Online"
+  ]
+}

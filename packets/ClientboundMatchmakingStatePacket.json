@@ -18,7 +18,10 @@
       "name": "Destination Name",
       "order": 1,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 100
+      }
     },
     {
       "name": "Options",

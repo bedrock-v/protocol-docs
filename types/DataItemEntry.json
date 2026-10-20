@@ -9,13 +9,28 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Payload",
       "order": 1,
       "type": "DataItemBytePayload | DataItemShortPayload | DataItemIntPayload | DataItemFloatPayload | DataItemStringPayload | DataItemCompoundTagPayload | DataItemPosPayload | DataItemInt64Payload | DataItemVec3Payload",
-      "optional": false
+      "optional": false,
+      "variants": [
+        "DataItemBytePayload",
+        "DataItemShortPayload",
+        "DataItemIntPayload",
+        "DataItemFloatPayload",
+        "DataItemStringPayload",
+        "DataItemCompoundTagPayload",
+        "DataItemPosPayload",
+        "DataItemInt64Payload",
+        "DataItemVec3Payload"
+      ],
+      "controlType": "uint32"
     }
   ]
 }

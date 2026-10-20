@@ -9,6 +9,7 @@ flowchart TB
   ROOT --> Mouse["Mouse"]
   ROOT --> Touch["Touch"]
   ROOT --> GamePad["GamePad"]
+  ROOT --> GamePadAndMouse["GamePadAndMouse"]
   ROOT --> Count["Count"]
 ```
 

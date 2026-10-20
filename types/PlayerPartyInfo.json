@@ -6,7 +6,10 @@
       "name": "party_id",
       "order": 0,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 49
+      }
     },
     {
       "name": "is_party_leader",

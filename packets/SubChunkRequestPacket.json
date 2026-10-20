@@ -14,7 +14,10 @@
       "name": "SubChunk Position Offset List",
       "order": 1,
       "type": "SubChunkPosOffset[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 8192
+      }
     },
     {
       "name": "Center Pos",

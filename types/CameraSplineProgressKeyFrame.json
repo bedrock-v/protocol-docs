@@ -6,13 +6,20 @@
       "name": "progress",
       "order": 0,
       "type": "float",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 1.0
+      }
     },
     {
       "name": "time",
       "order": 1,
       "type": "float",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "easing",

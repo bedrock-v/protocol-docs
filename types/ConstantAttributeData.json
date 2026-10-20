@@ -6,7 +6,14 @@
       "name": "Attribute",
       "order": 0,
       "type": "BoolAttributeData | FloatAttributeData | ColorAttributeData | StringAttributeData",
-      "optional": false
+      "optional": false,
+      "variants": [
+        "BoolAttributeData",
+        "FloatAttributeData",
+        "ColorAttributeData",
+        "StringAttributeData"
+      ],
+      "controlType": "uint32"
     }
   ]
 }

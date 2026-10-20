@@ -6,7 +6,11 @@
       "name": "Colors",
       "order": 0,
       "type": "Color[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minItems": 4,
+        "maxItems": 4
+      }
     }
   ]
 }

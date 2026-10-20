@@ -8,7 +8,10 @@
       "name": "Compression Threshold",
       "order": 0,
       "type": "uint16",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "CompressionAlgorithm",
@@ -30,7 +33,11 @@
       "name": "Client Throttle Threshold",
       "order": 3,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 255.0
+      }
     },
     {
       "name": "Client Throttle Scalar",

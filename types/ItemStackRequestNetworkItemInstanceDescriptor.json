@@ -6,13 +6,24 @@
       "name": "Item Descriptor",
       "order": 0,
       "type": "EmptyItemDescriptor | ItemNameDescriptor | MolangItemDescriptor | ItemTagDescriptor",
-      "optional": false
+      "optional": false,
+      "variants": [
+        "EmptyItemDescriptor",
+        "ItemNameDescriptor",
+        "MolangItemDescriptor",
+        "ItemTagDescriptor"
+      ],
+      "controlType": "uint32"
     },
     {
       "name": "Stack size",
       "order": 1,
       "type": "uint16",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 1.0,
+        "maximum": 64.0
+      }
     },
     {
       "name": "Block Runtime Id",
@@ -21,7 +32,10 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "User Data Buffer",

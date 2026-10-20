@@ -46,7 +46,10 @@
       "name": "Default Biome",
       "order": 5,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 256
+      }
     },
     {
       "name": "Cloud Height",

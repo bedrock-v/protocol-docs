@@ -6,7 +6,10 @@
       "name": "ClockData",
       "order": 0,
       "type": "SyncWorldClockStateData[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 256
+      }
     }
   ]
 }

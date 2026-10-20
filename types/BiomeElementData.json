@@ -33,7 +33,10 @@
       "name": "height min",
       "order": 4,
       "type": "uint16",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "height max type",
@@ -48,7 +51,10 @@
       "name": "height max",
       "order": 6,
       "type": "uint16",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "adjusted materials",

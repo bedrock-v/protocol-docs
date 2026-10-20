@@ -8,13 +8,19 @@
       "name": "Missing Ids",
       "order": 0,
       "type": "uint64[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 4095
+      }
     },
     {
       "name": "Found Ids",
       "order": 1,
       "type": "uint64[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 4095
+      }
     }
   ]
 }

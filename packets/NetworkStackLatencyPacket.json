@@ -8,7 +8,10 @@
       "name": "Creation Time",
       "order": 0,
       "type": "uint64",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Is From Server",

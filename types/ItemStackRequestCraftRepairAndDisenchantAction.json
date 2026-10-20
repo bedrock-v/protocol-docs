@@ -10,7 +10,8 @@
       "underlyingType": "uint8",
       "serialization": [
         "Enum-as-Value"
-      ]
+      ],
+      "const": "craftrepairanddisenchant"
     },
     {
       "name": "Recipe Net Id",
@@ -22,7 +23,11 @@
       "name": "Number of requested crafts",
       "order": 2,
       "type": "uint8",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 1.0,
+        "maximum": 255.0
+      }
     },
     {
       "name": "Repair Cost",
@@ -31,7 +36,10 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0
+      }
     }
   ]
 }

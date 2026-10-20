@@ -14,13 +14,18 @@
       "name": "View Angle",
       "order": 1,
       "type": "Vec2",
-      "optional": false
+      "optional": false,
+      "runtimeConstraint": "There are different constraints for different indexes, please refer to member help for more details"
     },
     {
       "name": "Distance",
       "order": 2,
       "type": "float",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 1.0,
+        "maximum": 16.0
+      }
     },
     {
       "name": "Target Mode",

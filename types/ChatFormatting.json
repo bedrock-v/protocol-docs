@@ -6,25 +6,37 @@
       "name": "Name Prefix",
       "order": 0,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "maxLength": 64
+      }
     },
     {
       "name": "Name Postfix",
       "order": 1,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "maxLength": 64
+      }
     },
     {
       "name": "Message Prefix",
       "order": 2,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "maxLength": 64
+      }
     },
     {
       "name": "Message Postfix",
       "order": 3,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "maxLength": 64
+      }
     }
   ]
 }

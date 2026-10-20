@@ -6,7 +6,11 @@
       "name": "Data Store Name",
       "order": 0,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minLength": 1,
+        "maxLength": 1000
+      }
     }
   ]
 }

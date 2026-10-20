@@ -6,7 +6,10 @@
       "name": "Triggering Player Name",
       "order": 0,
       "type": "string",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "maxLength": 40
+      }
     },
     {
       "name": "Triggered By Local Player",

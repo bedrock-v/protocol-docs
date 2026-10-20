@@ -6,19 +6,28 @@
       "name": "Title",
       "order": 0,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 768
+      }
     },
     {
       "name": "Author",
       "order": 1,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 768
+      }
     },
     {
       "name": "XUID",
       "order": 2,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 768
+      }
     }
   ]
 }

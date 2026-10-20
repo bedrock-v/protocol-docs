@@ -1,0 +1,18 @@
+{
+  "name": "DisconnectPacketMessages",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Message",
+      "order": 0,
+      "type": "string",
+      "optional": false
+    },
+    {
+      "name": "Filtered Message",
+      "order": 1,
+      "type": "string",
+      "optional": false
+    }
+  ]
+}

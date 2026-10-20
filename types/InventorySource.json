@@ -20,7 +20,11 @@
       "optional": true,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": -128.0,
+        "maximum": 127.0
+      }
     },
     {
       "name": "Bit Flags",

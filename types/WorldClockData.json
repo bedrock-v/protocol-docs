@@ -9,13 +9,19 @@
       "optional": false,
       "serialization": [
         "Compression"
-      ]
+      ],
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Name",
       "order": 1,
       "type": "string",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxLength": 128
+      }
     },
     {
       "name": "Time",
@@ -36,7 +42,10 @@
       "name": "TimeMarkers",
       "order": 4,
       "type": "TimeMarkerData[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 256
+      }
     }
   ]
 }

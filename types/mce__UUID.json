@@ -6,13 +6,19 @@
       "name": "Most Significant Bits",
       "order": 0,
       "type": "uint64",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     },
     {
       "name": "Least Significant Bits",
       "order": 1,
       "type": "uint64",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     }
   ]
 }

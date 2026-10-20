@@ -105,7 +105,10 @@
       "name": "Player Block Actions",
       "order": 13,
       "type": "PlayerBlockActionData[]",
-      "optional": true
+      "optional": true,
+      "constraints": {
+        "maxItems": 100
+      }
     },
     {
       "name": "Vehicle Rotation",
