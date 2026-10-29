@@ -11,6 +11,6 @@ flowchart LR
   ROOT -->|"Texture Pack List"| PackInstanceId["PackInstanceId[]"]
   ROOT -->|"Base Game Version"| string["string"]
   ROOT -->|"Experiments"| Experiments["Experiments"]
-  ROOT -->|"Include Editor Packs"| boolean["boolean"]
+  ROOT -->|"Editor Pack Types"| EditorPackType["EditorPackType"]
 ```
 

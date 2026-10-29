@@ -1,0 +1,10 @@
+{
+  "name": "EditorPackType",
+  "kind": "enum",
+  "underlyingType": "uint8",
+  "values": [
+    "None",
+    "Core",
+    "Annotation"
+  ]
+}

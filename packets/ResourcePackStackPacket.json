@@ -32,10 +32,15 @@
       "optional": false
     },
     {
-      "name": "Include Editor Packs",
+      "name": "Editor Pack Types",
       "order": 4,
-      "type": "boolean",
-      "optional": false
+      "type": "EditorPackType",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Allow unknown enum values",
+        "Enum-as-Value"
+      ]
     }
   ]
 }
