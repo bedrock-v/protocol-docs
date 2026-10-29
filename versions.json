@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.26.70.22",
+    "update": "r/26_u7",
+    "slug": "1_26_70_22",
+    "minecraftVersion": "1.26.70",
+    "protocolVersion": 2239
+  },
+  {
     "version": "1.26.70.21",
     "update": "r/26_u7",
     "slug": "1_26_70_21",
