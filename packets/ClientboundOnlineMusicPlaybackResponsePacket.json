@@ -14,9 +14,9 @@
       }
     },
     {
-      "name": "Source",
+      "name": "State",
       "order": 1,
-      "type": "MusicPlaybackSource",
+      "type": "MusicPlaybackState",
       "optional": false,
       "underlyingType": "uint8"
     },

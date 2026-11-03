@@ -1,0 +1,22 @@
+{
+  "name": "MusicPlaybackFailureEntry",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "State",
+      "order": 0,
+      "type": "MusicPlaybackState",
+      "optional": false,
+      "underlyingType": "uint8"
+    },
+    {
+      "name": "Description",
+      "order": 1,
+      "type": "string",
+      "optional": false,
+      "constraints": {
+        "maxLength": 65536
+      }
+    }
+  ]
+}

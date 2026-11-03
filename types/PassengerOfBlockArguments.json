@@ -47,6 +47,15 @@
       "serialization": [
         "Enum-as-Value"
       ]
+    },
+    {
+      "name": "BlockType",
+      "order": 5,
+      "type": "uint64",
+      "optional": false,
+      "constraints": {
+        "minimum": 0.0
+      }
     }
   ]
 }

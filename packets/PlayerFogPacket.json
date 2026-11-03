@@ -8,7 +8,10 @@
       "name": "Fog Stack",
       "order": 0,
       "type": "string[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 16
+      }
     }
   ]
 }

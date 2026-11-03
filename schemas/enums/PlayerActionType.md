@@ -38,7 +38,7 @@ flowchart TB
   ROOT --> StartFlying["StartFlying"]
   ROOT --> StopFlying["StopFlying"]
   ROOT --> StartUsingItem["StartUsingItem"]
-  ROOT --> InternalUpdate["InternalUpdate"]
+  ROOT --> SwapOffhand["SwapOffhand"]
   ROOT --> Count["Count"]
 ```
 

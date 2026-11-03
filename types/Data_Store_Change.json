@@ -3,28 +3,18 @@
   "kind": "struct",
   "fields": [
     {
-      "name": "Data Store Name",
+      "name": "Variable Name",
       "order": 0,
       "type": "string",
       "optional": false,
       "constraints": {
         "minLength": 1,
-        "maxLength": 1000
-      }
-    },
-    {
-      "name": "Property",
-      "order": 1,
-      "type": "string",
-      "optional": false,
-      "constraints": {
-        "minLength": 1,
-        "maxLength": 1000
+        "maxLength": 2000
       }
     },
     {
       "name": "Update Count",
-      "order": 2,
+      "order": 1,
       "type": "uint32",
       "optional": false,
       "constraints": {
@@ -33,11 +23,16 @@
       }
     },
     {
-      "name": "The New Property Value",
-      "order": 3,
-      "type": "unknown",
+      "name": "The New Variable Value",
+      "order": 2,
+      "type": "double | boolean | string",
       "optional": false,
-      "description": "Dynamic value"
+      "variants": [
+        "double",
+        "boolean",
+        "string"
+      ],
+      "controlType": "uint32"
     }
   ]
 }

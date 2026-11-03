@@ -8,7 +8,10 @@
       "name": "Removed Containers",
       "order": 0,
       "type": "FullContainerName[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 1000
+      }
     }
   ]
 }

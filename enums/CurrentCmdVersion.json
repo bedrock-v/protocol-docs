@@ -51,6 +51,7 @@
     "PostBlockFlattening",
     "TestForBlockCommandDoesNotIgnoreBlockState",
     "GameTestRunSetMultiTag",
+    "SameActorBlockReplacementRetainsItemsFix",
     "Count",
     "Latest"
   ]

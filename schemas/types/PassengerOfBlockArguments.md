@@ -10,5 +10,6 @@ flowchart LR
   ROOT -->|"Rotation"| float["float"]
   ROOT -->|"RotationLimit"| float["float"]
   ROOT -->|"EmoteType"| PassengerOfBlockArguments__EmoteType["PassengerOfBlockArguments__EmoteType"]
+  ROOT -->|"BlockType"| uint64["uint64"]
 ```
 

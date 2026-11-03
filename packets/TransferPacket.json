@@ -30,6 +30,12 @@
       "order": 3,
       "type": "gatheringsConfig",
       "optional": true
+    },
+    {
+      "name": "Server Transfer Settings",
+      "order": 4,
+      "type": "TransferPlayerUIOptions",
+      "optional": true
     }
   ]
 }

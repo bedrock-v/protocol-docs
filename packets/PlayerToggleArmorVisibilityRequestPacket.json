@@ -1,0 +1,14 @@
+{
+  "name": "PlayerToggleArmorVisibilityRequestPacket",
+  "kind": "packet",
+  "id": 364,
+  "description": "The server derives the player identity from the connection.",
+  "fields": [
+    {
+      "name": "Hide Armor",
+      "order": 0,
+      "type": "boolean",
+      "optional": false
+    }
+  ]
+}

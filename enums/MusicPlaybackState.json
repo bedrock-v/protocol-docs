@@ -1,9 +1,11 @@
 {
-  "name": "MusicPlaybackSource",
+  "name": "MusicPlaybackState",
   "kind": "enum",
   "underlyingType": "uint8",
   "values": [
     "Local",
-    "Online"
+    "Online",
+    "NotFound",
+    "Pending"
   ]
 }

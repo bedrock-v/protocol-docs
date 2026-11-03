@@ -13,8 +13,8 @@
         "Big Endian"
       ],
       "constraints": {
-        "minimum": 2239.0,
-        "maximum": 2239.0
+        "minimum": 2250.0,
+        "maximum": 2250.0
       }
     }
   ]

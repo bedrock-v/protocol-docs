@@ -54,6 +54,12 @@
       "order": 7,
       "type": "float",
       "optional": true
+    },
+    {
+      "name": "Start Delay Seconds",
+      "order": 8,
+      "type": "float",
+      "optional": true
     }
   ]
 }

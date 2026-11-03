@@ -223,6 +223,8 @@
     "ServerboundRegisterAudioContent",
     "Chat",
     "ClientboundOnlineMusicPlaybackResponse",
-    "ServerboundRequestOnlineMusicPlayback"
+    "ServerboundRequestOnlineMusicPlayback",
+    "PlayerToggleArmorVisibilityRequestPacket",
+    "ClientboundMusicPlaybackFailure"
   ]
 }

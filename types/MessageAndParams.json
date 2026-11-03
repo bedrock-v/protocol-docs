@@ -32,6 +32,13 @@
       "constraints": {
         "maxItems": 4
       }
+    },
+    {
+      "name": "Queue?",
+      "order": 3,
+      "type": "boolean",
+      "optional": true,
+      "default": false
     }
   ]
 }

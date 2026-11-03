@@ -36,7 +36,7 @@
     "StartFlying",
     "StopFlying",
     "StartUsingItem",
-    "InternalUpdate",
+    "SwapOffhand",
     "Count"
   ]
 }

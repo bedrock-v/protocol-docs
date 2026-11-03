@@ -8,7 +8,7 @@
 flowchart LR
   ROOT(["ClientboundOnlineMusicPlaybackResponsePacket"])
   ROOT -->|"Request ID"| uint32["uint32"]
-  ROOT -->|"Source"| MusicPlaybackSource["MusicPlaybackSource"]
+  ROOT -->|"State"| MusicPlaybackState["MusicPlaybackState"]
   ROOT -->|"Shared Metadata"| SignedAudioContent["SignedAudioContent"]
   ROOT -->|"Playback Content"| SignedAudioContent["SignedAudioContent"]
 ```

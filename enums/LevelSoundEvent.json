@@ -575,6 +575,9 @@
     "convert_to_frostbite",
     "convert_to_zombie",
     "crack",
+    "ice_ball.throw",
+    "record.flurry",
+    "imitate.frostbite",
     "undefined"
   ]
 }

@@ -62,7 +62,10 @@
       "name": "Memory Category Values",
       "order": 9,
       "type": "MemoryCategoryCounter[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 111
+      }
     },
     {
       "name": "Entity Diagnostics",
@@ -86,7 +89,10 @@
       "name": "Whisker Scopes",
       "order": 13,
       "type": "WhiskerScopeDataSummary[]",
-      "optional": false
+      "optional": false,
+      "constraints": {
+        "maxItems": 33
+      }
     }
   ]
 }

@@ -5,6 +5,6 @@
 ```mermaid
 flowchart LR
   ROOT(["Data Store Removal"])
-  ROOT -->|"Data Store Name"| string["string"]
+  ROOT -->|"Variable Name"| string["string"]
 ```
 

@@ -3,13 +3,13 @@
   "kind": "struct",
   "fields": [
     {
-      "name": "Data Store Name",
+      "name": "Variable Name",
       "order": 0,
       "type": "string",
       "optional": false,
       "constraints": {
         "minLength": 1,
-        "maxLength": 1000
+        "maxLength": 2000
       }
     }
   ]

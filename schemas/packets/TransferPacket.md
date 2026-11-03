@@ -11,5 +11,6 @@ flowchart LR
   ROOT -->|"Server Port"| uint16["uint16"]
   ROOT -->|"Reload World"| boolean["boolean"]
   ROOT -->|"Gatherings Configuration"| gatheringsConfig["gatheringsConfig"]
+  ROOT -->|"Server Transfer Settings"| TransferPlayerUIOptions["TransferPlayerUIOptions"]
 ```
 

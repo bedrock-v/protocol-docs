@@ -15,5 +15,6 @@ flowchart LR
   ROOT -->|"Bypass Listener Range Check"| boolean["boolean"]
   ROOT -->|"Server Sound Handle"| ServerSoundHandle["ServerSoundHandle"]
   ROOT -->|"Playback Position Seconds"| float["float"]
+  ROOT -->|"Start Delay Seconds"| float["float"]
 ```
 
