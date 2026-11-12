@@ -56,6 +56,12 @@
       "constraints": {
         "minimum": 0.0
       }
+    },
+    {
+      "name": "PackUUID",
+      "order": 6,
+      "type": "mce__UUID",
+      "optional": false
     }
   ]
 }

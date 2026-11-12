@@ -45,5 +45,6 @@ flowchart TB
   ROOT --> DECORATED_POT["DECORATED_POT"]
   ROOT --> CRAFTER["CRAFTER"]
   ROOT --> DISC_PRESS["DISC_PRESS"]
+  ROOT --> more["... 1 more"]
 ```
 

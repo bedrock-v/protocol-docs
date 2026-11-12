@@ -1,0 +1,10 @@
+{
+  "name": "SctpRecoveryProfile",
+  "kind": "enum",
+  "underlyingType": "uint8",
+  "values": [
+    "Default",
+    "Balanced",
+    "Fast"
+  ]
+}

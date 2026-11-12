@@ -16,5 +16,6 @@ flowchart LR
   ROOT -->|"Server Sound Handle"| ServerSoundHandle["ServerSoundHandle"]
   ROOT -->|"Playback Position Seconds"| float["float"]
   ROOT -->|"Start Delay Seconds"| float["float"]
+  ROOT -->|"Attach Options"| SoundAttachOptions["SoundAttachOptions"]
 ```
 

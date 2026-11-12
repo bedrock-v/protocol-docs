@@ -73,6 +73,7 @@
     "DiscPressBlockContainer",
     "DiscPressDyeContainer",
     "DiscPressDiscContainer",
-    "DiscPressResultPreviewContainer"
+    "DiscPressResultPreviewContainer",
+    "VirtualContainer"
   ]
 }

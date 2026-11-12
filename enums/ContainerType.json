@@ -42,6 +42,7 @@
     "CHEST_BOAT",
     "DECORATED_POT",
     "CRAFTER",
-    "DISC_PRESS"
+    "DISC_PRESS",
+    "VIRTUAL_CONTAINER"
   ]
 }

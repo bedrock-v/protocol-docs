@@ -1,0 +1,52 @@
+{
+  "name": "VirtualContainerOpenPacket",
+  "kind": "packet",
+  "id": 366,
+  "description": "Includes all initial slots and their server net IDs. The number of slots determines the container size.",
+  "fields": [
+    {
+      "name": "Container Id",
+      "order": 0,
+      "type": "uint8",
+      "optional": false,
+      "serialization": [
+        "Enum-as-Value"
+      ],
+      "constraints": {
+        "minimum": 0.0,
+        "maximum": 255.0
+      }
+    },
+    {
+      "name": "Session Id",
+      "order": 1,
+      "type": "uint64",
+      "optional": false,
+      "serialization": [
+        "Compression"
+      ],
+      "constraints": {
+        "minimum": 1.0
+      }
+    },
+    {
+      "name": "Title",
+      "order": 2,
+      "type": "string",
+      "optional": false,
+      "constraints": {
+        "maxLength": 256
+      }
+    },
+    {
+      "name": "Slots",
+      "order": 3,
+      "type": "NetworkItemStackDescriptor[]",
+      "optional": false,
+      "constraints": {
+        "minItems": 1,
+        "maxItems": 54
+      }
+    }
+  ]
+}

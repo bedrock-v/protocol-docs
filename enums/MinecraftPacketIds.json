@@ -225,6 +225,8 @@
     "ClientboundOnlineMusicPlaybackResponse",
     "ServerboundRequestOnlineMusicPlayback",
     "PlayerToggleArmorVisibilityRequestPacket",
-    "ClientboundMusicPlaybackFailure"
+    "ClientboundMusicPlaybackFailure",
+    "VirtualContainerOpen",
+    "VirtualContainerClose"
   ]
 }

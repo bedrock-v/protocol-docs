@@ -60,6 +60,12 @@
       "order": 8,
       "type": "float",
       "optional": true
+    },
+    {
+      "name": "Attach Options",
+      "order": 9,
+      "type": "SoundAttachOptions",
+      "optional": true
     }
   ]
 }

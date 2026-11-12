@@ -12,5 +12,6 @@ flowchart LR
   ROOT -->|"Client Throttle Enabled"| boolean["boolean"]
   ROOT -->|"Client Throttle Threshold"| uint8["uint8"]
   ROOT -->|"Client Throttle Scalar"| float["float"]
+  ROOT -->|"SCTP Recovery Profile"| SctpRecoveryProfile["SctpRecoveryProfile"]
 ```
 

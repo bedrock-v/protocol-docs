@@ -21,17 +21,8 @@
       }
     },
     {
-      "name": "Room Id",
-      "order": 2,
-      "type": "string",
-      "optional": false,
-      "constraints": {
-        "maxLength": 128
-      }
-    },
-    {
       "name": "Message Id",
-      "order": 3,
+      "order": 2,
       "type": "string",
       "optional": false,
       "constraints": {
@@ -40,7 +31,7 @@
     },
     {
       "name": "Scan Text",
-      "order": 4,
+      "order": 3,
       "type": "string",
       "optional": false,
       "constraints": {
@@ -49,11 +40,20 @@
     },
     {
       "name": "Redacted Text",
-      "order": 5,
+      "order": 4,
       "type": "string",
       "optional": false,
       "constraints": {
         "maxLength": 512
+      }
+    },
+    {
+      "name": "Author Name",
+      "order": 5,
+      "type": "string",
+      "optional": false,
+      "constraints": {
+        "maxLength": 192
       }
     },
     {

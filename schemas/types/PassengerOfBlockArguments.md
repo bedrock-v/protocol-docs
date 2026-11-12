@@ -11,5 +11,6 @@ flowchart LR
   ROOT -->|"RotationLimit"| float["float"]
   ROOT -->|"EmoteType"| PassengerOfBlockArguments__EmoteType["PassengerOfBlockArguments__EmoteType"]
   ROOT -->|"BlockType"| uint64["uint64"]
+  ROOT -->|"PackUUID"| mce__UUID["mce__UUID"]
 ```
 

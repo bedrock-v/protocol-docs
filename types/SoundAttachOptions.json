@@ -1,0 +1,12 @@
+{
+  "name": "SoundAttachOptions",
+  "kind": "struct",
+  "fields": [
+    {
+      "name": "Entity To Attach To ID",
+      "order": 0,
+      "type": "ActorRuntimeID",
+      "optional": false
+    }
+  ]
+}

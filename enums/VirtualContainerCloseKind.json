@@ -1,0 +1,10 @@
+{
+  "name": "VirtualContainerCloseKind",
+  "kind": "enum",
+  "underlyingType": "uint8",
+  "values": [
+    "Request",
+    "Closed",
+    "Confirmed"
+  ]
+}

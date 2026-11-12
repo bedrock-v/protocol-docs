@@ -44,6 +44,16 @@
       "order": 4,
       "type": "float",
       "optional": false
+    },
+    {
+      "name": "SCTP Recovery Profile",
+      "order": 5,
+      "type": "SctpRecoveryProfile",
+      "optional": false,
+      "underlyingType": "uint8",
+      "serialization": [
+        "Enum-as-Value"
+      ]
     }
   ]
 }

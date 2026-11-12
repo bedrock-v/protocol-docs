@@ -1,0 +1,15 @@
+{
+  "name": "VirtualContainerCloseCause",
+  "kind": "enum",
+  "underlyingType": "uint8",
+  "values": [
+    "Unknown",
+    "UserClosed",
+    "ServerRequested",
+    "UserBusy",
+    "ClientNotReady",
+    "InvalidContents",
+    "UiCreationFailed",
+    "UiCancelled"
+  ]
+}
